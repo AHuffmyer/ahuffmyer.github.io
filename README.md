@@ -2,6 +2,16 @@
 
 This is a Quarto-based academic website hosted on GitHub Pages. It includes a portfolio of research work and a fully functional lab notebook.
 
+## ⚠️ First-Time Setup
+
+**Before the site can deploy**, you need to enable GitHub Pages:
+
+1. Go to [Repository Settings → Pages](https://github.com/AHuffmyer/website/settings/pages)
+2. Under "Source", select **"GitHub Actions"**
+3. Click **Save**
+
+See [SETUP_GITHUB_PAGES.md](SETUP_GITHUB_PAGES.md) for detailed instructions.
+
 ## Website Features
 
 - **Home**: Landing page with quick links

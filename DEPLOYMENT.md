@@ -1,16 +1,22 @@
 # Deployment Guide
 
-## GitHub Pages Setup
+## ⚠️ IMPORTANT: First-Time Setup Required
 
-After pushing this code to the `main` branch, follow these steps to enable GitHub Pages:
+**If you're seeing a deployment error**, you need to enable GitHub Pages first!
 
-### 1. Enable GitHub Pages
+### 1. Enable GitHub Pages (REQUIRED)
 
-1. Go to your repository on GitHub
+**This must be done before the site can deploy:**
+
+1. Go to your repository on GitHub: https://github.com/AHuffmyer/website/settings/pages
 2. Click **Settings** (top navigation)
 3. Click **Pages** (left sidebar)
 4. Under **Source**, select **GitHub Actions**
-5. The site will automatically deploy when you push to `main`
+5. Click **Save**
+
+**That's it!** The site will automatically deploy when you push to `main`.
+
+> **Note**: If you see a 404 error in the Actions logs, it means GitHub Pages hasn't been enabled yet. Follow the steps above.
 
 ### 2. Verify Deployment
 
