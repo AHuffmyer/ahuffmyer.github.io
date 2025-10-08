@@ -45,7 +45,7 @@ After enabling GitHub Pages:
 1. Go to: https://github.com/AHuffmyer/website/actions
 2. The workflow should automatically run (or you can manually trigger it)
 3. It should now complete successfully
-4. Your site will be live at: https://ahuffmyer.github.io/website/
+4. Your site will be live at: https://ahuffmyer.github.io/
 
 ## Technical Details
 
@@ -78,7 +78,7 @@ The fix has been tested locally:
 1. **Enable GitHub Pages** (see instructions above)
 2. **Wait for workflow to run** (or trigger manually from Actions tab)
 3. **Check deployment success** in Actions tab
-4. **Visit your site** at https://ahuffmyer.github.io/website/
+4. **Visit your site** at https://ahuffmyer.github.io/
 
 ---
 

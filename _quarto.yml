@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Ariana Huffmyer"
-  site-url: "https://ahuffmyer.github.io/website"
+  site-url: "https://ahuffmyer.github.io"
   navbar:
     left:
       - text: "Home"
