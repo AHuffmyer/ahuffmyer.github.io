@@ -91,7 +91,7 @@ After you push your code to GitHub:
 1. Go to repository **Settings** → **Pages**
 2. Under "Source", select **GitHub Actions**
 3. Wait for the workflow to complete (check the Actions tab)
-4. Your site will be live at: `https://ahuffmyer.github.io/website/`
+4. Your site will be live at: `https://ahuffmyer.github.io/`
 
 ## Tips
 
