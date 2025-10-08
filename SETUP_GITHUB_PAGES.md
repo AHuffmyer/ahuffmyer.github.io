@@ -17,7 +17,7 @@ After enabling GitHub Pages:
 1. Go to the **Actions** tab: https://github.com/AHuffmyer/website/actions
 2. Click on the latest workflow run
 3. The deployment should now succeed
-4. Your site will be live at: https://ahuffmyer.github.io/
+4. Your site will be live at: https://ahuffmyer.github.io/website/
 
 ### Current Error
 
@@ -33,7 +33,7 @@ This is because the GitHub Pages feature needs to be manually enabled in reposit
 
 Once GitHub Pages is enabled:
 - ✅ The workflow will automatically deploy on every push to `main`
-- ✅ Your site will be live at https://ahuffmyer.github.io/
+- ✅ Your site will be live at https://ahuffmyer.github.io/website/
 - ✅ No further manual setup required
 
 For more details, see [DEPLOYMENT.md](DEPLOYMENT.md)

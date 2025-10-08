@@ -45,7 +45,7 @@ Expected output:
 2. [ ] Workflow "Deploy Quarto Website to GitHub Pages" started
 3. [ ] Build job completed successfully
 4. [ ] Deploy job completed successfully
-5. [ ] Site accessible at `https://ahuffmyer.github.io/`
+5. [ ] Site accessible at `https://ahuffmyer.github.io/website/`
 
 ## ✅ Website Functionality Checks
 

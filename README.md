@@ -108,7 +108,7 @@ This site automatically deploys to GitHub Pages when you push to the `main` bran
 2. Set Source to "GitHub Actions"
 3. The workflow will automatically build and deploy your site
 
-Your site will be available at: `https://ahuffmyer.github.io/`
+Your site will be available at: `https://ahuffmyer.github.io/website/`
 
 ## File Structure
 
