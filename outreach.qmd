@@ -1,0 +1,38 @@
+---
+title: "Outreach & Education"
+---
+
+# Outreach & Education
+
+## Outreach Activities
+
+### Community Engagement
+
+Describe your community outreach activities.
+
+### Public Presentations
+
+List public presentations and outreach talks.
+
+## Teaching Experience
+
+### Courses Taught
+
+- Course 1: Description
+- Course 2: Description
+
+### Workshops & Training
+
+List workshops and training sessions you've led.
+
+## Mentoring
+
+Information about students you've mentored.
+
+## Science Communication
+
+Describe your science communication efforts (blogs, social media, etc.).
+
+---
+
+*This page is customizable. Edit the `outreach.qmd` file to update your outreach and education information.*

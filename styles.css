@@ -1,0 +1,85 @@
+/* Custom styles for the website */
+
+/* Improve readability */
+body {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+/* Style the navbar */
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+/* Style headers */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+h1 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+}
+
+/* Style code blocks */
+pre {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 1rem;
+  border-left: 3px solid #3498db;
+}
+
+/* Style blockquotes */
+blockquote {
+  border-left: 4px solid #3498db;
+  padding-left: 1rem;
+  color: #555;
+  font-style: italic;
+}
+
+/* Style tables */
+table {
+  margin: 1.5rem 0;
+}
+
+thead {
+  background-color: #f8f9fa;
+}
+
+/* Style listing page */
+.quarto-listing {
+  margin-top: 2rem;
+}
+
+.quarto-listing-category {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Style images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+
+/* Footer styling */
+.nav-footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #dee2e6;
+}
+
+/* Task list styling */
+.task-list-item {
+  list-style-type: none;
+}
+
+.task-list-item input[type="checkbox"] {
+  margin-right: 0.5rem;
+}

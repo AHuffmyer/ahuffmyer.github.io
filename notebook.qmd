@@ -1,0 +1,39 @@
+---
+title: "Lab Notebook"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [date, title, reading-time, description, categories]
+  date-format: "YYYY-MM-DD"
+  feed: true
+page-layout: full
+title-block-banner: true
+---
+
+# Lab Notebook
+
+Welcome to my lab notebook! This is a searchable, catalogued collection of my daily research notes and findings.
+
+## Features
+
+- **Search**: Use the search box to find entries by keywords
+- **Filter by Category**: Click on categories to filter entries by project or topic
+- **Sort**: Sort entries by date, title, or other criteria
+- **Browse**: Scroll through all entries in chronological order
+
+## How to Use This Notebook
+
+Each entry contains:
+
+- **Date**: When the work was performed
+- **Title**: A descriptive title for the entry
+- **Categories/Tags**: Project names, keywords, and topics
+- **Content**: Detailed notes, data, figures, and analysis
+
+---
+
+All notebook entries are located in the `posts/` directory. Each entry is a Quarto document (`.qmd` file) with metadata and content.

@@ -1,0 +1,35 @@
+---
+title: "Image Gallery"
+---
+
+# Image Gallery
+
+## Research Images
+
+Add your research images here. You can organize them by project, theme, or chronologically.
+
+### Example Image Section
+
+To add images, use the following syntax:
+
+```markdown
+![Image caption](path/to/image.jpg)
+```
+
+You can also use HTML for more control:
+
+```html
+<img src="path/to/image.jpg" alt="Description" width="600">
+```
+
+## Field Work Photos
+
+Add photos from your field work.
+
+## Lab Photos
+
+Add photos from your laboratory work.
+
+---
+
+*This page is customizable. Edit the `gallery.qmd` file and add your images to the repository. Create an `images/` folder to store your image files.*
