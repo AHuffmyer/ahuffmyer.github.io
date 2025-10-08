@@ -23,7 +23,7 @@
 1. Go to the **Actions** tab in your repository
 2. You should see a workflow run called "Deploy Quarto Website to GitHub Pages"
 3. Wait for it to complete (usually 2-3 minutes)
-4. Once complete, your site will be live at: `https://ahuffmyer.github.io/`
+4. Once complete, your site will be live at: `https://ahuffmyer.github.io/website/`
 
 ### 3. Custom Domain (Optional)
 

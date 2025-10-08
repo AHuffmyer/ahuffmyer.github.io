@@ -159,7 +159,7 @@ The notebook page automatically provides:
 
 ## Site URL
 
-Once deployed: `https://ahuffmyer.github.io/`
+Once deployed: `https://ahuffmyer.github.io/website/`
 
 ## Support Resources
 
