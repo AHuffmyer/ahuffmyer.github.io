@@ -1,0 +1,19 @@
+---
+title: "Welcome"
+---
+
+# Welcome to My Website
+
+This is the homepage for Ariana Huffmyer's academic website. Here you'll find information about my research, outreach activities, and my lab notebook.
+
+## Quick Links
+
+- [CV and About Me](about.qmd)
+- [Research Projects](research.qmd)
+- [Outreach & Education](outreach.qmd)
+- [Lab Notebook](notebook.qmd)
+- [Image Gallery](gallery.qmd)
+
+## About This Site
+
+This website is built with [Quarto](https://quarto.org) and hosted on GitHub Pages. It includes a fully functional lab notebook with searchable entries organized by date, project, and keywords.

@@ -1,0 +1,32 @@
+---
+title: "Research"
+---
+
+# Research
+
+## Current Projects
+
+### Project 1
+
+Description of your first research project. You can include:
+
+- Research questions
+- Methods
+- Preliminary findings
+- Related publications
+
+### Project 2
+
+Description of your second research project.
+
+## Past Projects
+
+Add information about completed research projects.
+
+## Collaborations
+
+Information about research collaborations.
+
+---
+
+*This page is customizable. Edit the `research.qmd` file to update your research information.*

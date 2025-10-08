@@ -1,0 +1,36 @@
+---
+title: "CV & About"
+---
+
+# About Me
+
+Add your biographical information here.
+
+## Education
+
+- Add your educational background
+
+## Professional Experience
+
+- Add your professional experience
+
+## Publications
+
+- Add your publications
+
+## Awards & Honors
+
+- Add your awards and honors
+
+## Skills
+
+- Add your skills
+
+## Contact
+
+- Email: your.email@institution.edu
+- GitHub: [AHuffmyer](https://github.com/AHuffmyer)
+
+---
+
+*This page is customizable. Edit the `about.qmd` file to update your information.*

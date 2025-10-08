@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Ariana Huffmyer"
+  site-url: "https://ahuffmyer.github.io/website"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "CV/About"
+        href: about.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Outreach & Education"
+        href: outreach.qmd
+      - text: "Lab Notebook"
+        href: notebook.qmd
+      - text: "Gallery"
+        href: gallery.qmd
+    right:
+      - icon: github
+        href: https://github.com/AHuffmyer
+  
+  page-footer:
+    left: "© 2024 Ariana Huffmyer"
+    right: 
+      - icon: github
+        href: https://github.com/AHuffmyer
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 3
+
+execute:
+  freeze: auto
