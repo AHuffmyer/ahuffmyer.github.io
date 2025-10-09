@@ -4,29 +4,77 @@ title: "Research"
 
 # Research
 
-## Current Projects
+::: {.highlight-box}
+**Research Focus:** Brief overview of your primary research interests and approach to marine science.
+:::
 
-### Project 1
+## 🔬 Current Projects
 
-Description of your first research project. You can include:
+::: {.content-card}
+### Project 1: [Project Title]
 
-- Research questions
-- Methods
-- Preliminary findings
-- Related publications
+**Overview:** Description of your first research project and its significance.
 
-### Project 2
+**Key Components:**
+- Research questions being addressed
+- Methods and approaches
+- Preliminary findings or expected outcomes
+- Collaborators and funding sources
 
-Description of your second research project.
+**Related Publications:**
+- Publication reference 1
+- Publication reference 2
+:::
 
-## Past Projects
+::: {.content-card}
+### Project 2: [Project Title]
 
-Add information about completed research projects.
+**Overview:** Description of your second research project.
 
-## Collaborations
+**Key Components:**
+- Research objectives
+- Experimental design and methods
+- Current status and timeline
+- Broader impacts
+:::
 
-Information about research collaborations.
+::: {.content-card}
+### Project 3: [Project Title]
 
----
+Add additional current projects as needed.
+:::
 
+<hr class="section-divider">
+
+## 📊 Past Projects
+
+::: {.content-card}
+### Completed Project 1
+
+Summary of completed research, including key findings and publications that resulted from this work.
+:::
+
+::: {.content-card}
+### Completed Project 2
+
+Description of another past project and its contributions to the field.
+:::
+
+<hr class="section-divider">
+
+## 🤝 Collaborations
+
+::: {.content-card}
+Information about ongoing and past research collaborations, collaborative networks, and interdisciplinary partnerships that enhance your research program.
+
+**Key Collaborators:**
+- Institution/Lab 1 - Focus area
+- Institution/Lab 2 - Focus area
+- Institution/Lab 3 - Focus area
+:::
+
+<hr class="section-divider">
+
+::: {.text-center}
 *This page is customizable. Edit the `research.qmd` file to update your research information.*
+:::

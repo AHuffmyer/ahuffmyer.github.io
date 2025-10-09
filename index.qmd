@@ -1,19 +1,49 @@
 ---
 title: "Welcome"
+page-layout: full
 ---
 
+::: {.hero-section}
 # Welcome to My Website
 
-This is the homepage for Ariana Huffmyer's academic website. Here you'll find information about my research, outreach activities, and my lab notebook.
+Exploring marine science through research, education, and collaboration
+:::
 
-## Quick Links
+::: {.content-card}
+## About Me
 
-- [CV and About Me](about.qmd)
-- [Research Projects](research.qmd)
-- [Outreach & Education](outreach.qmd)
-- [Lab Notebook](notebook.qmd)
-- [Image Gallery](gallery.qmd)
+This is the academic website for Ariana Huffmyer, PhD. Here you'll find information about my research in marine biology, outreach and education activities, and my comprehensive lab notebook documenting ongoing projects and findings.
+:::
 
+::: {.content-card}
+## Quick Links {.quick-links}
+
+- [CV and About Me](about.qmd) - Learn about my background and experience
+- [Research Projects](research.qmd) - Explore my current and past research
+- [Outreach & Education](outreach.qmd) - Teaching and community engagement
+- [Lab Notebook](notebook.qmd) - Searchable research journal and findings
+- [Image Gallery](gallery.qmd) - Visual documentation of my work
+:::
+
+::: {.content-card}
 ## About This Site
 
-This website is built with [Quarto](https://quarto.org) and hosted on GitHub Pages. It includes a fully functional lab notebook with searchable entries organized by date, project, and keywords.
+This website is built with [Quarto](https://quarto.org), a modern scientific publishing system, and hosted on GitHub Pages. It features a fully functional lab notebook with searchable entries organized by date, project, and keywords, making it easy to track research progress and share findings with collaborators.
+
+::: {.highlight-box}
+**🔬 Lab Notebook Features:**
+
+- Full-text search across all entries
+- Category filtering by project and topic  
+- Chronological organization
+- Markdown formatting with code support
+- RSS feed for updates
+:::
+
+:::
+
+<hr class="section-divider">
+
+::: {.text-center}
+*Thank you for visiting! Feel free to explore the site and reach out if you have any questions.*
+:::
