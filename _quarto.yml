@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Ariana Huffmyer"
+  title: "Ariana S. Huffmyer, PhD"
   site-url: "https://ahuffmyer.github.io"
   navbar:
     left:
@@ -24,7 +24,7 @@ website:
         href: https://github.com/AHuffmyer
   
   page-footer:
-    left: "© 2024 Ariana Huffmyer"
+    left: "© 2025 Ariana Huffmyer"
     right: 
       - icon: github
         href: https://github.com/AHuffmyer
