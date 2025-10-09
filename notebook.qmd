@@ -18,6 +18,12 @@ title-block-banner: true
 
 Welcome to my lab notebook! This is a searchable, catalogued collection of my daily research notes and findings.
 
+::: {.highlight-box}
+**📚 Looking for older entries?**
+
+View my [previous notebook](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/) for legacy entries and historical research notes.
+:::
+
 ## Features
 
 - **Search**: Use the search box to find entries by keywords
