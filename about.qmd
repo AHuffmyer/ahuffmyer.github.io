@@ -2,35 +2,70 @@
 title: "CV & About"
 ---
 
+::: {.content-card}
 # About Me
 
-Add your biographical information here.
+Add your biographical information here. Share your background, research interests, and what drives your scientific pursuits.
+:::
 
-## Education
+::: {.content-card}
+## 🎓 Education
 
-- Add your educational background
+- **PhD** - [Your degree], [Institution], [Year]
+- **Master's** - [Your degree], [Institution], [Year]
+- **Bachelor's** - [Your degree], [Institution], [Year]
+:::
 
-## Professional Experience
+::: {.content-card}
+## 💼 Professional Experience
 
-- Add your professional experience
+- **Current Position** - [Title], [Institution], [Year-Present]
+- **Previous Position** - [Title], [Institution], [Year-Year]
+- **Earlier Position** - [Title], [Institution], [Year-Year]
+:::
 
-## Publications
+::: {.content-card}
+## 📚 Publications
 
-- Add your publications
+- Author, A., **Huffmyer, A.S.**, et al. (Year). "Publication Title." *Journal Name*, Volume(Issue), pages. DOI: [link]
+- **Huffmyer, A.S.**, Author, B. (Year). "Another Publication." *Journal Name*, Volume(Issue), pages. DOI: [link]
+- Add more publications...
+:::
 
-## Awards & Honors
+::: {.content-card}
+## 🏆 Awards & Honors
 
-- Add your awards and honors
+- **Award Name** - Granting Organization, Year
+- **Fellowship Name** - Organization, Year  
+- **Recognition** - Organization, Year
+:::
 
-## Skills
+::: {.content-card}
+## 🔬 Skills & Expertise
 
-- Add your skills
+**Laboratory Techniques:**
+- Skill 1, Skill 2, Skill 3
 
-## Contact
+**Field Methods:**
+- Method 1, Method 2, Method 3
 
-- Email: your.email@institution.edu
-- GitHub: [AHuffmyer](https://github.com/AHuffmyer)
+**Data Analysis:**
+- R, Python, MATLAB, Statistical modeling
 
----
+**Other Skills:**
+- Scientific writing, Mentoring, Project management
+:::
 
+::: {.content-card}
+## 📧 Contact
+
+- **Email:** your.email@institution.edu
+- **GitHub:** [AHuffmyer](https://github.com/AHuffmyer)
+- **Office:** Building Name, Room Number, Institution
+:::
+
+<hr class="section-divider">
+
+::: {.text-center}
 *This page is customizable. Edit the `about.qmd` file to update your information.*
+:::

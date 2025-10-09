@@ -4,32 +4,92 @@ title: "Image Gallery"
 
 # Image Gallery
 
-## Research Images
+::: {.highlight-box}
+**📸 Visual Documentation:** A collection of images showcasing research activities, fieldwork, and laboratory work. Images provide valuable context and documentation of scientific processes and findings.
+:::
 
-Add your research images here. You can organize them by project, theme, or chronologically.
+## 🌊 Field Work Photos
 
-### Example Image Section
+::: {.content-card}
+### [Field Site Name] - [Year]
 
-To add images, use the following syntax:
+Add photos from your field work expeditions. Include images of research sites, data collection, and the natural environment you study.
 
+**To add images, use this syntax:**
 ```markdown
-![Image caption](path/to/image.jpg)
+![Image caption](images/fieldwork-photo.jpg)
 ```
 
-You can also use HTML for more control:
-
+Or use HTML for more control:
 ```html
-<img src="path/to/image.jpg" alt="Description" width="600">
+<img src="images/photo.jpg" alt="Description" width="600" style="border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 ```
+:::
 
-## Field Work Photos
+::: {.content-card}
+### [Another Field Site]
 
-Add photos from your field work.
+Additional field work photos can be organized by location, project, or time period.
+:::
 
-## Lab Photos
+<hr class="section-divider">
 
-Add photos from your laboratory work.
+## 🔬 Laboratory Work
 
----
+::: {.content-card}
+### [Lab Technique/Project Name]
 
-*This page is customizable. Edit the `gallery.qmd` file and add your images to the repository. Create an `images/` folder to store your image files.*
+Add photos from your laboratory work, showing experimental setups, organisms, equipment, and procedures.
+
+**Example:**
+- Sample processing images
+- Microscopy photos
+- Experimental apparatus
+- Data collection procedures
+:::
+
+<hr class="section-divider">
+
+## 📊 Research Results & Visualizations
+
+::: {.content-card}
+### Data Visualizations
+
+Share key figures, graphs, and visual representations of your research findings.
+:::
+
+::: {.content-card}
+### Conference Presentations
+
+Photos from conferences, poster presentations, and talks.
+:::
+
+<hr class="section-divider">
+
+## 🎓 Outreach & Education
+
+::: {.content-card}
+### Teaching & Mentoring
+
+Photos from teaching activities, workshops, and student mentorship.
+:::
+
+::: {.content-card}
+### Public Engagement
+
+Images from outreach events, community engagement, and science communication activities.
+:::
+
+<hr class="section-divider">
+
+::: {.highlight-box}
+**Getting Started:**
+1. Create an `images/` folder in your repository
+2. Add your photos to the folder
+3. Reference them in this file using relative paths
+4. Consider organizing images by project or theme
+:::
+
+::: {.text-center}
+*This page is customizable. Edit the `gallery.qmd` file and add your images to the repository.*
+:::
