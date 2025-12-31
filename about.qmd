@@ -5,23 +5,22 @@ title: "CV & About"
 ::: {.content-card}
 # About Me
 
-Add your biographical information here. Share your background, research interests, and what drives your scientific pursuits.
+I am a Research Scientist at the University of Washington and an NSF Ocean Sciences Postdoctoral Fellow alumna whose research program integrates organismal physiology with molecular and biochemical mechanisms to understand how marine invertebrates respond to environmental stress and how this knowledge can support environmental stewardship.
 :::
 
 ::: {.content-card}
 ## 🎓 Education
 
-- **PhD** - [Your degree], [Institution], [Year]
-- **Master's** - [Your degree], [Institution], [Year]
-- **Bachelor's** - [Your degree], [Institution], [Year]
+- **PhD** - Marine Biology, University of Hawaii at Manoa, 2020
+- **Bachelor's** - Honors Biology, Oregon State University, 2014
 :::
 
 ::: {.content-card}
 ## 💼 Professional Experience
 
-- **Current Position** - [Title], [Institution], [Year-Present]
-- **Previous Position** - [Title], [Institution], [Year-Year]
-- **Earlier Position** - [Title], [Institution], [Year-Year]
+- **Research Scientist** - University of Washington, 2024-present
+- **National Science Foundation Ocean Sciences Postdoctoral Fellow** -  University of Rhode Island & University of Washington, 2020-2024
+- **Graduate Research and Teaching Assistant** - University of Hawaii at Manoa, 2014-2020
 :::
 
 ::: {.content-card}
