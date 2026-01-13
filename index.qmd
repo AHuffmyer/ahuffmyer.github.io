@@ -1,49 +1,68 @@
 ---
-title: "Welcome"
+title: ""
 page-layout: full
 ---
 
-::: {.hero-section}
-# Welcome to My Website
+::: {.hero-grid}
 
-Exploring marine science through research, education, and collaboration
+::: {.hero-text}
+# Ariana S. Huffmyer, PhD  
+
+#### Marine invertebrate ecophysiology
+
 :::
 
-::: {.content-card}
-## About Me
-
-This is the academic website for Ariana Huffmyer, PhD. Here you'll find information about my research in marine biology, outreach and education activities, and my comprehensive lab notebook documenting ongoing projects and findings.
+::: {.hero-image}
+![](headshots/huffmyer_headshot.jpg){alt="Ariana S. Huffmyer" class="headshot"}
+![](headshots/field_headshot.JPG){alt="Field work" class="fieldshot"}
 :::
 
-::: {.content-card}
-## Quick Links {.quick-links}
-
-- [CV and About Me](about.qmd) - Learn about my background and experience
-- [Research Projects](research.qmd) - Explore my current and past research
-- [Outreach & Education](outreach.qmd) - Teaching and community engagement
-- [Lab Notebook](notebook.qmd) - Searchable research journal and findings
-- [Image Gallery](gallery.qmd) - Visual documentation of my work
-:::
-
-::: {.content-card}
-## About This Site
-
-This website is built with [Quarto](https://quarto.org), a modern scientific publishing system, and hosted on GitHub Pages. It features a fully functional lab notebook with searchable entries organized by date, project, and keywords, making it easy to track research progress and share findings with collaborators.
-
-::: {.highlight-box}
-**🔬 Lab Notebook Features:**
-
-- Full-text search across all entries
-- Category filtering by project and topic  
-- Chronological organization
-- Markdown formatting with code support
-- RSS feed for updates
-:::
 
 :::
 
 <hr class="section-divider">
 
-::: {.text-center}
-*Thank you for visiting! Feel free to explore the site and reach out if you have any questions.*
+::: {.content-card}
+## About Me
+
+I am a Research Scientist at the University of Washington and an NSF Ocean Sciences Postdoctoral Fellow alumna whose research program integrates organismal physiology with molecular and biochemical mechanisms to understand how marine invertebrates respond to environmental stress and how this knowledge can support environmental stewardship. 
+
+Here you'll find information about my research, outreach and education activities, and my comprehensive lab notebook documenting ongoing projects and findings.
 :::
+
+<hr class="section-divider">
+
+::: {.content-card}
+## Contact
+
+##### Ariana S. Huffmyer, PhD 
+Research Scientist  
+School of Aquatic and Fishery Sciences  
+University of Washington  
+
+##### Email:  
+[ashuff (at) uw.edu](mailto:ashuff@uw.edu)  
+
+##### Mailing Address:  
+1122 NE Boat St Rm 116  
+Seattle, WA 98195  
+
+##### Office Location:   
+Fisheries Teaching & Research Building  
+University of Washington  
+Room 234  
+
+---
+
+### Find me online
+
+- [GitHub](https://github.com/ahuffmyer)  
+- [Google Scholar](https://scholar.google.co.uk/citations?user=_dw3pYEAAAAJ&hl=en&oi=ao)  
+- [ResearchGate](https://www.researchgate.net/profile/Ariana-Huffmyer)  
+- [ORCID](https://orcid.org/0000-0002-9170-0971)
+- [Roberts Lab (UW)](https://faculty.washington.edu/sr320/) 
+
+:::
+
+
+

@@ -1,5 +1,5 @@
 ---
-title: "Lab Notebook"
+title: ""
 listing:
   contents: posts
   sort: "date desc"
@@ -16,30 +16,20 @@ title-block-banner: true
 
 # Lab Notebook
 
-Welcome to my lab notebook! This is a searchable, catalogued collection of my daily research notes and findings.
+Welcome to my open lab notebook! This is a searchable, cataloged collection of research notes and findings.  
 
 ::: {.highlight-box}
-**📚 Looking for older entries?**
+**Looking for older entries?**
 
-View my [previous notebook](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/) for legacy entries and historical research notes.
+View my [legacy notebook website](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/) for previous entries prior to January 2026.
 :::
 
-## Features
+## How to Explore This Notebook
 
 - **Search**: Use the search box to find entries by keywords
 - **Filter by Category**: Click on categories to filter entries by project or topic
 - **Sort**: Sort entries by date, title, or other criteria
 - **Browse**: Scroll through all entries in chronological order
 
-## How to Use This Notebook
-
-Each entry contains:
-
-- **Date**: When the work was performed
-- **Title**: A descriptive title for the entry
-- **Categories/Tags**: Project names, keywords, and topics
-- **Content**: Detailed notes, data, figures, and analysis
-
 ---
 
-All notebook entries are located in the `posts/` directory. Each entry is a Quarto document (`.qmd` file) with metadata and content.

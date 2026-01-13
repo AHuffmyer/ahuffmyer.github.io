@@ -1,25 +1,36 @@
 /* Custom styles for the website - Professional Design */
 
 /* ============================================
-   Color Palette
+   Color Palette — Deep Ocean
    ============================================ */
 :root {
-  --primary-color: #2563eb;
-  --primary-dark: #1e40af;
-  --primary-light: #3b82f6;
-  --secondary-color: #0891b2;
-  --accent-color: #06b6d4;
-  --bg-light: #f8fafc;
-  --bg-gradient-start: #e0f2fe;
-  --bg-gradient-end: #f0f9ff;
-  --text-dark: #1e293b;
-  --text-medium: #475569;
-  --text-light: #64748b;
-  --border-color: #e2e8f0;
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  /* Primary brand colors */
+  --primary-color: #0E2A3A;      /* deep ocean blue */
+  --primary-dark:  #0A1F2B;      /* darker navy */
+  --primary-light: #2F4A5A;      /* slate blue */
+
+  --secondary-color: #4F6D7A;   /* steel blue */
+  --accent-color:    #7FA6B0;   /* soft sea-glass blue */
+
+  /* Backgrounds */
+  --bg-light:          #FAFBFC; /* paper white */
+  --bg-gradient-start:#E6ECEF; /* pale blue-gray */
+  --bg-gradient-end:  #DCE8EC; /* subtle ocean mist */
+
+  /* Text */
+  --text-dark:   #0F1418;  /* near-black */
+  --text-medium: #1F2933;  /* charcoal */
+  --text-light:  #4F6D7A;  /* muted steel */
+
+  /* Borders & UI */
+  --border-color: #C9D6DC; /* soft blue-gray */
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(15, 20, 24, 0.04);
+  --shadow-md: 0 6px 14px rgba(15, 20, 24, 0.08);
+  --shadow-lg: 0 14px 30px rgba(15, 20, 24, 0.12);
 }
+
 
 /* ============================================
    Global Styles
@@ -140,12 +151,135 @@ h3 {
   margin-bottom: 1rem;
   font-size: 3rem;
 }
-
+ 
 .hero-section p {
   font-size: 1.25rem;
   opacity: 0.95;
   max-width: 800px;
   margin: 0 auto;
+}
+
+/* ============================================
+   Fix hero image layout
+   ============================================ */
+
+.hero-image {
+  display: flex !important;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Remove vertical margins that force stacking */
+.hero-image img {
+  margin: 0 !important;
+}
+
+/* Make sure Quarto wrappers don’t break flex */
+.hero-image > p,
+.hero-image > figure {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center;
+}
+
+/* Force children to be flex items */
+.hero-image > p,
+.hero-image > figure {
+  flex: 0 0 auto;
+}
+
+/* Headshot */
+.hero-image .headshot {
+  width: 160px;
+  max-width: 160px;
+  border-radius: 999px;
+}
+
+/* Field image larger */
+.hero-image .fieldshot {
+  max-width: 420px;
+  width: 100%;
+}
+
+/* ============================================
+   Make hero images equal height + spaced
+   ============================================ */
+
+.hero-image {
+  gap: 2.5rem;   /* more space between images */
+}
+
+/* Force both images to the same height */
+.hero-image img {
+  height: 280px;        /* adjust to taste */
+  width: auto;
+  object-fit: cover;
+}
+
+/* Keep headshot round but now same height */
+.hero-image .headshot {
+  width: 280px;        /* match height so circle stays round */
+  height: 280px;
+  max-width: none;
+  border-radius: 50%;
+}
+
+/* Field photo fills its rectangle */
+.hero-image .fieldshot {
+  width: 420px;        /* wide landscape feel */
+  max-width: none;
+  border-radius: 16px;
+}
+
+/* ============================================
+   Hero images: same height, no headshot cropping
+   ============================================ */
+
+.hero-image {
+  gap: 3rem;            /* more space between images */
+  align-items: center;
+}
+
+/* Set a shared height */
+.hero-image .headshot,
+.hero-image .fieldshot {
+  height: 280px;        /* adjust this number */
+  margin: 0 !important; /* keep your no-stack fix */
+  display: block;
+}
+
+/* Headshot: NEVER crop */
+.hero-image .headshot {
+  width: 280px;         /* keep it square so circle stays true */
+  max-width: none;
+  object-fit: contain;  /* show whole headshot */
+  background: white;    /* prevents transparent corners looking odd */
+  padding: 6px;         /* small breathing room */
+  border-radius: 50%;
+}
+
+/* Fieldshot: crop is OK for landscape framing */
+.hero-image .fieldshot {
+  width: 460px;         /* give it a nice wide presence */
+  max-width: none;
+  object-fit: cover;    /* fill the rectangle */
+  border-radius: 16px;
+}
+
+/* Research page hero images: don't overlap TOC */
+.research-hero {
+  max-width: 100%;
+  flex-wrap: wrap;     /* allow wrap instead of overflow */
+  gap: 1.5rem;
+}
+
+.research-hero .fieldshot {
+  height: 290px;       /* smaller so it fits next to TOC */
+  width: auto;
+  max-width: 400px;    /* prevents pushing into sidebar */
+  object-fit: cover;
 }
 
 /* ============================================
@@ -177,32 +311,27 @@ h3 {
 /* ============================================
    Links and Buttons
    ============================================ */
+
+/* Body links */
 a {
-  color: var(--primary-color);
-  text-decoration: none;
-  transition: all 0.2s ease;
+  color: var(--accent-color);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease, text-decoration-thickness 0.2s ease;
 }
 
 a:hover {
-  color: var(--primary-dark);
-  text-decoration: underline;
+  color: var(--primary-light);
+  text-decoration-thickness: 3px;
 }
 
-.btn, button {
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  border: none;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  box-shadow: var(--shadow-sm);
+/* Navigation links stay clean */
+.navbar a,
+.navbar a:hover {
+  text-decoration: none;
 }
 
-.btn:hover, button:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-md);
-}
 
 /* ============================================
    Lists
@@ -531,4 +660,18 @@ img:hover {
   border-radius: 8px;
   margin: 1.5rem 0;
   box-shadow: var(--shadow-sm);
+}
+
+/* ============================================
+   Restore bold text styling
+   ============================================ */
+
+strong, b {
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+/* Optional: subtle emphasis boost */
+strong {
+  letter-spacing: 0.02em;
 }

@@ -1,95 +1,104 @@
 ---
 title: "Image Gallery"
+execute:
+  echo: false
+  warning: false
+  message: false
+format:
+  html:
+    grid:
+      body-width: 1200px
 ---
 
-# Image Gallery
+```{r}
+library(fs)
+library(htmltools)
 
-::: {.highlight-box}
-**📸 Visual Documentation:** A collection of images showcasing research activities, fieldwork, and laboratory work. Images provide valuable context and documentation of scientific processes and findings.
-:::
+image_grid <- function(folder, ncol = 4) {
 
-## 🌊 Field Work Photos
+  imgs <- dir_ls(folder, regexp = "\\.(jpg|jpeg|png|webp|JPG|JPEG)$", recurse = FALSE)
 
-::: {.content-card}
-### [Field Site Name] - [Year]
+  if (length(imgs) == 0) return(HTML("<p><em>No images found.</em></p>"))
 
-Add photos from your field work expeditions. Include images of research sites, data collection, and the natural environment you study.
+  # Randomize order each render
+  imgs <- sample(imgs)
 
-**To add images, use this syntax:**
-```markdown
-![Image caption](images/fieldwork-photo.jpg)
+  tags$div(
+    style = paste0(
+      "display:grid;",
+      "grid-template-columns: repeat(", ncol, ", 1fr);",
+      "gap: 12px; margin-top: 1em;"
+    ),
+    lapply(imgs, function(img) {
+      tags$img(
+        src = img,
+        style = "width:100%; border-radius:10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"
+      )
+    })
+  )
+}
 ```
 
-Or use HTML for more control:
-```html
-<img src="images/photo.jpg" alt="Description" width="600" style="border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+## Coral Reef Field Work
+
+::: {.content-card}
+### Moorea, French Polynesia
+```{r}
+image_grid("images/field_work/moorea/", ncol = 4)
+```
+
+### Hawaii, USA
+```{r}
+image_grid("images/field_work/hawaii/", ncol = 4)
+```
+
+### Florida Keys, USA
+```{r}
+image_grid("images/field_work/florida/", ncol = 4)
 ```
 :::
 
-::: {.content-card}
-### [Another Field Site]
-
-Additional field work photos can be organized by location, project, or time period.
-:::
-
-<hr class="section-divider">
-
-## 🔬 Laboratory Work
+## Oyster & Aquaculture Field Work
 
 ::: {.content-card}
-### [Lab Technique/Project Name]
 
-Add photos from your laboratory work, showing experimental setups, organisms, equipment, and procedures.
-
-**Example:**
-- Sample processing images
-- Microscopy photos
-- Experimental apparatus
-- Data collection procedures
+```{r}
+image_grid("images/oysters/", ncol = 4)
+```
 :::
 
-<hr class="section-divider">
-
-## 📊 Research Results & Visualizations
+## Coral Spawning
 
 ::: {.content-card}
-### Data Visualizations
+### Moorea, French Polynesia
+```{r}
+image_grid("images/coral_spawning/moorea/", ncol = 4)
+```
 
-Share key figures, graphs, and visual representations of your research findings.
-:::
+### Hawaii, USA
+```{r}
+image_grid("images/coral_spawning/hawaii/", ncol = 4)
+```
 
-::: {.content-card}
-### Conference Presentations
+### Florida Keys, USA
+```{r}
+image_grid("images/coral_spawning/florida/", ncol = 4)
+```
+::: 
 
-Photos from conferences, poster presentations, and talks.
-:::
-
-<hr class="section-divider">
-
-## 🎓 Outreach & Education
-
-::: {.content-card}
-### Teaching & Mentoring
-
-Photos from teaching activities, workshops, and student mentorship.
-:::
+## Lab Work
 
 ::: {.content-card}
-### Public Engagement
+### Corals
+```{r}
+image_grid("images/lab_work/corals/", ncol = 4)
+```
 
-Images from outreach events, community engagement, and science communication activities.
+### Oysters & Aquaculture
+```{r}
+image_grid("images/lab_work/oysters/", ncol = 4)
+```
 :::
 
-<hr class="section-divider">
 
-::: {.highlight-box}
-**Getting Started:**
-1. Create an `images/` folder in your repository
-2. Add your photos to the folder
-3. Reference them in this file using relative paths
-4. Consider organizing images by project or theme
-:::
 
-::: {.text-center}
-*This page is customizable. Edit the `gallery.qmd` file and add your images to the repository.*
-:::

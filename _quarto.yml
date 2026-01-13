@@ -9,12 +9,10 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "CV/About"
+      - text: "CV"
         href: about.qmd
       - text: "Research"
         href: research.qmd
-      - text: "Outreach & Education"
-        href: outreach.qmd
       - text: "Lab Notebook"
         href: notebook.qmd
       - text: "Gallery"
@@ -22,12 +20,13 @@ website:
     right:
       - icon: github
         href: https://github.com/AHuffmyer
+      - icon: bluesky
+        href: https://bsky.app/profile/cnidariana.bsky.social
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ariana-s-huffmyer/
   
   page-footer:
-    left: "© 2025 Ariana Huffmyer"
-    right: 
-      - icon: github
-        href: https://github.com/AHuffmyer
+    left: "© 2026 Ariana Huffmyer"
 
 format:
   html:
