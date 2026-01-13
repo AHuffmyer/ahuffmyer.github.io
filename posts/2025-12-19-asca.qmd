@@ -2,7 +2,7 @@
 title: "ASCA Analysis for RNAseq and Lipidomics Datasets"
 author: "Ariana Huffmyer"
 date: "2025-12-19"
-categories: [larval-symbiont-tpc-2023, asca, gene-expression, lipidomics, lipids, m-capitata, molecular, multivariate]
+categories: [larval-symbiont-2023, asca, rna-seq, lipidomics, lipids, mcapitata, molecular, multivariate]
 description: "ASCA Analysis for RNAseq and Lipidomics Data for the 2023 Hawaii project"
 image: ""
 ---

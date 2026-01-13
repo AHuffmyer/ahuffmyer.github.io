@@ -22,7 +22,7 @@ January 2026 goals and daily notebook entries.
 
 ### Analysis
 
-1. Finalize Hawaii 2023 scripts and data sets
+1. ~~Finalize Hawaii 2023 scripts and data sets~~
 2. Moorea 2023 RNAseq and metabolomics data sets 
 
 ### Funding
