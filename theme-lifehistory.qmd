@@ -146,3 +146,26 @@ Early outcomes from this project demonstrate that coral species use different nu
 
 <hr class="section-divider">
 
+### Related Publications 
+
+::: {.content-card}
+
+Baird M, **AS Huffmyer**, N Ozguner, SB Roberts. Parental immune priming reshapes offspring growth, metabolism, and thermal tolerance in the Pacific Oyster. [Read on bioRxiv here.](https://doi.org/10.64898/2025.12.10.693539)  
+
+Ashey J, F Scucchia, **AS Huffmyer**, HM Putnam, T Mass. 2025. Thermal and acidification gradients reveal tolerance thresholds in *Pocillopora acuta* recruits. *Molecular Ecology* 34:e70116. [Read here.](https://doi.org/10.1111/mec.70116) 
+
+**Huffmyer AS**, J Ashey, E Strand, E Chiles, X Su, HM Putnam. 2024. Coral larvae increase nitrogen assimilation to stabilize algal symbiosis and combat bleaching under increased temperature. *PLoS Biology* 22: e3002875. [Read here.](https://doi.org/10.1371/journal.pbio.3002875) 
+
+**Huffmyer AS**, E Majerova, N Bean, C Harris, C Drury. 2022. Variable intraspecific diversity effects impact thermal tolerance in a reef-building coral. *Coral Reefs* 42:119-129. [Read here.](https://doi.org/10.1007/s00338-022-02320-0)  
+
+Alexander G, J Hancock, **AS Huffmyer**, SB Matsuda. 2022. Larval thermal pre-exposure does not improve post-settlement thermal tolerance in a dominant reef-building coral, *Montipora capitata*. *Coral Reefs* 41:333-342. [Read here.](https://doi.org/10.1007/s00338-022-02234-x)  
+
+Matsuda SB, LJ Chakravarti, R Cunning, **AS Huffmyer**, CE Nelson, RD Gates, MJH van Oppen. 2022. Temperature mediated acquisition of rare heterologous symbionts promotes survival of coral larvae under ocean warming. *Global Change Biology* 28:2006-2025. [Read here.](https://doi.org/10.1111/gcb.16057) 
+
+**Huffmyer AS**, CJ Johnson, AM Epps, JD Lemus, RD Gates. 2021. Feeding and thermal conditioning enhance coral temperature tolerance in juvenile *Pocillopora acuta*. *Royal Society Open Science* 8: 210644. [Read here.](https://doi.org/10.1098/rsos.210644) 
+
+**Huffmyer AS**, C Drury, E Majerová, JD Lemus, RD Gates. 2021. Tissue fusion and enhanced genotypic diversity support survival of juvenile *Pocillopora acuta* corals under thermal stress. *Coral Reefs* 40: 447-458. [Read here.](https://doi.org/10.1007/s00338-021-02074-1) 
+
+Hancock J, A Barrows, T Roome, **AS Huffmyer**, SB Matsuda, S Rahnke, N Munk, C Drury. 2021. Coral husbandry for ocean futures: leveraging abiotic factors to increase survivorship, growth, and resilience in juvenile *Montipora capitata*. *Marine Ecology Progress Series* 657:123-133. [Read here.](https://doi.org/10.3354/meps13534) 
+
+:::

@@ -90,3 +90,24 @@ Barott KL, AS Huffmyer, J Davidson, EA Lenz, SB Matsuda, J Hancock, T Innis, B G
 
 <hr class="section-divider">
 
+::: {.content-card}
+### Related Publications 
+
+**Huffmyer AS**, et al. Seasonal plasticity of symbiotic strategies clarifies coral holobiont resistance and resilience. *In review*. *Ecology and Evolution*. [Read on bioRxiv here.](https://doi.org/10.1101/2025.11.20.689604) 
+
+Ashey J, JA Rodriquez-Casariego, KM Durkin, Z Bengtsson, **AS Huffmyer**, SJ White, DM Becker, JM Eirin-Lopez, HM Putnam, S Roberts. Non-coding RNA repertoire in reef-building corals. *In review*. *Environmental Epigenetics*. [Read on bioRxiv here.](https://doi.org/10.1101/2025.03.15.643469)  
+
+Gorman LM, **AS Huffmyer**, M Byrne, SC Mills, HM Putnam. Coral venom and toxins as protection against crown-of-thorns sea star attack. *Molecular Ecology* 35:e70202. [Read here.](https://doi.org/10.1111/mec.70202) 
+
+**Huffmyer AS**, KH Wong, DM Becker, E Strand, T Mass, HM Putnam. 2025. Shifts and critical periods in coral metabolism reveal energetic vulnerability during development. *Current Biology* 35: 2858-2871. [Read here.](https://doi.org/10.1016/j.cub.2025.05.013) 
+
+Chiles EN, **AS Huffmyer**, C Drury, HM Putnam, D Bhattacharya, X Su. 2023. Stable isotope tracing reveals compartmentalized nitrogen assimilation in scleractinian corals. *Frontiers in Marine Science* 9: 1035523. [Read here.](https://doi.org/10.3389/fmars.2022.1035523)  
+
+Barott KL, **AS Huffmyer**, J Davidson, EA Lenz, SB Matsuda, J Hancock, T Innis, B Glazer, C Drury, H Putnam, RD Gates. 2021. Coral bleaching response is unaltered following acclimatization to reefs with distinct environmental conditions. *PNAS* 118: e2025435118. [Read here.](https://doi.org/10.1073/pnas.2025435118) 
+
+Innis T, L Allen-Waller, KT Brown, W Sparagon, C Carlson, E Kruse, **AS Huffmyer**, CE Nelson, HM Putnam, KL Barott. 2021. Marine heatwaves depress metabolic activity and impair cellular acid-base homeostasis in reef-building corals regardless of bleaching susceptibility. *Global Change Biology* 27: 2728-2743. [Read here.](https://doi.org/10.1111/gcb.15622) 
+
+Matsuda S, **AS Huffmyer**, EA Lenz, J Davidson, J Hancock, A Przybylowski, T Innis, RD Gates, KL Barott. 2020. Coral bleaching susceptibility is predictive of subsequent mortality within but not between coral species. *Frontiers in Ecology and Evolution* 8:178. [Read here.](https://doi.org/10.3389/fevo.2020.00178) 
+
+
+:::

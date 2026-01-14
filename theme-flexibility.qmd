@@ -65,3 +65,17 @@ We demonstrate that a simple, high-throughput dye-based assay can reliably measu
 :::
 
 <hr class="section-divider">
+
+### Related Publications 
+
+::: {.content-card}
+
+**Huffmyer AS**, N Ozguner, M Baird, C Elvrum, C Kounellas, D Dicksion, SJ White, L Plough, MR Gavery, N Krebs, W Walton, J Small, M Pitsenbarger, H Ealy-Whitfield, S Roberts. From blue to pink: Resazurin as a high-throughput proxy for metabolic rate in oysters. *In review*. *PeerJ*. [Read on bioRxiv here.](http://doi.org/10.1101/2025.11.06.686367) 
+
+Venkataraman Y and **AS Huffmyer**. 2025. Interrogating metabolic plasticity in marine organisms: A framework for best practices using metabolomic and lipidomic approaches. *Integrative and Comparative Biology*. 65:1166-1184. [Read here.](https://doi.org/10.1093/icb/icaf138) 
+
+Venkataraman YR, **AS Huffmyer**, SJ White, A Downey-Wall, J Ashey, DM Becker, Z Bengtsson, HM Putnam, E Strand, JA Rodríguez-Casariego, SA Wanamaker, KE Lotterhos, SB Roberts. 2024. DNA methylation correlates with transcriptional noise in response to elevated pCO2 in the eastern oyster (*Crassostrea virginica*). *Environmental Epigenetics* 10: dvae018. [Read here.](https://doi.org/10.1093/eep/dvae018)
+
+**Huffmyer AS**, SB Matsuda, AE Eggers, JD Lemus, RD Gates. 2020. Evaluation of laser scanning confocal microscopy as a method for characterizing reef-building coral tissue thickness and Symbiodiniaceae fluorescence. *Journal of Experimental Biology* 223: jeb220335. [Read here.](https://doi.org/10.1242/jeb.220335) 
+:::
+

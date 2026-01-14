@@ -12,7 +12,17 @@ website:
       - text: "CV"
         href: about.qmd
       - text: "Research"
-        href: research.qmd
+        menu:
+        - text: "Overview"
+          href: "research.qmd"
+        - text: "Holobiont interactions"
+          href: "theme-holobiont.qmd"
+        - text: "Life-history programming"
+          href: "theme-lifehistory.qmd"
+        - text: "Physiological flexibility"
+          href: "theme-flexibility.qmd"
+        - text: "Science education"
+          href: "theme-education.qmd"
       - text: "Lab Notebook"
         href: notebook.qmd
       - text: "Gallery"
