@@ -1,13 +1,11 @@
 ---
-title: ""
+title: "Ariana S. Huffmyer, PhD"
 page-layout: full
 ---
 
 ::: {.hero-grid}
 
 ::: {.hero-text}
-# Ariana S. Huffmyer, PhD  
-
 #### Marine invertebrate ecophysiology
 
 :::

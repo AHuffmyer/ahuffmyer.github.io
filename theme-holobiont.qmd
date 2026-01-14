@@ -1,9 +1,6 @@
 ---
-title: ""
+title: "Metabolic Interactions in Marine Holobionts "
 ---
-
-# Metabolic Interactions in Marine Holobionts 
-
 ::: {.content-card}
 ##### Resilience is a team effort
 

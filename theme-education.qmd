@@ -1,8 +1,6 @@
 ---
-title: ""
+title: "Science Education Research"
 ---
-# Science Education Research 
-
 ::: {.content-card}
 
 ##### Science Identity Development 

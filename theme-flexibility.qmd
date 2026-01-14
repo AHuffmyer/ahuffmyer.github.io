@@ -1,7 +1,6 @@
 ---
-title: ""
+title: "Physiological Flexibility and Indicators of Tolerance"
 ---
-# Physiological Flexibility and Indicators of Tolerance
 
 ::: {.content-card}
 

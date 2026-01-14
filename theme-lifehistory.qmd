@@ -1,9 +1,6 @@
 ---
-title: ""
+title: "Life-History Programming and Metabolic Carryover "
 ---
-
-# Life-History Programming and Metabolic Carryover 
-
 ::: {.content-card}
 
 ##### Early experiences shape lifetime performance 
