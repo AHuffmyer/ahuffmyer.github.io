@@ -1,0 +1,151 @@
+---
+title: ""
+---
+
+# Life-History Programming and Metabolic Carryover 
+
+::: {.content-card}
+
+##### Early experiences shape lifetime performance 
+
+In the same way that early childhood experiences matter for development and adulthood in humans, early environmental conditions can shape how marine organisms perform for the rest of their lives. I study how stress experienced by parents or during early development influences growth, survival, and heat tolerance and how "carryover effects" may affect responses to future stress. This research examines how environmental conditions experienced during early development—or by parents—can program physiology, metabolism, and stress tolerance later in life. Through experiments spanning larvae to adults, I identify critical windows when environmental stress has long-lasting biological consequences. Knowing when stress impacts organisms across life history can help guide restoration timing, aquaculture practices, and predictions of population response to environmental stress. 
+:::
+
+::: {.content-card}
+### Stress impacts on symbiosis in coral larvae 
+
+**Project:** Coral larvae increase nitrogen assimilation to stabilize algal symbiosis and combat bleaching under increased temperature
+
+![](images/publications/mcap2021.PNG) 
+
+**Overview:** Investigation of the effect of thermal stress on the nutritional interactions between coral larvae and their algal symbionts.  
+
+**Research Summary:**  
+
+This work demonstrated that coral larvae can avoid bleaching under short-term heat stress by reorganizing how they use energy rather than shutting down their symbiosis. Even though high temperatures slowed larval metabolism, larvae maintained carbon sharing with their algal partners by shifting energy toward nitrogen processing, which is a strategy that helps stabilize the partnership during stress. These results reveal that early life stages use unique metabolic tools to cope with warming, with important implications for coral survival and reef recovery under climate change. 
+
+**Citation:** 
+
+Huffmyer AS, J Ashey, E Strand, E Chiles, X Su, HM Putnam. 2024. Coral larvae increase nitrogen assimilation to stabilize algal symbiosis and combat bleaching under increased temperature. PLoS Biology 22: e3002875.
+
+**Funding and collaborations:** 
+
+- Collaborators: Coral Resilience Lab (Hawaii Institute of Marine Biology), Hollie Putnam & Putnam Lab (University of Rhode Island), Eric Chiles & Xiaoyang Su (Rutgers University)
+- Funding: National Science Foundation Ocean Sciences Postdoctoral Fellowship, University of Washington eScience Data Science Fellowship, National Science Foundation Rules of Life - Epigenetics Award 
+
+**Links and Information:**
+
+- Read this publication in [PLOS Biology here.](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002875)
+- Read a commentary publication [about this work here.](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002890)
+- Check out a media article [about this work here.](ct.moreover.com/?a=55271530728&p=1pl&v=1&x=TY7LAWcsodahD4bM5RzGRg)
+- Explore the data and code on [GitHub here!](https://github.com/AHuffmyer/SymbioticIntegrations)
+:::
+
+::: {.content-card}
+### Climate resilience in oysters  
+
+**Project:** Assessing climate resilience in oysters undergoing hatchery-based environmental hardening practices
+
+**Status:** Ongoing 
+
+![](images/oysters/IMG_9944.jpeg) 
+
+**Overview:** Across multiple years and partnerships with shellfish farms throughout Washington State, we conducted extensive field deployments to evaluate the effects of environmental hardening on oyster performance. We have assessed the effects of these efforts on oyster growth, survival, and metabolism and are continuing to evaluate the feasibility of incorporating hardening into aquaculture industry practices.   
+
+**Research Summary:**  
+
+This multi-year effort tested whether exposing Pacific oysters to controlled environmental “hardening” treatments, such as elevated temperature, salinity shifts, and immune priming can improve their performance and resilience when deployed in real coastal farm settings. While hardening sometimes induced measurable physiological changes (such as altered heat shock protein expression and improved survival during short lab heat challenges), it did not consistently boost long-term growth or survival in the field under ambient conditions. Some treatments, like immune priming, showed promising metabolic and tolerance shifts in the lab, and low-salinity exposure increased growth at specific sites, but benefits were highly context-dependent. Overall, these results suggest that conditioning can change oyster physiology and may enhance performance during acute stress events, but field outcomes vary with environment and require continued evaluation to guide resilience strategies.
+
+**Funding and collaborations:** 
+
+- Collaborators: Roberts Lab (University of Washington), aquaculture industry partners (Jamestown S'Klallam Seafood, Westcott Bay Shellfish Co., Baywater Shellfish, Goose Point Oysters), Oregon State University
+- Funding: United States Department of Agriculture, Washington Sea Grant  
+
+**Links and Information:**
+
+- Explore the results of these [efforts on the web here.](https://robertslab.github.io/project-gigas-conditioning/)
+- Download a detailed [report of our work here.](https://robertslab.github.io/project-gigas-conditioning/2022-70007-38284-REPORT.pdf)
+- Find out more about the Roberts Lab [research in oyster aquaculture.](https://faculty.washington.edu/sr320/)
+- Explore the data and code on [GitHub here!](https://github.com/RobertsLab/project-gigas-conditioning/tree/main)
+:::
+
+::: {.content-card}
+### Parental priming in oysters 
+
+**Project:** Parental immune priming reshapes offspring performance growth, metabolism, and thermal tolerance in the Pacific Oyster
+
+**Status:** Ongoing 
+
+![](images/lab_work/oysters/IMG_0423.jpeg) 
+
+**Overview:** As multiple stressors increase the likelihood of large-scale mortalities in Pacific Oyster aquaculture, it is critical to test how the experience of oyster parents impact their offsprings' ability to survive. In this study, we conducted a cross-generational stress priming experiment to test parental effects of immune priming on offspring thermal tolerance in oysters.    
+
+**Research Summary:**  
+
+In this study, we exposed adult oysters to an immune challenge and examined how their offspring responded to thermal stress. We found that immune-priming in parent oysters influenced how their offspring grow and respond to heat stress. Offspring from immune-primed parents grew faster and survived better under moderate heat, but benefits were lost at extreme temperatures, revealing context-depedent limits to stress priming. Metabolic measurements suggested that parental immune exposure reshapes offspring metabolic flexibility, helping explain how cross-generational experiences can influence oyster resilience in a warming ocean. 
+
+**Funding and collaborations:** 
+
+- Collaborators: Roberts Lab (University of Washington), aquaculture industry partners (Jamestown S'Klallam Seafood, Baywater Shellfish), Oregon State University
+- Funding: United States Department of Agriculture, Washington Sea Grant  
+
+**Links and Information:**
+
+- This work is currently under review. A preprint can be found on [bioRxiv here](https://www.biorxiv.org/content/10.64898/2025.12.10.693539v1).
+- Explore the data and code on [GitHub here!](https://github.com/RobertsLab/polyIC-larvae/tree/main)
+:::
+
+::: {.content-card}
+### Parental effects are driven by symbiotic relationships in coral larvae 
+
+**Project:** Symbiont communities mediate parental legacy effects on coral larval metabolism
+
+**Status:** Ongoing 
+
+![](images/lab_work/corals/IMG_6412.jpeg) 
+
+**Overview:** Even within the same species, coral show remarkable variability in their response to stress, with some individuals more tolerant to bleaching than others. We investigated parental effects of bleaching tolerance on *Montipora capitata* (Hawaii, USA) coral larval metabolism and symbiosis using photophysiology and multi-omic approaches.   
+
+**Research Summary:**  
+
+Coral parents pass more than just genes to their offspring - they can also pass on symbiotic partners that then shape how larvae cope with thermal stress. While coral larvae with different symbiont communities maintained similar metabolic performance under warming, they did so using very different molecular and nutritional strategies, reflecting the strong influence of symbiotic interactions on performance even early in life. These findings reveal that early-life resilience to climate stress is tightly linked to inherited symbionts, suggesting that inherited symbiont communities are a strong a direct pathway for parents to influence tolerance in their offspring. 
+
+**Funding and collaborations:** 
+
+- Collaborators: Coral Resilience Lab (Hawaii Institute of Marine Biology), Jennifer Matthews & Andrei Herdean (University of Technology Sydney), Jill Ashey & Hollie Putnam (University of Rhode Island), Steven Roberts (University of Washington)
+- Funding: National Science Foundation Ocean Sciences Postdoctoral Fellowship, University of Washington eScience Data Science Fellowship
+
+**Links and Information:**
+
+- This work is currently undergoing data analysis. 
+- Explore the data and code on [GitHub here!](https://github.com/AHuffmyer/larval_symbiont_TPC)
+:::
+
+::: {.content-card}
+### Unique metabolic strategies across life stages in corals
+
+**Project:** Diverse nutritional strategies mediate early life thermal responses in three dominant reef-building corals in Moorea 
+
+**Status:** Ongoing 
+
+![](images/lab_work/corals/IMG_1189.jpeg) 
+
+**Overview:** Based on my research showing that life-stage experiences matter for stress tolerance and performance, we conducted a project to examine stress effects on symbiotic relationships across multiple life stages and species in Moorea, French Polynesia. We used transcriptomics, physiology, and stable isotope metabolomics to examine the diverse nutritional strategies to survive stress across lifestages in corals. 
+
+**Research Summary:**  
+
+Early outcomes from this project demonstrate that coral species use different nutritional and symbiotic strategies across life stages, and these differences shape how well they tolerate heat stress. By comparing larvae, recruits, and adults, we found that some corals maintain stable energy balance across life stages, while others, especially *Acropora* larvae, are more vulnerable to warming. These results highlight how early-life nutrition and symbiosis influence coral survival and help predict which species are most likely to persist as oceans warm.
+
+**Funding and collaborations:** 
+
+- Collaborators: Hollie Putnam & Putnam Lab (University of Rhode Island), Steven Roberts (University of Washington), Eric Chiles (Rutgers University), Lucy Gorman (Marine Biological Association)
+- Funding: National Science Foundation Ocean Sciences Postdoctoral Fellowship, University of Washington eScience Data Science Fellowship, National Science Foundation E5 Rules of Life - Epigenetics 
+
+**Links and Information:**
+
+- This work is currently undergoing data analysis. 
+- Explore the data and code on [GitHub here!](https://github.com/AHuffmyer/moorea_symbiotic_exchange_2023)
+:::
+
+<hr class="section-divider">
+

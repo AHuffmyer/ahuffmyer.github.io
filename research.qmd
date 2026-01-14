@@ -16,6 +16,7 @@ Below, you will find information on the core themes of my research and highlight
 Together, these three research themes reveal how marine organisms experience, remember, and respond to environmental stress across their lives. By linking symbiosis, development, and physiological flexibility, my work identifies general principles of resilience that apply across tropical reefs, temperate shorelines, and aquaculture systems. This research strengthens the predictive power needed for conservation, restoration, and sustainable coastal management—bridging fundamental biology with real-world environmental stewardship.
 ::: 
 
+## Study systems 
 
 ::: {.hero-image .research-hero}
 ![](images/field_work/moorea/IMG_2383.JPG){alt="corals" class="fieldshot"} 
@@ -32,7 +33,7 @@ I conduct research in reef-building corals and in temperature intertidal shellfi
 :::
 
 ::: {.content-card}
-##### Research approaches and techinques 
+## Approaches and techinques 
 
 My research integrates approaches across biological scales from molecules to organisms: 
 
@@ -48,348 +49,44 @@ My research integrates approaches across biological scales from molecules to org
 - Modeling and integrative data analysis 
 ::: 
 
-## Metabolic Interactions in Marine Holobionts 
-
 ::: {.content-card}
-##### Resilience is a team effort
+## Research projects 
 
-My research focuses on the holobiont (i.e., the host organism and its microbial and symbiotic partners) as the functional unit of performance stress tolerance. Shifts in symbiont communities and metabolic interactions fundamentally shape how marine invertebrates respond to environmental stressors across life stages and environments. By examining corals, sea anemones, and mussels across natural environmental gradients, I aim to understand how flexible partnerships help organisms cope with rapidly changing conditions. Understanding how symbiotic partnerships respond to stress improves our ability to predict when ecosystems will remain stable and when they may cross ecological tipping points.
+Learn more about my research by exploring the project themes below! 
 ::: 
 
-::: {.content-card}
-### Symbiosis across coral development 
+::: {.theme-grid}
 
-**Project:** Shifts and critical periods in coral metabolism reveal energetic vulnerability during development
+::: {.theme-card}
+[![](images/field_work/moorea/P9283079.JPG){alt="Metabolic interactions in marine holobionts"}](theme-holobionts.qmd)
 
-![](images/publications/mcap2020.jpg) 
+### [Metabolic interactions in marine holobionts](theme-holobiont.qmd)
 
-**Overview:** Symbiotic interactions shape metabolism and performance across development in corals. In this project, we used integrative and multi-omic methods to examine shifts in symbiosis and metabolism across coral early life history.  
-
-**Research Summary:**  
-
-In this work, we examined how coral early life stages shift their energy sources as they grow, moving from relying on nutrients provided by their parents to depending on their symbiotic algae for fuel. By tracking coral development from fertilization through settlement, we found that metamorphosis is an especially energy-intensive and vulnerable stage, where disruptions to symbiosis could strongly reduce survival. These findings help explain why early life stages are so sensitive to climate stress and improve our ability to predict coral recruitment and reef recovery in a warming ocean. 
-
-**Citation:** 
-
-Huffmyer AS, KH Wong, DM Becker, E Strand, T Mass, HM Putnam. 2025. Shifts and critical periods in coral metabolism reveal energetic vulnerability during development. Current Biology 35: 2858-2871. 
-
-**Funding and collaborations:** 
-
-- Collaborators: Coral Resilience Lab (Hawaii Institute of Marine Biology), Hollie Putnam & Putnam Lab (University of Rhode Island), Tali Mass (University of Haifa)
-- Funding: National Science Foundation Ocean Sciences Postdoctoral Fellowship, University of Washington eScience Data Science Fellowship, National Science Foundation Rules of Life - Epigenetics Award 
-
-**Links and Information:**
-
-- Read this publication in [Current Biology here.](https://www.cell.com/current-biology/abstract/S0960-9822(25)00588-3)
-- Learn more about this project and view the data and code on [GitHub here!](https://github.com/AHuffmyer/EarlyLifeHistory_Energetics)
+Hosts + symbionts as the functional unit of metabolism, performance, and stress tolerance.
 :::
 
-::: {.content-card}
-### Seasonal plasticity in coral symbiosis
+::: {.theme-card}
+[![](images/lab_work/corals/settled-larvae-Montipora-capitata-Ariana-Huffmyer.jpeg){alt="Life-history programming and metabolic carryover"}](theme-lifehistory.qmd)
 
-**Project:**  Collaborative research: Seasonal plasticity of symbiotic strategies clarifies coral holobiont resistance and resilience
+### [Life-history programming and metabolic carryover](theme-lifehistory.qmd)
 
-**Status:** Ongoing 
-
-![](images/publications/e5_phys.png) 
-
-**Overview:** Collaborative research in the [E5 Coral project](https://e5coral.org/) to predict phenotypic and eco-evolutionary consequences of environmental energetic epigenetic linkages. 
-
-**Research Summary:**  
-
-In this work, we examine how coral symbiotic relationships and resilience change across seasonal environmental variation. We found that  cryptic holobiont identity among visually similar corals strongly shaped how they respond to changes in the environment  By tracking multiple coral species across sites and seasons in Mo‘orea, we found that some coral species undergo dramatic seasonal swings in their symbiotic interactions and metabolism, while others remain stable. These results highlight the importance of accounting for season, genetics, and symbiosis when evaluating coral resilience and guiding reef restoration efforts in a warming ocean.
-
-**Funding and collaborations:** 
-
-- Collaborators: [E5 Coral Network](https://e5coral.org/)
-- Funding: National Science Foundation Rules of Life - Epigenetics Award 
-
-**Links and Information:**
-
-- This work is currently under review. A preprint can be found on [bioRxiv here](https://www.biorxiv.org/content/10.1101/2025.11.20.689604v1).
-- Learn more about the [E5 Coral project here!](https://e5coral.org/)
-- Explore data and code [on GitHub here.](https://github.com/urol-e5/timeseries)
+When early experiences (or parental stress) become biological “memory” that shapes later performance.
 :::
 
-::: {.content-card}
-### Coral thermal tolerance under variable environments 
+::: {.theme-card}
+[![](images/lab_work/oysters/IMG_0423.jpeg){alt="Physiological flexibility and indicators of tolerance"}](theme-flexibility.qmd)
 
-**Project:** Collaborative research: Coral bleaching response is unaltered following acclimatization to reefs with distinct environmental conditions
+### [Physiological flexibility and indicators of tolerance](theme-flexibility.qmd)
 
-![](images/publications/bleaching.png) 
-
-**Overview:** Collaborative research with the [Coral Resilience Lab](https://www.coralresiliencelab.com/) to understand the capacity for corals to resist bleaching and survive in variable environments. 
-
-**Research Summary:**  
-
-In this study, we found that moving heat-resistant corals to new reef environments did not weaken their ability to withstand bleaching stressors. Instead, transplanted corals rapidly adjusted their growth and metabolism to local conditions - sometimes performing better than native corals. These results provided  evidence that outplanting stress-tolerant corals can be a safe and effective tool for supporting reef resilience in a warming ocean. 
-
-**Citation:** 
-
-Barott KL, AS Huffmyer, J Davidson, EA Lenz, SB Matsuda, J Hancock, T Innis, B Glazer, C Drury, H Putnam, RD Gates. 2021. Coral bleaching response is unaltered following acclimatization to reefs with distinct environmental conditions. PNAS 118: e2025435118
-
-**Collaborations:** 
-
-- Collaborators: Coral Resilience Lab (Hawaii Institute of Marine Biology)
-
-**Links and Information:**
-
-- Read this publication in [PNAS  here.](https://www.pnas.org/doi/10.1073/pnas.2025435118)
+Dynamic responses (metabolic flexibility, recovery, rapid assays) as early indicators of resilience.
 :::
 
-<hr class="section-divider">
+::: {.theme-card}
+[![](images/publications/cbe.jpeg){alt="Science education"}](theme-education.qmd)
 
-## Life-History Programming and Metabolic Carryover 
+### [Science education](theme-education.qmd)
 
-::: {.content-card}
-
-##### Early experiences shape lifetime performance 
-
-In the same way that early childhood experiences matter for development and adulthood in humans, early environmental conditions can shape how marine organisms perform for the rest of their lives. I study how stress experienced by parents or during early development influences growth, survival, and heat tolerance and how "carryover effects" may affect responses to future stress. This research examines how environmental conditions experienced during early development—or by parents—can program physiology, metabolism, and stress tolerance later in life. Through experiments spanning larvae to adults, I identify critical windows when environmental stress has long-lasting biological consequences. Knowing when stress impacts organisms across life history can help guide restoration timing, aquaculture practices, and predictions of population response to environmental stress. 
+Science identity, belonging, and authentic research experiences that broaden participation in STEM.
 :::
 
-::: {.content-card}
-### Stress impacts on symbiosis in coral larvae 
-
-**Project:** Coral larvae increase nitrogen assimilation to stabilize algal symbiosis and combat bleaching under increased temperature
-
-![](images/publications/mcap2021.PNG) 
-
-**Overview:** Investigation of the effect of thermal stress on the nutritional interactions between coral larvae and their algal symbionts.  
-
-**Research Summary:**  
-
-This work demonstrated that coral larvae can avoid bleaching under short-term heat stress by reorganizing how they use energy rather than shutting down their symbiosis. Even though high temperatures slowed larval metabolism, larvae maintained carbon sharing with their algal partners by shifting energy toward nitrogen processing, which is a strategy that helps stabilize the partnership during stress. These results reveal that early life stages use unique metabolic tools to cope with warming, with important implications for coral survival and reef recovery under climate change. 
-
-**Citation:** 
-
-Huffmyer AS, J Ashey, E Strand, E Chiles, X Su, HM Putnam. 2024. Coral larvae increase nitrogen assimilation to stabilize algal symbiosis and combat bleaching under increased temperature. PLoS Biology 22: e3002875.
-
-**Funding and collaborations:** 
-
-- Collaborators: Coral Resilience Lab (Hawaii Institute of Marine Biology), Hollie Putnam & Putnam Lab (University of Rhode Island), Eric Chiles & Xiaoyang Su (Rutgers University)
-- Funding: National Science Foundation Ocean Sciences Postdoctoral Fellowship, University of Washington eScience Data Science Fellowship, National Science Foundation Rules of Life - Epigenetics Award 
-
-**Links and Information:**
-
-- Read this publication in [PLOS Biology here.](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002875)
-- Read a commentary publication [about this work here.](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002890)
-- Check out a media article [about this work here.](ct.moreover.com/?a=55271530728&p=1pl&v=1&x=TY7LAWcsodahD4bM5RzGRg)
-- Explore the data and code on [GitHub here!](https://github.com/AHuffmyer/SymbioticIntegrations)
 :::
-
-::: {.content-card}
-### Climate resilience in oysters  
-
-**Project:** Assessing climate resilience in oysters undergoing hatchery-based environmental hardening practices
-
-**Status:** Ongoing 
-
-![](images/oysters/IMG_9944.jpeg) 
-
-**Overview:** Across multiple years and partnerships with shellfish farms throughout Washington State, we conducted extensive field deployments to evaluate the effects of environmental hardening on oyster performance. We have assessed the effects of these efforts on oyster growth, survival, and metabolism and are continuing to evaluate the feasibility of incorporating hardening into aquaculture industry practices.   
-
-**Research Summary:**  
-
-This multi-year effort tested whether exposing Pacific oysters to controlled environmental “hardening” treatments, such as elevated temperature, salinity shifts, and immune priming can improve their performance and resilience when deployed in real coastal farm settings. While hardening sometimes induced measurable physiological changes (such as altered heat shock protein expression and improved survival during short lab heat challenges), it did not consistently boost long-term growth or survival in the field under ambient conditions. Some treatments, like immune priming, showed promising metabolic and tolerance shifts in the lab, and low-salinity exposure increased growth at specific sites, but benefits were highly context-dependent. Overall, these results suggest that conditioning can change oyster physiology and may enhance performance during acute stress events, but field outcomes vary with environment and require continued evaluation to guide resilience strategies.
-
-**Funding and collaborations:** 
-
-- Collaborators: Roberts Lab (University of Washington), aquaculture industry partners (Jamestown S'Klallam Seafood, Westcott Bay Shellfish Co., Baywater Shellfish, Goose Point Oysters), Oregon State University
-- Funding: United States Department of Agriculture, Washington Sea Grant  
-
-**Links and Information:**
-
-- Explore the results of these [efforts on the web here.](https://robertslab.github.io/project-gigas-conditioning/)
-- Download a detailed [report of our work here.](https://robertslab.github.io/project-gigas-conditioning/2022-70007-38284-REPORT.pdf)
-- Find out more about the Roberts Lab [research in oyster aquaculture.](https://faculty.washington.edu/sr320/)
-- Explore the data and code on [GitHub here!](https://github.com/RobertsLab/project-gigas-conditioning/tree/main)
-:::
-
-::: {.content-card}
-### Parental priming in oysters 
-
-**Project:** Parental immune priming reshapes offspring performance growth, metabolism, and thermal tolerance in the Pacific Oyster
-
-**Status:** Ongoing 
-
-![](images/lab_work/oysters/IMG_0423.jpeg) 
-
-**Overview:** As multiple stressors increase the likelihood of large-scale mortalities in Pacific Oyster aquaculture, it is critical to test how the experience of oyster parents impact their offsprings' ability to survive. In this study, we conducted a cross-generational stress priming experiment to test parental effects of immune priming on offspring thermal tolerance in oysters.    
-
-**Research Summary:**  
-
-In this study, we exposed adult oysters to an immune challenge and examined how their offspring responded to thermal stress. We found that immune-priming in parent oysters influenced how their offspring grow and respond to heat stress. Offspring from immune-primed parents grew faster and survived better under moderate heat, but benefits were lost at extreme temperatures, revealing context-depedent limits to stress priming. Metabolic measurements suggested that parental immune exposure reshapes offspring metabolic flexibility, helping explain how cross-generational experiences can influence oyster resilience in a warming ocean. 
-
-**Funding and collaborations:** 
-
-- Collaborators: Roberts Lab (University of Washington), aquaculture industry partners (Jamestown S'Klallam Seafood, Baywater Shellfish), Oregon State University
-- Funding: United States Department of Agriculture, Washington Sea Grant  
-
-**Links and Information:**
-
-- This work is currently under review. A preprint can be found on [bioRxiv here](https://www.biorxiv.org/content/10.64898/2025.12.10.693539v1).
-- Explore the data and code on [GitHub here!](https://github.com/RobertsLab/polyIC-larvae/tree/main)
-:::
-
-::: {.content-card}
-### Parental effects are driven by symbiotic relationships in coral larvae 
-
-**Project:** Symbiont communities mediate parental legacy effects on coral larval metabolism
-
-**Status:** Ongoing 
-
-![](images/lab_work/corals/IMG_6412.jpeg) 
-
-**Overview:** Even within the same species, coral show remarkable variability in their response to stress, with some individuals more tolerant to bleaching than others. We investigated parental effects of bleaching tolerance on *Montipora capitata* (Hawaii, USA) coral larval metabolism and symbiosis using photophysiology and multi-omic approaches.   
-
-**Research Summary:**  
-
-Coral parents pass more than just genes to their offspring - they can also pass on symbiotic partners that then shape how larvae cope with thermal stress. While coral larvae with different symbiont communities maintained similar metabolic performance under warming, they did so using very different molecular and nutritional strategies, reflecting the strong influence of symbiotic interactions on performance even early in life. These findings reveal that early-life resilience to climate stress is tightly linked to inherited symbionts, suggesting that inherited symbiont communities are a strong a direct pathway for parents to influence tolerance in their offspring. 
-
-**Funding and collaborations:** 
-
-- Collaborators: Coral Resilience Lab (Hawaii Institute of Marine Biology), Jennifer Matthews & Andrei Herdean (University of Technology Sydney), Jill Ashey & Hollie Putnam (University of Rhode Island), Steven Roberts (University of Washington)
-- Funding: National Science Foundation Ocean Sciences Postdoctoral Fellowship, University of Washington eScience Data Science Fellowship
-
-**Links and Information:**
-
-- This work is currently undergoing data analysis. 
-- Explore the data and code on [GitHub here!](https://github.com/AHuffmyer/larval_symbiont_TPC)
-:::
-
-::: {.content-card}
-### Unique metabolic strategies across life stages in corals
-
-**Project:** Diverse nutritional strategies mediate early life thermal responses in three dominant reef-building corals in Moorea 
-
-**Status:** Ongoing 
-
-![](images/lab_work/corals/IMG_1189.jpeg) 
-
-**Overview:** Based on my research showing that life-stage experiences matter for stress tolerance and performance, we conducted a project to examine stress effects on symbiotic relationships across multiple life stages and species in Moorea, French Polynesia. We used transcriptomics, physiology, and stable isotope metabolomics to examine the diverse nutritional strategies to survive stress across lifestages in corals. 
-
-**Research Summary:**  
-
-Early outcomes from this project demonstrate that coral species use different nutritional and symbiotic strategies across life stages, and these differences shape how well they tolerate heat stress. By comparing larvae, recruits, and adults, we found that some corals maintain stable energy balance across life stages, while others, especially *Acropora* larvae, are more vulnerable to warming. These results highlight how early-life nutrition and symbiosis influence coral survival and help predict which species are most likely to persist as oceans warm.
-
-**Funding and collaborations:** 
-
-- Collaborators: Hollie Putnam & Putnam Lab (University of Rhode Island), Steven Roberts (University of Washington), Eric Chiles (Rutgers University), Lucy Gorman (Marine Biological Association)
-- Funding: National Science Foundation Ocean Sciences Postdoctoral Fellowship, University of Washington eScience Data Science Fellowship, National Science Foundation E5 Rules of Life - Epigenetics 
-
-**Links and Information:**
-
-- This work is currently undergoing data analysis. 
-- Explore the data and code on [GitHub here!](https://github.com/AHuffmyer/moorea_symbiotic_exchange_2023)
-:::
-
-<hr class="section-divider">
-
-## Physiological Flexibility and Indicators of Tolerance
-
-::: {.content-card}
-
-##### Flexibility contributes to stress tolerance 
-
-Surviving climate stress isn’t necessarily about being the strongest it may be more important to be flexible and adaptable. My research includes a focus on identifying physiological traits that best predict survival under climate stress. Metabolic flexibility (i.e., how quickly organisms adjust and recover) plasy an important role in resilience. My work focuses on characterizing how quickly organisms can adjust their metabolism and physiology during stress and how this affects survival and recovery. These dynamic responses can act as early warning signs, revealing when organisms are nearing their limits before mass mortality occurs. Rapid assessment tools that help identify physiological flexibility may support aquaculture and natural resource managers in efforts to monitor populations during extreme events and guide conservation decisions to mitigate losses
-:::
-
-::: {.content-card}
-### Metabolic plasticity in marine invertebrates 
-
-**Project:** Interrogating Metabolic Plasticity in Marine Organisms: A Framework for Best Practices Using Metabolomic and Lipidomic Approaches
-
-![](images/publications/icb.png) 
-
-**Overview:** In this project, we describe the use of metabolomics and lipidomics to investigate plasticity in marine invertebrates and provide a framework for best practices using these approaches.   
-
-**Research Summary:**  
-
-We highlight metabolic flexibility as a key mechanism underlying resilience in marine invertebrates facing environmental change. By integrating metabolomics and lipidomics with physiological and molecular data, we outline how researchers can better link cellular processes to whole-organism performance under stress. This framework helps move marine science toward more predictive, mechanism-based understanding needed to anticipate and manage ecosystem responses to climate change.
-
-**Citation:** 
-
-Venkataraman Y and AS Huffmyer. 2025. Interrogating metabolic plasticity in marine organisms: A framework for best practices using metabolomic and lipidomic approaches. Integrative and Comparative Biology. 65:1166-1184.
-
-**Funding and collaborations:** 
-
-- Collaborators: Yaamini Venkataraman (Woods Hole Oceanographic Institution)
-- Funding: National Science Foundation Rules of Life-Epigenetics
-
-**Links and Information:**
-
-- Read this publication in [ICB here.](https://doi.org/10.1093/icb/icaf138)
-:::
-
-::: {.content-card}
-### Rapid assessment of oyster metabolism
-
-**Project:** From Blue to Pink: Resazurin as a High-Throughput Proxy for Metabolic Rate in Oysters
-
-**Status:** Ongoing 
-
-![](images/lab_work/oysters/IMG_0447.jpeg) 
-
-**Overview:** In order to rapidly characterize health and tolerance at scales that inform aquaculture practices, there is a need to develop tools that provide information on shellfish health and metabolic state. In this work, we developed and tested a resazurin-based assay to measure metabolic rate in oysters.  
-
-**Research Summary:**  
-
-We demonstrate that a simple, high-throughput dye-based assay can reliably measure oyster metabolism and reveal how oysters respond to heat stress. We found that oysters capable of temporarily slowing their metabolism during extreme temperatures were more likely to survive, and that metabolic responses varied among genetic families linked to performance. By validating this tool for whole organisms, this work provides hatcheries and managers with a practical way to identify resilient shellfish stocks and monitor stress in a changing ocean.
-
-**Funding and collaborations:** 
-
-- Collaborators: Roberts Lab (University of Washington), Mackenzie Gavery (NOAA), Louis Plough (USDA), Virginia Institute of Marine Science
-- Funding: United States Department of Agriculture, Washington Sea Grant  
-
-**Links and Information:**
-
-- Check out our landing page that highlights our protocols, ongoing efforts, and explore interactive data and tools [on GitHub here.](http://oyster.pink/) 
-- This work is currently under review. Read a preprint of this manuscript [on bioRxiv here.](https://www.biorxiv.org/content/10.1101/2025.11.06.686367v1) 
-- Explore the data and code on [GitHub here!](https://github.com/RobertsLab/resazurin-assay-development)
-- Explore the data from our [aquaculture case study on GitHub here!](https://github.com/RobertsLab/vims-resazurin)
-:::
-
-<hr class="section-divider">
-
-## Science Education Research 
-
-::: {.content-card}
-
-##### Science Identity Development 
-
-Science identity refers to how individuals come to see themselves as scientists, not just through mastering technical skills, but by understanding how scientific careers work, how their values fit within them, and how their unique perspectives contribute to discovery. In my research and teaching, I integrate science identity by embedding students directly in authentic research experiences while explicitly discussing career pathways, professional norms, and the often-hidden structures of scientific work. By linking hands-on inquiry with mentorship and reflection, I help students develop both scientific competence and a sense of belonging and agency as scientists. In my Ph.D., I conducted science education research to better understand science identity development in an authentic research space.  
-:::
-
-::: {.content-card}
-### Professinal science identity development
-
-**Project:** Evidence for Professional Conceptualization in Science as an Important Component of Science Identity
-
-![](images/publications/cbe.jpeg) 
-
-**Overview:** In this project, I used qualitative research methods to better understand the process of science identity development in a group of community college women participating in marine biology research experiences.  
-
-**Research Summary:**  
-
-Science identity describes how students come to see themselves as capable and active participants in science, shaped by their sense of belonging, recognition, interest, and confidence in their abilities. This work shows that authentic research experiences help students, develop science identity by allowing them to explore career pathways and envision themselves as science professionals. By pairing hands-on research with intentional reflection on career trajectories, research experiences can strengthen persistence and broaden participation in STEM fields.
-
-**Citation:** 
-
-Huffmyer AS, T O’Neill, JD Lemus. 2022. Evidence for professional conceptualization in science as an important component of science identity. CBE – Life Sciences Education 21(4): ar76  
-
-**Funding and collaborations:** 
-
-- Collaborators: Yaamini Venkataraman (Woods Hole Oceanographic Institution)
-- Funding: National Science Foundation Graduate Research Fellowship, HIMB Lord Scholarship Fund 
-
-**Links and Information:**
-
-- Read this publication in [CBE-Life Sciences Education here.](https://www.lifescied.org/doi/10.1187/cbe.20-12-0280)
-:::
-
-<hr class="section-divider">
-
-
-
-

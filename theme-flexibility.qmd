@@ -1,0 +1,68 @@
+---
+title: ""
+---
+# Physiological Flexibility and Indicators of Tolerance
+
+::: {.content-card}
+
+##### Flexibility contributes to stress tolerance 
+
+Surviving climate stress isn’t necessarily about being the strongest it may be more important to be flexible and adaptable. My research includes a focus on identifying physiological traits that best predict survival under climate stress. Metabolic flexibility (i.e., how quickly organisms adjust and recover) plasy an important role in resilience. My work focuses on characterizing how quickly organisms can adjust their metabolism and physiology during stress and how this affects survival and recovery. These dynamic responses can act as early warning signs, revealing when organisms are nearing their limits before mass mortality occurs. Rapid assessment tools that help identify physiological flexibility may support aquaculture and natural resource managers in efforts to monitor populations during extreme events and guide conservation decisions to mitigate losses
+:::
+
+::: {.content-card}
+### Metabolic plasticity in marine invertebrates 
+
+**Project:** Interrogating Metabolic Plasticity in Marine Organisms: A Framework for Best Practices Using Metabolomic and Lipidomic Approaches
+
+![](images/publications/icb.png) 
+
+**Overview:** In this project, we describe the use of metabolomics and lipidomics to investigate plasticity in marine invertebrates and provide a framework for best practices using these approaches.   
+
+**Research Summary:**  
+
+We highlight metabolic flexibility as a key mechanism underlying resilience in marine invertebrates facing environmental change. By integrating metabolomics and lipidomics with physiological and molecular data, we outline how researchers can better link cellular processes to whole-organism performance under stress. This framework helps move marine science toward more predictive, mechanism-based understanding needed to anticipate and manage ecosystem responses to climate change.
+
+**Citation:** 
+
+Venkataraman Y and AS Huffmyer. 2025. Interrogating metabolic plasticity in marine organisms: A framework for best practices using metabolomic and lipidomic approaches. Integrative and Comparative Biology. 65:1166-1184.
+
+**Funding and collaborations:** 
+
+- Collaborators: Yaamini Venkataraman (Woods Hole Oceanographic Institution)
+- Funding: National Science Foundation Rules of Life-Epigenetics
+
+**Links and Information:**
+
+- Read this publication in [ICB here.](https://doi.org/10.1093/icb/icaf138)
+:::
+
+::: {.content-card}
+### Rapid assessment of oyster metabolism
+
+**Project:** From Blue to Pink: Resazurin as a High-Throughput Proxy for Metabolic Rate in Oysters
+
+**Status:** Ongoing 
+
+![](images/lab_work/oysters/IMG_0447.jpeg) 
+
+**Overview:** In order to rapidly characterize health and tolerance at scales that inform aquaculture practices, there is a need to develop tools that provide information on shellfish health and metabolic state. In this work, we developed and tested a resazurin-based assay to measure metabolic rate in oysters.  
+
+**Research Summary:**  
+
+We demonstrate that a simple, high-throughput dye-based assay can reliably measure oyster metabolism and reveal how oysters respond to heat stress. We found that oysters capable of temporarily slowing their metabolism during extreme temperatures were more likely to survive, and that metabolic responses varied among genetic families linked to performance. By validating this tool for whole organisms, this work provides hatcheries and managers with a practical way to identify resilient shellfish stocks and monitor stress in a changing ocean.
+
+**Funding and collaborations:** 
+
+- Collaborators: Roberts Lab (University of Washington), Mackenzie Gavery (NOAA), Louis Plough (USDA), Virginia Institute of Marine Science
+- Funding: United States Department of Agriculture, Washington Sea Grant  
+
+**Links and Information:**
+
+- Check out our landing page that highlights our protocols, ongoing efforts, and explore interactive data and tools [on GitHub here.](http://oyster.pink/) 
+- This work is currently under review. Read a preprint of this manuscript [on bioRxiv here.](https://www.biorxiv.org/content/10.1101/2025.11.06.686367v1) 
+- Explore the data and code on [GitHub here!](https://github.com/RobertsLab/resazurin-assay-development)
+- Explore the data from our [aquaculture case study on GitHub here!](https://github.com/RobertsLab/vims-resazurin)
+:::
+
+<hr class="section-divider">

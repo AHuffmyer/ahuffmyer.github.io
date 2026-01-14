@@ -1,0 +1,44 @@
+---
+title: ""
+---
+# Science Education Research 
+
+::: {.content-card}
+
+##### Science Identity Development 
+
+Science identity refers to how individuals come to see themselves as scientists, not just through mastering technical skills, but by understanding how scientific careers work, how their values fit within them, and how their unique perspectives contribute to discovery. In my research and teaching, I integrate science identity by embedding students directly in authentic research experiences while explicitly discussing career pathways, professional norms, and the often-hidden structures of scientific work. By linking hands-on inquiry with mentorship and reflection, I help students develop both scientific competence and a sense of belonging and agency as scientists. In my Ph.D., I conducted science education research to better understand science identity development in an authentic research space.  
+:::
+
+::: {.content-card}
+### Professinal science identity development
+
+**Project:** Evidence for Professional Conceptualization in Science as an Important Component of Science Identity
+
+![](images/publications/cbe.jpeg) 
+
+**Overview:** In this project, I used qualitative research methods to better understand the process of science identity development in a group of community college women participating in marine biology research experiences.  
+
+**Research Summary:**  
+
+Science identity describes how students come to see themselves as capable and active participants in science, shaped by their sense of belonging, recognition, interest, and confidence in their abilities. This work shows that authentic research experiences help students, develop science identity by allowing them to explore career pathways and envision themselves as science professionals. By pairing hands-on research with intentional reflection on career trajectories, research experiences can strengthen persistence and broaden participation in STEM fields.
+
+**Citation:** 
+
+Huffmyer AS, T O’Neill, JD Lemus. 2022. Evidence for professional conceptualization in science as an important component of science identity. CBE – Life Sciences Education 21(4): ar76  
+
+**Funding and collaborations:** 
+
+- Collaborators: Yaamini Venkataraman (Woods Hole Oceanographic Institution)
+- Funding: National Science Foundation Graduate Research Fellowship, HIMB Lord Scholarship Fund 
+
+**Links and Information:**
+
+- Read this publication in [CBE-Life Sciences Education here.](https://www.lifescied.org/doi/10.1187/cbe.20-12-0280)
+:::
+
+<hr class="section-divider">
+
+
+
+

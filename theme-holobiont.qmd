@@ -1,0 +1,95 @@
+---
+title: ""
+---
+
+# Metabolic Interactions in Marine Holobionts 
+
+::: {.content-card}
+##### Resilience is a team effort
+
+My research focuses on the holobiont (i.e., the host organism and its microbial and symbiotic partners) as the functional unit of performance stress tolerance. Shifts in symbiont communities and metabolic interactions fundamentally shape how marine invertebrates respond to environmental stressors across life stages and environments. By examining corals, sea anemones, and mussels across natural environmental gradients, I aim to understand how flexible partnerships help organisms cope with rapidly changing conditions. Understanding how symbiotic partnerships respond to stress improves our ability to predict when ecosystems will remain stable and when they may cross ecological tipping points.
+::: 
+
+::: {.content-card}
+### Symbiosis across coral development 
+
+**Project:** Shifts and critical periods in coral metabolism reveal energetic vulnerability during development
+
+![](images/publications/mcap2020.jpg) 
+
+**Overview:** Symbiotic interactions shape metabolism and performance across development in corals. In this project, we used integrative and multi-omic methods to examine shifts in symbiosis and metabolism across coral early life history.  
+
+**Research Summary:**  
+
+In this work, we examined how coral early life stages shift their energy sources as they grow, moving from relying on nutrients provided by their parents to depending on their symbiotic algae for fuel. By tracking coral development from fertilization through settlement, we found that metamorphosis is an especially energy-intensive and vulnerable stage, where disruptions to symbiosis could strongly reduce survival. These findings help explain why early life stages are so sensitive to climate stress and improve our ability to predict coral recruitment and reef recovery in a warming ocean. 
+
+**Citation:** 
+
+Huffmyer AS, KH Wong, DM Becker, E Strand, T Mass, HM Putnam. 2025. Shifts and critical periods in coral metabolism reveal energetic vulnerability during development. Current Biology 35: 2858-2871. 
+
+**Funding and collaborations:** 
+
+- Collaborators: Coral Resilience Lab (Hawaii Institute of Marine Biology), Hollie Putnam & Putnam Lab (University of Rhode Island), Tali Mass (University of Haifa)
+- Funding: National Science Foundation Ocean Sciences Postdoctoral Fellowship, University of Washington eScience Data Science Fellowship, National Science Foundation Rules of Life - Epigenetics Award 
+
+**Links and Information:**
+
+- Read this publication in [Current Biology here.](https://www.cell.com/current-biology/abstract/S0960-9822(25)00588-3)
+- Learn more about this project and view the data and code on [GitHub here!](https://github.com/AHuffmyer/EarlyLifeHistory_Energetics)
+:::
+
+::: {.content-card}
+### Seasonal plasticity in coral symbiosis
+
+**Project:**  Collaborative research: Seasonal plasticity of symbiotic strategies clarifies coral holobiont resistance and resilience
+
+**Status:** Ongoing 
+
+![](images/publications/e5_phys.png) 
+
+**Overview:** Collaborative research in the [E5 Coral project](https://e5coral.org/) to predict phenotypic and eco-evolutionary consequences of environmental energetic epigenetic linkages. 
+
+**Research Summary:**  
+
+In this work, we examine how coral symbiotic relationships and resilience change across seasonal environmental variation. We found that  cryptic holobiont identity among visually similar corals strongly shaped how they respond to changes in the environment  By tracking multiple coral species across sites and seasons in Mo‘orea, we found that some coral species undergo dramatic seasonal swings in their symbiotic interactions and metabolism, while others remain stable. These results highlight the importance of accounting for season, genetics, and symbiosis when evaluating coral resilience and guiding reef restoration efforts in a warming ocean.
+
+**Funding and collaborations:** 
+
+- Collaborators: [E5 Coral Network](https://e5coral.org/)
+- Funding: National Science Foundation Rules of Life - Epigenetics Award 
+
+**Links and Information:**
+
+- This work is currently under review. A preprint can be found on [bioRxiv here](https://www.biorxiv.org/content/10.1101/2025.11.20.689604v1).
+- Learn more about the [E5 Coral project here!](https://e5coral.org/)
+- Explore data and code [on GitHub here.](https://github.com/urol-e5/timeseries)
+:::
+
+::: {.content-card}
+### Coral thermal tolerance under variable environments 
+
+**Project:** Collaborative research: Coral bleaching response is unaltered following acclimatization to reefs with distinct environmental conditions
+
+![](images/publications/bleaching.png) 
+
+**Overview:** Collaborative research with the [Coral Resilience Lab](https://www.coralresiliencelab.com/) to understand the capacity for corals to resist bleaching and survive in variable environments. 
+
+**Research Summary:**  
+
+In this study, we found that moving heat-resistant corals to new reef environments did not weaken their ability to withstand bleaching stressors. Instead, transplanted corals rapidly adjusted their growth and metabolism to local conditions - sometimes performing better than native corals. These results provided  evidence that outplanting stress-tolerant corals can be a safe and effective tool for supporting reef resilience in a warming ocean. 
+
+**Citation:** 
+
+Barott KL, AS Huffmyer, J Davidson, EA Lenz, SB Matsuda, J Hancock, T Innis, B Glazer, C Drury, H Putnam, RD Gates. 2021. Coral bleaching response is unaltered following acclimatization to reefs with distinct environmental conditions. PNAS 118: e2025435118
+
+**Collaborations:** 
+
+- Collaborators: Coral Resilience Lab (Hawaii Institute of Marine Biology)
+
+**Links and Information:**
+
+- Read this publication in [PNAS  here.](https://www.pnas.org/doi/10.1073/pnas.2025435118)
+:::
+
+<hr class="section-divider">
+
