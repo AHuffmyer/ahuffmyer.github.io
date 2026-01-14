@@ -58,7 +58,7 @@ Learn more about my research by exploring the project themes below!
 ::: {.theme-grid}
 
 ::: {.theme-card}
-[![](images/field_work/moorea/P9283079.JPG){alt="Metabolic interactions in marine holobionts"}](theme-holobionts.qmd)
+[![](images/field_work/moorea/P9283079.JPG){alt="Metabolic interactions in marine holobionts"}](theme-holobiont.qmd)
 
 ### [Metabolic interactions in marine holobionts](theme-holobiont.qmd)
 

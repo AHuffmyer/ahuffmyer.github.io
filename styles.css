@@ -732,3 +732,108 @@ strong {
 @media (max-width: 650px) {
   .theme-grid { grid-template-columns: 1fr; }
 }
+
+/* ============================================
+   Mobile fixes (do not affect desktop)
+   ============================================ */
+@media (max-width: 768px) {
+
+  /* Prevent horizontal scrolling */
+  html, body {
+    overflow-x: hidden;
+  }
+
+  /* iOS Safari performance + layout issues */
+  body {
+    background-attachment: scroll;
+  }
+
+  /* Main content: tighter padding on phones */
+  #quarto-content {
+    padding: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+  }
+
+  /* Headings scale down */
+  h1 {
+    font-size: 1.9rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 1.75rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  /* Cards: reduce padding */
+  .card, .content-card {
+    padding: 1.1rem;
+  }
+
+  /* HERO: reduce padding */
+  .hero-section {
+    padding: 1.6rem 1.1rem;
+  }
+  .hero-section h1 {
+    font-size: 2.1rem;
+  }
+
+  /* --- HERO IMAGE ROWS: make them wrap and fit screen --- */
+  .hero-image {
+    flex-wrap: wrap !important;     /* was nowrap */
+    justify-content: center;
+    gap: 1rem !important;
+  }
+
+  /* Remove hard-coded widths that cause overflow */
+  .hero-image .headshot,
+  .hero-image .fieldshot {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Make images a reasonable mobile height */
+  .hero-image .headshot,
+  .hero-image .fieldshot {
+    height: 220px !important;
+  }
+
+  /* Headshot stays un-cropped */
+  .hero-image .headshot {
+    object-fit: contain !important;
+  }
+
+  /* Fieldshot can crop */
+  .hero-image .fieldshot {
+    object-fit: cover !important;
+  }
+
+  /* Research hero images: ensure single-column fit */
+  .research-hero .fieldshot {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 220px !important;
+  }
+
+  /* Images: reduce margins so they don't push content oddly */
+  img {
+    margin: 1rem 0;
+  }
+
+  /* Tables: force horizontal scroll instead of page overflow */
+  .table-responsive,
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Code blocks: slightly tighter on mobile */
+  pre {
+    padding: 1rem;
+  }
+}
