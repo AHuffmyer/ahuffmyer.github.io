@@ -10,8 +10,6 @@ title: "Research Program"
 My research asks how environmental stress is biologically remembered and expressed across marine invertebrate life histories and how those memories shape resilience in a rapidly changing ocean. By integrating organismal biology with molecular and metabolic mechanisms, I aim to identify stress responses, how these responses affect later performance and future generations, and why individuals and species differ in their capacity to survive climate change.  
 
 Below, you will find information on the core themes of my research and highlighted examples of research projects.  
-
-Together, these three research themes reveal how marine organisms experience, remember, and respond to environmental stress across their lives. By linking symbiosis, development, and physiological flexibility, my work identifies general principles of resilience that apply across tropical reefs, temperate shorelines, and aquaculture systems. This research strengthens the predictive power needed for conservation, restoration, and sustainable coastal management—bridging fundamental biology with real-world environmental stewardship.
 ::: 
 
 ## Study systems 
@@ -49,6 +47,8 @@ My research integrates approaches across biological scales from molecules to org
 
 ::: {.content-card}
 ## Research projects 
+
+Together, my research projects provide insights how marine organisms experience, remember, and respond to environmental stress across their lives. By linking symbiosis, development, and physiological flexibility, this work identifies general principles of resilience that apply across tropical reefs, temperate shorelines, and aquaculture systems. This work strengthens the predictive power needed for conservation, restoration, and sustainable coastal management—bridging fundamental biology with real-world environmental stewardship.
 
 Learn more about my research by exploring the project themes below! 
 ::: 
