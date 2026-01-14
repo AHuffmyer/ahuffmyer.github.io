@@ -816,13 +816,14 @@ strong {
   }
 
   /* Quarto wrappers (p/figure) should not create weird widths */
-  .hero-image > p,
-  .hero-image > figure {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin: 0 !important;
-    display: block !important;
-  }
+.hero-image > p,
+.hero-image > figure {
+  width: 100% !important;
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+  margin: 0 !important;
+  display: block !important;
+}
 
   /* The actual image: never stretch */
   .hero-image img {
