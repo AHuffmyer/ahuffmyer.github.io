@@ -849,9 +849,52 @@ strong {
     object-fit: cover !important;     /* crop is OK for field images */
     max-height: 55vh !important;      /* prevents taking over screen */
   }
+}
 
-  /* Research hero blocks (same behavior) */
-  .research-hero {
-    flex-wrap: wrap !important;
+/* ============================================
+   HARD mobile override: hero images MUST stack
+   Put this at the VERY END of styles.css
+   ============================================ */
+@media (max-width: 768px) {
+
+  /* The container */
+  .hero-image {
+    display: block !important;   /* not flex */
+  }
+
+  /* Anything Quarto may wrap images in */
+  .hero-image > * {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Common Quarto structures (belt + suspenders) */
+  .hero-image p,
+  .hero-image figure,
+  .hero-image .quarto-figure,
+  .hero-image .quarto-figure-center,
+  .hero-image .cell-output-display {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+
+  /* The images themselves */
+  .hero-image img {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0 0 1rem 0 !important;
+  }
+
+  /* Optional: keep headshot nicely sized */
+  .hero-image img.headshot {
+    width: min(220px, 80vw) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
 }
+
