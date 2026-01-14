@@ -898,3 +898,6 @@ strong {
   }
 }
 
+/* Keep navbar above homepage hero so dropdown is clickable */
+.navbar { position: relative; z-index: 2000; }
+.dropdown-menu { z-index: 3000; }
