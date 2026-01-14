@@ -781,43 +781,6 @@ strong {
     font-size: 2.1rem;
   }
 
-  /* --- HERO IMAGE ROWS: make them wrap and fit screen --- */
-  .hero-image {
-    flex-wrap: wrap !important;     /* was nowrap */
-    justify-content: center;
-    gap: 1rem !important;
-  }
-
-  /* Remove hard-coded widths that cause overflow */
-  .hero-image .headshot,
-  .hero-image .fieldshot {
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-
-  /* Make images a reasonable mobile height */
-  .hero-image .headshot,
-  .hero-image .fieldshot {
-    height: 220px !important;
-  }
-
-  /* Headshot stays un-cropped */
-  .hero-image .headshot {
-    object-fit: contain !important;
-  }
-
-  /* Fieldshot can crop */
-  .hero-image .fieldshot {
-    object-fit: cover !important;
-  }
-
-  /* Research hero images: ensure single-column fit */
-  .research-hero .fieldshot {
-    width: 100% !important;
-    max-width: 100% !important;
-    height: 220px !important;
-  }
-
   /* Images: reduce margins so they don't push content oddly */
   img {
     margin: 1rem 0;
@@ -839,56 +802,55 @@ strong {
 }
 
 /* ============================================
-   Mobile hero images fix: stop stretching
+   Mobile hero images (authoritative)
    ============================================ */
 @media (max-width: 768px) {
 
-  /* Let hero images stack nicely on phones */
+  /* Stack hero images; avoid side-by-side overflow */
   .hero-image {
-    flex-wrap: wrap !important;
-    justify-content: center;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
     gap: 1rem !important;
   }
 
-  /* Make Quarto wrappers behave */
+  /* Quarto wrappers (p/figure) should not create weird widths */
   .hero-image > p,
   .hero-image > figure {
     width: 100% !important;
     max-width: 100% !important;
+    margin: 0 !important;
+    display: block !important;
   }
 
-  /* Reset any fixed heights from desktop rules */
-  .hero-image img,
-  .hero-image .headshot,
-  .hero-image .fieldshot {
-    height: auto !important;
+  /* The actual image: never stretch */
+  .hero-image img {
     width: 100% !important;
     max-width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+    object-fit: contain !important;   /* default: show whole image */
   }
 
-  /* Headshot: keep entire face visible (no crop), controlled size */
+  /* Headshot: keep it from getting gigantic, keep circle */
   .hero-image .headshot {
-    aspect-ratio: 1 / 1;
-    object-fit: contain !important;
-    max-width: 240px !important;   /* keeps it from becoming huge */
-    margin-left: auto !important;
-    margin-right: auto !important;
-    background: white;
+    width: min(220px, 80vw) !important;
+    max-width: min(220px, 80vw) !important;
+    border-radius: 50% !important;
+    padding: 0 !important;
+    background: transparent !important;
   }
 
-  /* Field photo: show as a wide photo without stretching */
+  /* Field shots: make them "photo-like" */
   .hero-image .fieldshot {
-    aspect-ratio: 16 / 9;
-    object-fit: cover !important;
-    border-radius: 16px;
+    border-radius: 16px !important;
+    object-fit: cover !important;     /* crop is OK for field images */
+    max-height: 55vh !important;      /* prevents taking over screen */
   }
 
-  /* Research page hero images (TOC pages) */
-  .research-hero .fieldshot {
-    aspect-ratio: 16 / 9;
-    height: auto !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    object-fit: cover !important;
+  /* Research hero blocks (same behavior) */
+  .research-hero {
+    flex-wrap: nowrap !important;
   }
 }
