@@ -5,6 +5,7 @@ project:
 website:
   title: "Ariana S. Huffmyer, PhD"
   site-url: "https://ahuffmyer.github.io"
+  google-analytics: "G-ELNM3LZTN1"
   navbar:
     left:
       - text: "Home"
@@ -42,6 +43,8 @@ format:
     css: styles.css
     toc: true
     toc-depth: 3
+    link-external-newwindow: true
+    link-external-icon: false
 
 execute:
   freeze: auto
