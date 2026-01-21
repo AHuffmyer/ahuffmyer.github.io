@@ -41,7 +41,7 @@ body {
   color: var(--text-dark);
   background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
   background-attachment: fixed;
-}
+} 
 
 /* ============================================
    Navigation Bar
@@ -901,3 +901,42 @@ strong {
 /* Keep navbar above homepage hero so dropdown is clickable */
 .navbar { position: relative; z-index: 2000; }
 .dropdown-menu { z-index: 3000; }
+
+/* Make navbar logo fill the banner height */
+.navbar-brand img {
+  height: 100%;
+  max-height: 72px;   /* keeps it from overflowing */
+  width: auto;
+}
+
+/* Align brand content vertically */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;   /* space between logo and text */
+}
+
+/* Footer logo */
+.footer-logo {
+  height: 48px;
+  width: auto;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+/* Increase navbar height */
+.navbar {
+  min-height: 88px;   /* adjust to taste: 80–96px works well */
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    min-height: 64px;
+  }
+
+  .navbar-brand img {
+    max-height: 44px;
+  }
+}

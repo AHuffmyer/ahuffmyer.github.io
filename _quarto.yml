@@ -7,6 +7,7 @@ website:
   site-url: "https://ahuffmyer.github.io"
   google-analytics: "G-ELNM3LZTN1"
   navbar:
+    logo: headshots/logo.png
     left:
       - text: "Home"
         href: index.qmd
@@ -35,7 +36,10 @@ website:
         href: https://www.linkedin.com/in/ariana-s-huffmyer/
   
   page-footer:
-    left: "© 2026 Ariana Huffmyer"
+    left: |
+      <img src="headshots/logo.png" alt="Huffmyer Lab logo" class="footer-logo">
+      <br>
+      © 2026 Ariana Huffmyer
 
 format:
   html:
