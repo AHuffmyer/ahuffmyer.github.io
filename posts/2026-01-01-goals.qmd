@@ -1,7 +1,7 @@
 ---
 title: "January Goals and Daily Entries"
 author: "Ariana Huffmyer"
-date: "2026-01-01"
+date: "2026-01-20"
 categories: [goals, daily-entries]
 description: "January 2026 goals and daily entries"
 image: ""
@@ -35,6 +35,19 @@ January 2026 goals and daily notebook entries.
 2. ~~Develop personal website~~ 
 
 ## **Daily Log**   
+
+### January 21
+
+- IOS proposal 
+- UG project design 
+
+### January 20
+
+- IOS proposal 
+
+### January 19
+
+- IOS proposal 
 
 ### January 16
 

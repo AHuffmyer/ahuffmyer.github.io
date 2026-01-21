@@ -65,11 +65,8 @@ This post lists all my ongoing projects and to-do list.
 - *Baywater* 
 	- Conduct spring assessment 
 
-- *Westcott* 
-	- Image analysis of Dec assessment [Grace]
-	- Send data to Westcott [Grace]
-
-- Westcott data paper writing
+- *Westcott*
+  - Westcott data paper writing
 
 ## SORMI Assay Development   
 
