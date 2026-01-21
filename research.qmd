@@ -2,8 +2,14 @@
 title: "Research Program"
 ---
 
+::: {.research-intro}
+
+![](headshots/logo.png){alt="Logo" class="research-logo"}
+
 ::: {.highlight-box}
 **How is environmental stress biologically remembered and expressed across marine invertebrate life histories to shape resilience in a changing ocean?** 
+:::
+
 :::
 
 ::: {.content-card}

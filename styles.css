@@ -940,3 +940,39 @@ strong {
     max-height: 44px;
   }
 }
+
+/* Research page intro: logo left, highlight box right */
+.research-intro{
+  display: grid;
+  grid-template-columns: 140px 1fr;  /* logo column + text column */
+  gap: 1.25rem;
+  align-items: center;
+  margin: 1.5rem 0 2rem 0;
+}
+
+/* Keep logo a consistent size */
+.research-logo{
+  width: 140px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 !important;      /* overrides your global img margins */
+  box-shadow: none !important; /* optional: if you don't want shadow */
+  border-radius: 0 !important; /* optional: if logo shouldn't be rounded */
+}
+
+/* Remove extra margin from highlight box when in grid */
+.research-intro .highlight-box{
+  margin: 0;
+}
+
+@media (max-width: 768px){
+  .research-intro{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: left;
+  }
+
+  .research-logo{
+    width: 160px;
+  }
+}
