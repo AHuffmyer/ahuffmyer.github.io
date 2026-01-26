@@ -1,7 +1,7 @@
 ---
 title: "January Goals and Daily Entries"
 author: "Ariana Huffmyer"
-date: "2026-01-20"
+date: "2026-01-26"
 categories: [goals, daily-entries]
 description: "January 2026 goals and daily entries"
 image: ""
@@ -15,7 +15,7 @@ January 2026 goals and daily notebook entries.
 
 ### Writing and manuscripts 
               
-1. Results for Mcap2023 analysis
+1. ~~Results for Mcap2023 analysis~~
 2. Submit PolyIC paper 
 3. Start Moorea 2023 paper (abstract, outline methods)
 4. Draft of Westcott oyster priming manuscript
@@ -35,6 +35,19 @@ January 2026 goals and daily notebook entries.
 2. ~~Develop personal website~~ 
 
 ## **Daily Log**   
+
+### January 26
+
+- IOS proposal 
+
+### January 23
+
+- Travel to UW to drop off oysters
+- Cleaned FTR tanks and reorganized oysters 
+
+### January 22
+
+- Travel to Sequim to pick up oysters
 
 ### January 21
 
