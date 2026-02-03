@@ -1,0 +1,118 @@
+---
+title: "Growth analysis of Goose Point outplants from Oct 2025"
+author: "Ariana Huffmyer"
+date: "2026-02-02"
+categories: [goose-point, wsg-usda, cgigas, growth, oyster]
+description: "Analysis of growth from image growth calculations of Goose Point oyster outplants"
+image: ""
+---
+
+# Overview
+
+This post details continued growth analysis of Goose Point oyster outplants from our ongoing stress hardening work. Images of oysters were analyzed by Noah Ozguner in the lab. This post details the results of the addition of the 20251008 timepoint. 
+
+# GitHub repositories  
+
+Data for these projects are stored on GitHub in the following location:  
+
+- [Project-Gigas-Conditioning](https://github.com/RobertsLab/project-gigas-conditioning/tree/main)
+
+Data for survival and growth at Goose Point can specifically be found here [within the GitHub repo](https://github.com/RobertsLab/project-gigas-conditioning/tree/main/data/outplanting/GoosePoint)  
+
+## Overview 
+
+In this project, we conducted two stress hardening regimes: weekly exposure to fresh water/salinity stress (0 psu for 1-2 h weekly for 2 months) and weekly exposure to elevated temperature stress (+15°C for 1-2 h weekly for 2 months). Read more [about all of the stress hardening efforts we are working on here](https://robertslab.github.io/project-gigas-conditioning/).  
+
+Oysters were exposed to either control (no manipulation) or were "treated" with the above conditions for each separate hardening regime.  
+
+Oysters were then outplanted at Goose Point in the spring of 2024 and have been tracked for growth from 20240624 through 20251008. Oysters are still deployed at Goose Point and will be reassessed in Spring 2026.    
+
+## Survival 
+
+I first analyzed survival, which was assessed by counting live and dead oysters [during our field assessment on 20251008](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Assessing-oysters-at-Goose-Point/).  
+
+Here are the results:  
+
+There was **no difference in survival within each hardening effort**.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260202/survival_group.png?raw=true)  
+
+Temperature hardening
+```
+Kruskal-Wallis rank sum test
+
+data:  total_dead by treatment
+Kruskal-Wallis chi-squared = 1.1905, df = 1, p-value = 0.2752
+```
+
+Fresh water hardening
+```
+Kruskal-Wallis rank sum test
+
+data:  total_dead by treatment
+Kruskal-Wallis chi-squared = 3.2386, df = 1, p-value = 0.07192
+```
+
+However, since there appears to be a trend for higher mortality in treated oysters, I combined both experiments to see if treatment of any type resulted in elevated mortality.  
+
+There was **higher mortality in treated oysters when hardening regimes are combined**.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260202/survival_treatment.png?raw=true)  
+
+```
+Kruskal-Wallis rank sum test
+
+data:  total_dead by treatment
+Kruskal-Wallis chi-squared = 4.3045, df = 1, p-value = 0.03801
+```
+
+## Growth 
+
+I then analyzed growth using measurements from image analysis.  
+
+I used data from manual measurements of length, width, and depth during field assessments to generate a polynomial model to estimate total animal volume from image measurements of only length and width.  
+
+#### Temperature hardening 
+
+Growth continued from previous time points. However, at previous time points it appears that treated oysters were slightly smaller whereas at the latest time point in October, treated oysters are more similar to controls.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260202/weekly-temp.png?raw=true)  
+
+I then ran a model to examine growth trajectories over time.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260202/growth_temp.png?raw=true)
+
+```
+Type III Analysis of Variance Table with Satterthwaite's method
+                   Sum Sq    Mean Sq NumDF  DenDF   F value Pr(>F)    
+date           5.5716e+12 1.1143e+12     5 3236.1 2264.3054 <2e-16 ***
+treatment      4.7463e+07 4.7463e+07     1    4.0    0.0964 0.7716    
+date:treatment 4.7022e+10 9.4044e+09     5 3236.1   19.1100 <2e-16 ***
+```
+
+There is a significant effect of treatment on growth rates. This is driven by **smaller oysters in the treated temperature group in August** with no difference at other time points.  
+
+*This may indicate seasonal sensitivity that differs between treated and control oysters in our thermal hardening experiment.*  
+
+#### Fresh water/salinity hardening 
+
+Growth continued from previous time points. However, at previous time points it appears that treated oysters were larger whereas at the latest time point in October, treated oysters seem to be smaller.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260202/weekly-fresh.png?raw=true)  
+
+I then ran a model to examine growth trajectories over time.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260202/growth_fw.png?raw=true)
+
+```
+Type III Analysis of Variance Table with Satterthwaite's method
+                   Sum Sq    Mean Sq NumDF  DenDF   F value Pr(>F)    
+date           6.7178e+12 1.3436e+12     5 4387.4 2768.6915 <2e-16 ***
+treatment      1.0716e+09 1.0716e+09     1    6.0    2.2082 0.1877    
+date:treatment 1.6796e+11 3.3592e+10     5 4387.4   69.2233 <2e-16 ***
+```
+
+There is a significant effect of treatment on growth rates. This is driven by **larger oysters in the treated fresh water group in August with smaller oysters in October.**
+
+*This also indicates seasonal sensitivity that differs between treated and control oysters in our fresh water hardening experiment.*   
+ 
