@@ -28,9 +28,9 @@ Download a copy of my [CV here](https://drive.google.com/file/d/1YoCzzaly8yEfzAX
 ## Publications
 
 1. Baird M, **AS Huffmyer**, N Ozguner, SB Roberts. Parental immune priming reshapes offspring growth, metabolism, and thermal tolerance in the Pacific Oyster. [Read on bioRxiv here.](https://doi.org/10.64898/2025.12.10.693539)  
-2. **Huffmyer AS**, et al. Seasonal plasticity of symbiotic strategies clarifies coral holobiont resistance and resilience. *In review*. *Ecology and Evolution*. [Read on bioRxiv here.](https://doi.org/10.1101/2025.11.20.689604) 
-3. **Huffmyer AS**, N Ozguner, M Baird, C Elvrum, C Kounellas, D Dicksion, SJ White, L Plough, MR Gavery, N Krebs, W Walton, J Small, M Pitsenbarger, H Ealy-Whitfield, S Roberts. From blue to pink: Resazurin as a high-throughput proxy for metabolic rate in oysters. *In review*. *PeerJ*. [Read on bioRxiv here.](http://doi.org/10.1101/2025.11.06.686367) 
-4. Ashey J, JA Rodriquez-Casariego, KM Durkin, Z Bengtsson, **AS Huffmyer**, SJ White, DM Becker, JM Eirin-Lopez, HM Putnam, S Roberts. Non-coding RNA repertoire in reef-building corals. *In review*. *Environmental Epigenetics*. [Read on bioRxiv here.](https://doi.org/10.1101/2025.03.15.643469)  
+2. **Huffmyer AS**, et al. Seasonal plasticity of symbiotic strategies clarifies coral holobiont resistance and resilience. *In revision*. *Ecology and Evolution*. [Read on bioRxiv here.](https://doi.org/10.1101/2025.11.20.689604) 
+3. **Huffmyer AS**, N Ozguner, M Baird, C Elvrum, C Kounellas, D Dicksion, SJ White, L Plough, MR Gavery, N Krebs, W Walton, J Small, M Pitsenbarger, H Ealy-Whitfield, S Roberts. From blue to pink: Resazurin as a high-throughput proxy for metabolic rate in oysters. *In revision*. *PeerJ*. [Read on bioRxiv here.](http://doi.org/10.1101/2025.11.06.686367) 
+4. Ashey J, JA Rodriquez-Casariego, KM Durkin, Z Bengtsson, **AS Huffmyer**, SJ White, DM Becker, JM Eirin-Lopez, HM Putnam, S Roberts. Non-coding RNA repertoire in reef-building corals. *Accepted*. *Environmental Epigenetics*. [Read on bioRxiv here.](https://doi.org/10.1101/2025.03.15.643469)  
 5. Gorman LM, **AS Huffmyer**, M Byrne, SC Mills, HM Putnam. Coral venom and toxins as protection against crown-of-thorns sea star attack. *Molecular Ecology* 35:e70202. [Read here.](https://doi.org/10.1111/mec.70202) 
 6. Ashey J, F Scucchia, **AS Huffmyer**, HM Putnam, T Mass. 2025. Thermal and acidification gradients reveal tolerance thresholds in *Pocillopora acuta* recruits. *Molecular Ecology* 34:e70116. [Read here.](https://doi.org/10.1111/mec.70116) 
 7. Venkataraman Y and **AS Huffmyer**. 2025. Interrogating metabolic plasticity in marine organisms: A framework for best practices using metabolomic and lipidomic approaches. *Integrative and Comparative Biology*. 65:1166-1184. [Read here.](https://doi.org/10.1093/icb/icaf138) 
@@ -90,26 +90,27 @@ View my public presentations on [GitHub here.](https://github.com/AHuffmyer/pres
 
 #### Oral Presentations  
 
-1. **Huffmyer AS**, P Harnay, E Chiles, C Gilligan, L Gorman, S Roberts, HM Putnam. Diverse nutritional strategies mediate early life thermal responses in reef-building corals in Moorea. Moorea Coral Reef Long Term Ecological Research All-Investigators Meeting. Virtual. December 2025.  
-2. **Huffmyer AS** et al. Stress hardening and metabolic screening: Tools to assess oyster performance and resilience. Pacific Coast Shellfish Growers Association Conference. Vancouver, WA, USA. September 2025. 
-3. **Huffmyer AS** et al. Holobiont composition and seasonal plasticity in physiology are key to understanding reef building coral resilience. Moorea Coral Reef Long Term Ecological Research All-Investigators Meeting. Virtual. December 2024.  
-4. **Huffmyer AS**. Seasonal environmental variation drives host and symbiont physiological state of three important reef-building coral species in Moorea, French Polynesia. University of Washington eScience Postdoctoral Fellows seminar. Seattle, WA, USA. January 2024.  
-5. **Huffmyer AS**, J Ashey, E Chiles, E Strand, X Su, HM Putnam. Thermal stress reduces photosynthate metabolism and disrupts nitrogen cycling in coral larvae. Society of Integrative and Comparative Biology. Seattle, WA, USA. January 2024.  
-6. **Huffmyer AS**. Metabolic dysfunction of the coral-algal symbiosis under marine heatwaves: Insights from a stable isotope metabolomic approach. University of Washington eScience Postdoctoral Fellows seminar. Seattle, WA, USA. May 2023.  
-7. **Huffmyer AS**. Multi-omic approaches to understand reef coral development and symbiosis. University of Washington eScience Postdoctoral Fellows seminar. Seattle, WA, USA. November 2022.  
-8. **Huffmyer AS**, K Wong, DM Becker-Polinski, E Strand, T Mass, HM Putnam. Physiological and multi-omic signatures of shifts in symbiotic nutritional exchange in reef-building coral early life history. Benthic Ecology Conference. Portsmouth, NH, USA. March 2022.
-9. **Huffmyer AS**. How do dynamic environmental conditions shape coral symbiosis and metabolism and drive energetic-epigenetic linkages? Moorea Coral Reef LTER All Investigators Meeting. Virtual presentation. November 2021. 
-10. **Huffmyer AS**, T O’Neill, JD Lemus. Supporting professional science identity for science students. STEMS2 Symposium. Virtual presentation. June 2020.
-11. **Huffmyer AS**. Getting a head start: Influential early experiences for juvenile corals and science students. PhD Defense. University of Hawaiʻi at Mānoa. Honolulu, HI, USA. January 2020.
-12. **Huffmyer AS**. Conditioning and physiological flexibility in juvenile corals. Coral Assisted Evolution Symposium. Australian Institute of Marine Science, Queensland, Australia. May 2019.
-13. **Huffmyer AS** and RD Gates. Getting a head start: Thermal and nutritional conditioning of juvenile corals. UHM Albert L. Tester Symposium. Honolulu, HI, USA. April 2018.
-14. **Huffmyer AS** and RD Gates. Getting a head start: Thermal and nutritional conditioning of juvenile corals. Society of Integrative and Comparative Biology. San Francisco, CA, USA. January 2018.
-15. **Huffmyer AS**, H Putnam, RD Gates. Parental influence on growth and survivorship of juvenile Pocillopora damicornis corals exposed to increased temperature. American Society of Limnology and Oceanography. Honolulu, HI, USA. February 2017.
-16. **Huffmyer AS** and J Lemus. TA teaching styles impact student achievement in a research-based undergraduate science course. UHM Albert L. Tester Symposium. Honolulu, HI, USA. April 2016.
-17. **Meltvedt AM**. Population structure and genetic variation in the Hawaiian Opakapaka (Pristipomoides filamentosus): Evidence of a genetic bottleneck in offspring of a captive broodstock. Undergraduate Thesis Defense. Corvallis, OR, USA. May 2014.
-18. **Meltvedt AM**. Increasing literacy in marine science: A summer education program for Hawaiʻi high school students. NOAA Hollings Scholar Symposium. August 2013. Silver Springs, MD, USA.
-19. **Meltvedt AM**, K Beem, A Carsh. Site and light: factors affecting growth rates of Saccharina sessilis kelp. Hatfield Marine Science Student Symposium. Newport, OR, USA. June 2013.
-20. **Meltvedt AM**. Reef health at Yellow Sub, Bonaire: progression of a coral-algal phase shift. CIEE Student Research Symposium. Bonaire, Dutch Caribbean. November 2012.
+1. **Huffmyer AS**. Early life experiences and symbiosis shape stress responses in marine invertebrates: Linking environmental programming and early life programming to predict resilience. University of Washington. School of Aquatic and Fishery Sciences seminar. April 2026. 
+2. **Huffmyer AS**, P Harnay, E Chiles, C Gilligan, L Gorman, S Roberts, HM Putnam. Diverse nutritional strategies mediate early life thermal responses in reef-building corals in Moorea. Moorea Coral Reef Long Term Ecological Research All-Investigators Meeting. Virtual. December 2025.  
+3. **Huffmyer AS** et al. Stress hardening and metabolic screening: Tools to assess oyster performance and resilience. Pacific Coast Shellfish Growers Association Conference. Vancouver, WA, USA. September 2025. 
+4. **Huffmyer AS** et al. Holobiont composition and seasonal plasticity in physiology are key to understanding reef building coral resilience. Moorea Coral Reef Long Term Ecological Research All-Investigators Meeting. Virtual. December 2024.  
+5. **Huffmyer AS**. Seasonal environmental variation drives host and symbiont physiological state of three important reef-building coral species in Moorea, French Polynesia. University of Washington eScience Postdoctoral Fellows seminar. Seattle, WA, USA. January 2024.  
+6. **Huffmyer AS**, J Ashey, E Chiles, E Strand, X Su, HM Putnam. Thermal stress reduces photosynthate metabolism and disrupts nitrogen cycling in coral larvae. Society of Integrative and Comparative Biology. Seattle, WA, USA. January 2024.  
+7. **Huffmyer AS**. Metabolic dysfunction of the coral-algal symbiosis under marine heatwaves: Insights from a stable isotope metabolomic approach. University of Washington eScience Postdoctoral Fellows seminar. Seattle, WA, USA. May 2023.  
+8. **Huffmyer AS**. Multi-omic approaches to understand reef coral development and symbiosis. University of Washington eScience Postdoctoral Fellows seminar. Seattle, WA, USA. November 2022.  
+9. **Huffmyer AS**, K Wong, DM Becker-Polinski, E Strand, T Mass, HM Putnam. Physiological and multi-omic signatures of shifts in symbiotic nutritional exchange in reef-building coral early life history. Benthic Ecology Conference. Portsmouth, NH, USA. March 2022.
+10. **Huffmyer AS**. How do dynamic environmental conditions shape coral symbiosis and metabolism and drive energetic-epigenetic linkages? Moorea Coral Reef LTER All Investigators Meeting. Virtual presentation. November 2021. 
+11. **Huffmyer AS**, T O’Neill, JD Lemus. Supporting professional science identity for science students. STEMS2 Symposium. Virtual presentation. June 2020.
+12. **Huffmyer AS**. Getting a head start: Influential early experiences for juvenile corals and science students. PhD Defense. University of Hawaiʻi at Mānoa. Honolulu, HI, USA. January 2020.
+13. **Huffmyer AS**. Conditioning and physiological flexibility in juvenile corals. Coral Assisted Evolution Symposium. Australian Institute of Marine Science, Queensland, Australia. May 2019.
+14. **Huffmyer AS** and RD Gates. Getting a head start: Thermal and nutritional conditioning of juvenile corals. UHM Albert L. Tester Symposium. Honolulu, HI, USA. April 2018.
+15. **Huffmyer AS** and RD Gates. Getting a head start: Thermal and nutritional conditioning of juvenile corals. Society of Integrative and Comparative Biology. San Francisco, CA, USA. January 2018.
+16. **Huffmyer AS**, H Putnam, RD Gates. Parental influence on growth and survivorship of juvenile Pocillopora damicornis corals exposed to increased temperature. American Society of Limnology and Oceanography. Honolulu, HI, USA. February 2017.
+17. **Huffmyer AS** and J Lemus. TA teaching styles impact student achievement in a research-based undergraduate science course. UHM Albert L. Tester Symposium. Honolulu, HI, USA. April 2016.
+18. **Meltvedt AM**. Population structure and genetic variation in the Hawaiian Opakapaka (Pristipomoides filamentosus): Evidence of a genetic bottleneck in offspring of a captive broodstock. Undergraduate Thesis Defense. Corvallis, OR, USA. May 2014.
+19. **Meltvedt AM**. Increasing literacy in marine science: A summer education program for Hawaiʻi high school students. NOAA Hollings Scholar Symposium. August 2013. Silver Springs, MD, USA.
+20. **Meltvedt AM**, K Beem, A Carsh. Site and light: factors affecting growth rates of Saccharina sessilis kelp. Hatfield Marine Science Student Symposium. Newport, OR, USA. June 2013.
+21. **Meltvedt AM**. Reef health at Yellow Sub, Bonaire: progression of a coral-algal phase shift. CIEE Student Research Symposium. Bonaire, Dutch Caribbean. November 2012.
 
 #### Invited Seminars 
 
