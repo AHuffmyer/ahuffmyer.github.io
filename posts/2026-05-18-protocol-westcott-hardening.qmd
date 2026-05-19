@@ -1,0 +1,63 @@
+---
+title: "Protocol - oyster stress hardening for Westcott outplanting"
+author: "Ariana Huffmyer"
+date: "2026-05-18"
+categories: [protocol, hardening, oyster, cgigas, wsg-usda]
+description: "Protocol for oyster stress hardening for Westcott outplanting"
+image: ""
+---
+
+# Overview
+
+This post details the protocol that will be used to conduct a repeated stress hardening experiment and outplant at Westcott Shellfish in summer 2026. Last year, we found that thermal stress hardening improved acute stress tolerance. We found that oysters exposed to weekly acute stress for 8 weeks had increased tolerance. This experiment will repeat these methods to see if we find the same outcome. 
+
+I will update this as we go.  
+
+# Materials 
+
+- Tanks and/or buckets 
+- Heaters 
+- Seed bags or mobile baskets/trays
+- Temperature probe
+- Temperature loggers 
+- Orion Star multimeter probe 
+- Instant Ocean/seawater 
+- Scale bar
+- Cattle tags or bag labels 
+
+# Timeline 
+
+- Expose oyster seed for 30 min per week to 25°C
+- Start about 8 weeks before outplanting 
+- Outplant goal for mid-July, so we need to start hardening ASAP
+
+# Protocol 
+
+### Set up 
+
+- Divide oysters into control and treated groups (about half and half of the stock that we are able to get)
+- Divide into replicates such that there is one control bag and one treated bag in each tank at FTR (four total bags, n=2 per treatment)
+- Label bags with treatment and a bag ID (e.g., Treated-1, Treated-2, Control-3, Control-4)
+- Take an image for size at the start of the experiment
+- Count the number of oysters in each bag
+- Record size and density data so we can track growth and survival 
+- Record all activities and data in lab notebook posts and on GitHub
+- Use the repository [here](https://github.com/RobertsLab/project-gigas-conditioning/tree/main) in the [westcott-repeat-priming](https://github.com/RobertsLab/project-gigas-conditioning/tree/main/data/westcott-repeat-priming) folder
+
+### Weekly stress treatments 
+
+- Prepare a bin of water with 25C seawater (treated) and a bin with 12-15C seawater (control)
+- Take temperature measurements with a temperature probe in each bin at the start and end of the exposure 
+- Submerge the treated oysters in the heated bin (keep them in their bags) and submerge the control oysters in the non-heated bin
+- Start a timer and expose for 30 min 
+- Return back to the holding tanks 
+
+### Monitoring growth and survival 
+
+- At the start (week 1), middle (week 4) and end (week 8) of the experiment take an image of all oysters by taking one bag at a time and laying the oysters out on a table. Put a scale bar in the image and take a picture. We will use this for growth. Store the images on GitHub. 
+- Count all live oysters at these same time intervals and record the number alive and dead at each time point and store data on GitHub.
+
+### Outplanting 
+
+- We will count the number of available oysters and divide them into bags up at Westcott. The format will depend on the space and type of bags available at Westcott.  
+
