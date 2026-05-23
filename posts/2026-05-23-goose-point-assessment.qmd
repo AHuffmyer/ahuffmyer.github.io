@@ -37,7 +37,7 @@ We recorded 1-3 dead oysters in all cages. There was no major mortality. Mortali
 
 There is a moderately significant effect of treatment on cumulative mortality over the course of our 3 year deployment with higher mortality in primed oysters, particularly in those exposed to fresh water stress priming treatments in 2024.  
 
-![](plot1.png?raw=true)
+![](../images/notebook/20260523/plot1.png?raw=true)
 
 # Growth and individual measurements
 
