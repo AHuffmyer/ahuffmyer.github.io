@@ -27,18 +27,22 @@ I will update this as we go.
 
 # Timeline 
 
-- Expose oyster seed for 30 min per week to 25°C
-- Start about 8 weeks before outplanting 
-- Outplant goal for mid-July, so we need to start hardening ASAP
+- Expose oyster seed for 30 min per week to control, 25°C, and 35°C 
+- Start week of June 1
+- Run experiment at UW and also at Point Whitney in parallel
+- Run with about 5,000 seed per location (about 1600 seed per treatment per location)
+- Outplant at Westcott July 16-17th
 
 # Protocol 
 
+Use this protocol and approach at each location (UW and Point Whitney).  
+
 ### Set up 
 
-- Divide oysters into control and treated groups (about half and half of the stock that we are able to get)
-- Divide into replicates such that there is one control bag and one treated bag in each tank at FTR (four total bags, n=2 per treatment)
-- Label bags with treatment and a bag ID (e.g., Treated-1, Treated-2, Control-3, Control-4)
-- Take an image for size at the start of the experiment
+- Divide oysters into control, 25C, and 35C treated groups (about 1600 oysters per treatment per location)
+- Divide into replicates such that there are duplicate bags for each treatment ideally split across two holding tanks/silos/upwellers
+- Label bags with treatment and a bag ID (e.g., 35C-1, 35C-2, 25C-1, 25C-2, Control-3, Control-4)
+- Take an image for size at the start of the experiment for each bag with the bag identifier and a scale bar in each image
 - Count the number of oysters in each bag
 - Record size and density data so we can track growth and survival 
 - Record all activities and data in lab notebook posts and on GitHub
@@ -46,16 +50,16 @@ I will update this as we go.
 
 ### Weekly stress treatments 
 
-- Prepare a bin of water with 25C seawater (treated) and a bin with 12-15C seawater (control)
-- Take temperature measurements with a temperature probe in each bin at the start and end of the exposure 
-- Submerge the treated oysters in the heated bin (keep them in their bags) and submerge the control oysters in the non-heated bin
+- Prepare a bin of water with 25C seawater, 35C seawater, and a bin with 12-15C seawater (control)
+- Take temperature measurements with a temperature probe in each bin at the start and end of the exposure
+- Submerge the treated oysters in the respective treatment bin (keep them in their bags) and submerge the control oysters in the non-heated bin
 - Start a timer and expose for 30 min 
 - Return back to the holding tanks 
 
 ### Monitoring growth and survival 
 
-- At the start (week 1), middle (week 4) and end (week 8) of the experiment take an image of all oysters by taking one bag at a time and laying the oysters out on a table. Put a scale bar in the image and take a picture. We will use this for growth. Store the images on GitHub. 
-- Count all live oysters at these same time intervals and record the number alive and dead at each time point and store data on GitHub.
+- At the start (week 1) and end (week 8) of the experiment take an image of all oysters by taking one bag at a time and laying the oysters out on a table. Put a scale bar in the image and take a picture. We will use this for growth. Store the images on GitHub. 
+- Count all live oysters at these same time intervals and record the number alive and dead at each time point and store data on GitHub. Counting oysters can also be done in the images if needed. 
 
 ### Outplanting 
 
