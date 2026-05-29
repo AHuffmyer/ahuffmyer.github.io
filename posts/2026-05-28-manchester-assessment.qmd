@@ -1,0 +1,81 @@
+---
+title: "Assessing oysters at Manchester for hardening project"
+author: "Ariana Huffmyer"
+date: "2026-05-28"
+categories: [hardening, oyster, cgigas, wsg-usda, growth, manchester-hardening]
+description: "Assessing oysters at Manchester for hardening project"
+image: ""
+---
+
+# Overview
+
+Today we checked oysters at Manchester for growth and survival and download temperature loggers from our 2025 outplants. These oysters will be left out for the summer (second summer of outplanting). This post details activities and outcomes from today.  
+
+
+# Assessment 
+
+We did the following tasks today: 
+
+- Cleaned all cages and rinsed off oysters and cages 
+- Took images of oysters for growth analysis 
+- Counted dead oysters and removed dead shells
+- Cleaned tags and temperature loggers 
+- Downloaded temperature loggers 
+- Subsampled n=8 per treatment per family for 4 of the highest density families
+
+The assessment went well with no major issues to note. We will leave them out for the summer but note that we will need to either thin the oysters or shut down the experiment at the next time point due to limited room for more growth. We will end the experiment in August. 
+
+All temperature loggers were downloaded at 1230 and still had sufficient memory and battery for this next deployment. 
+
+Overall the oysters look good! 
+
+All data from today is on GitHub [here](https://github.com/RobertsLab/manchester-hardening/tree/main/data).  
+
+# Survival
+
+We recorded 1-3 dead oysters in all bags There was no major mortality. Mortality data has been updated [here](https://github.com/RobertsLab/manchester-hardening/blob/main/data/mortality.xlsx). 
+
+# Growth images
+
+We took images for growth that are stored on GitHub [here](https://github.com/RobertsLab/manchester-hardening/tree/main/data/size). 
+
+This analysis is detailed in an [Issue on GitHub](https://github.com/RobertsLab/resources/issues/2444). 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260528/pic1.jpeg?raw=true)
+
+After we removed the oysters from bags for growth images, we put them back in bags with their original tag attached. All tags were reconsolidated back into 1 bag per tag. We previously split them to give them more room to grow. They all have sufficient room until the next time point.  
+
+I will analyze the images for growth next. 
+
+# Loggers 
+
+We downloaded loggers and I plotted the logger data for temperature over the course of our deployment.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260528/Manchester_loggers_field.png?raw=true)
+
+As a reminder, we exposed these oysters to two weeks of hardening treatment back in 2024 before deployment. This is what that temperature regime looked like.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260528/Manchester_loggers_experiment.png?raw=true)
+
+# Subsampling
+
+We selected the four highest density families to subsample for survival assays in acute stress in the lab at UW.  
+
+I detailed this task in a GitHub issue [here](https://github.com/RobertsLab/resources/issues/2442). 
+
+I subsampled n=4 oysters from each duplicate tag per treatment per family (n=64 total oysters, n=8 total per treatment per family). Each of these sample groups was put into a bag with a new yellow cattle tag and transported to UW by Mac.  
+
+Those tags were:  
+
+- 395: YC24-087 Control
+- 350: YC24-087 Treated
+- 394: YC24-153 Control
+- 345: YC24-153 Treated
+- 334: YC24-116 Control
+- 332: YC24-116 Treated
+- 388: YC24-163 Control
+- 349: YC24-163 Treated
+
+The family and treatment are also written on the back of each tag. There are 8 oysters in each bag.
+
+The testing will include survival under acute stress exposures (e.g., 36°C for 50 h). 

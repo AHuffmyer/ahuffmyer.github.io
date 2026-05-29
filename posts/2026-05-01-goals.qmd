@@ -1,7 +1,7 @@
 ---
 title: "May Goals and Daily Entries"
 author: "Ariana Huffmyer"
-date: "2026-04-04"
+date: "2026-05-27"
 categories: [goals, daily-entries]
 description: "May 2026 goals and daily entries"
 image: ""
@@ -15,7 +15,7 @@ Here are my goals and daily entries for May 2026. I am returning from leave and 
 
 ### Writing and manuscripts 
               
-1. **Revise resazurin paper (due end of June)**
+1. ~~Revise resazurin paper (due end of June)~~
 2. **Revise E5 physiology paper (due end of June)**
 3. Submit PolyIC paper and revise with resazurin citations
 4. Full draft of Hawaii 2023 paper
@@ -39,10 +39,20 @@ Here are my goals and daily entries for May 2026. I am returning from leave and 
 2. ~~Plan spring/summer assessments of current oyster outplants~~ 
 3. ~~Conduct Goose Point assessment (May 22)~~
 4. Conduct Baywater assessment (June 6)
-5. Conduct Manchester assessment (May 28)
+5. ~~Conduct Manchester assessment (May 28)~~
 6. Conduct Sequim Bay assessment (May 31)
 
 ## **Daily Log**   
+
+### May 28
+
+- Manchester field assessment and data analysis/management
+
+### May 27
+
+- E5 revisions 
+- Planning field assessments
+- Lucy RNAseq paper
 
 ### May 26
 
