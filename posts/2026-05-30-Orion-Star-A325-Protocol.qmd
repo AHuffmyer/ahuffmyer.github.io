@@ -1,0 +1,87 @@
+---
+title: "Orion Star A325 Protocol"
+author: "Ariana Huffmyer"
+date: "2026-05-28"
+categories: [protocol, equipment]
+description: "Orion Star A325 Protocol""
+image: ""
+---
+
+# Overview
+
+This protocol details the calibration and use of the Orion Star A325 probe for measuring temperature, salinity, and pH. 
+
+This protocol is based off of the [Putnam Lab protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Orion_MultiParameter_Sensor_Protocol.md).  
+
+# Standard protocol for Fisher Scientific Orion Star pH/conductivity portable multiparameter meter (A325)
+
+## Materials 
+
+-  [Thermo Scientific Orion Star™ A325 Portable pH Meter]([https://www.thermofisher.com/order/catalog/product/STARA2210#/STARA2210](https://www.thermofisher.com/order/catalog/product/STARA3250?gclid=CjwKCAjw88yxBhBWEiwA7cm6pdVLnGWo9eP1MDQc4Jge4UbTbgyciCFjwQ5cC0FM681GX_o8KIR3mBoCvg8QAvD_BwE&ef_id=CjwKCAjw88yxBhBWEiwA7cm6pdVLnGWo9eP1MDQc4Jge4UbTbgyciCFjwQ5cC0FM681GX_o8KIR3mBoCvg8QAvD_BwE:G:s&s_kwcid=AL!3652!3!655755389649!!!g!!!20014936264!153917602248&cid=lpd_wlp_wal_r02_co_cp1462_pjt7829_col00000_0se_gaw_dy_awa_portmet&gad_source=1))
+        - measures pH, mV, ORP, conductivity, total dissolved solids (TDS), salinity, resistivity, and temperature
+-  3-point pH calibration solutions (4, 7, and 10 at 25 &deg; C)
+- Tris buffer 
+- [Two-point conductivity standards (12.9 mS/cm and 1413 μS/cm)](https://www.thermofisher.com/order/catalog/product/011001#/011001)
+-  Kimwipes
+-  DI/MilliQ water
+- [Digital Thermometer Cat 150778](https://www.fishersci.com/shop/products/fisher-scientific-traceable-digital-thermometers-11/150778#?keyword=digital%20thermometer)
+-  [Orion Star User Manual](https://www.thermofisher.com/document-connect/document-connect.html?url=https%3A%2F%2Fassets.thermofisher.com%2FTFS-Assets%2FLED%2Fmanuals%2FOrion-Star-A220-Series-Portable-Meter-User-Manual-EN.pdf&title=T3Jpb24gU3RhciBBMjIwIFNlcmllcyBQb3J0YWJsZSBNZXRlciBVc2VyIE1hbnVhbCBbRU5d)
+
+## Set up 
+
+1. Turn instrument on --> button shared between on/off and brightness
+2. When measurement screen appears, press f3 (setup)
+3. Select “channel” by pressing f3 (select)
+4. Select “mode & settings” by pressing f3 (select)
+5. Measure mode, read type, resolution, buffer grove, and calibration due alarm can all be set from this screen
+6. Press f1 to go back to measurement screen
+
+## Calibration (pH)
+
+1. pH should be calibrated <24 hours before use and done once every 2-3 weeks with regular use.
+2. Fill a small clean beaker with DI water, and pour the three calibration solutions (pH of 4, 7, and 10) into three clean beakers, and place near your work station.
+3. Turn on the meter and wait for the measurement screen to appear.
+4. Make sure the current measurement is for pH.  If not, Either change the Channel (press F3 to swap between probe inputs) or Mode (pressing the Mode button on the meter to swap between measurements using the current Channel's probe) until the instrument is reading pH.
+5. Press F1 to select "cal" and go into Calibration settings.  You should see a prompt screen for the meter to read the first calibration solution.
+6. Remove the probe from the storage solution
+7. First unscrew the lid from the small storage container.
+8. Once the probe and storage cap are able to be lifted from the storage container, slide the cap off the probe.
+9. Rinse the probe in DI water to remove any storage solution, and dry the probe (but not the sensor tip) with a chem wipe.
+10. Place the probe into the pH 4 solution, fully submerging the sensor tip, and agitate the probe tip back and forth briefly.
+11. Press F2 to Start the first calibration and wait for the reading to stabilize.
+12. The probe should read ~4 at the lab's ambient temperature 
+13. Once the reading has stabilized, press F2 for the Next calibration or edit the value to set manually at pH 4 if the probe value is not 4
+14. Rinse the probe in DI and dry with a chem wipe (again avoiding the sensor tip) before placing the probe in the pH 7 solution, and then agitate the probe tip back and forth briefly.
+15. Wait for a stable reading then press F2 for the Next calibration or set manually at pH 7.
+16. Rinse the probe in DI and dry with a chem wipe (again avoiding the sensor tip) before placing the probe in the pH 10 solution, and then agitate the probe tip back and forth briefly.
+17. Wait for a stable reading then press F3 to Finish calibration or set manually at pH 10.
+18. If you are satisfied with the three calibration values on the summary screen, press F1 to return to the Measurement screen.
+
+## Conductivity calibration
+
+1. Press the f1 (cal) key to start the calibration.
+2. Rinse the conductivity sensor with DI water and wipe gently with a Kimwipe.
+3. Place sensor into the first conductuctivity standard (12.9 mS/cm) and press the f3 (start) key.
+4. Wait for the value on the meter to stabilize and perform one of the following actions. Press the f2 (accept) key to accept the conductivity value. Or press the f3 (edit) key to access the popup number entry screen and manually enter the conductivity standard value expected at the measured temperature.
+5. Press the f2 (next) key to proceed to the next standard and repeat steps 2 through 4 for the second conductivity standard (1413 μS/cm).
+6. Press the f3 (cal done) key to save and end the calibration.
+7. Press the f1 (meas) key to proceed to the measurement mode. 
+
+## Taking measurements 
+
+## Cleaning and storage 
+
+#### pH meter storage
+  - Always store the pH meter submerged in a solution, the special conductive glass coating shouldn’t be left to dry out.
+  - After each use store the pH meter in its accompanying sealed tight tube or a falcon tube if necessary that is filled with KCl solution or pH buffer 4.0 if KCl solution is unavailable.
+  - **Never use distilled or deionized water, as prolonged submersion in water can encourage diffusion out of the electrode, which will affect its sensitivity. ONLY use the pH storage solution.**
+        
+#### Conductivity meter storage
+  - In between uses, store the conductivity meter in a falcon tube with Type I DI water.  
+  - When packing away for long-term storage, the conductivity meter can be stored dry in the Orion Star Meter plastic black case.
+
+![Orion Case](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Lab_Resources/Equipment_Protocols/Equip_Images/OrionStar_Case.png)
+
+## User manual 
+
+*  [Orion Star User Manual](https://www.thermofisher.com/document-connect/document-connect.html?url=https%3A%2F%2Fassets.thermofisher.com%2FTFS-Assets%2FLED%2Fmanuals%2FOrion-Star-A220-Series-Portable-Meter-User-Manual-EN.pdf&title=T3Jpb24gU3RhciBBMjIwIFNlcmllcyBQb3J0YWJsZSBNZXRlciBVc2VyIE1hbnVhbCBbRU5d)
