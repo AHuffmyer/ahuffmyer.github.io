@@ -1,0 +1,58 @@
+---
+title: "Assessing oyster outplants at Sequim Bay"
+author: "Ariana Huffmyer"
+date: "2026-05-31"
+categories: [hardening, oyster, cgigas, wsg-usda, growth, polyic]
+description: "Assessing oyster outplants at Sequim Bay"
+image: ""
+---
+
+# Overview
+
+Today we checked oysters at Sequim Bay for growth and survival and download temperature loggers from our 2024-2025 outplants for Effort A hardening and PolyIC outplants. These oysters will be left out for the summer. This post details activities and outcomes from today.  
+
+Effort A oysters include control and treated oysters, which received 2 weeks of daily (25°C) thermal hardening in 2024. 
+
+PolyIC oysters include outplants raised from PolyIC broodstock treatment groups and control oysters outplanted in 2025. 
+
+# Assessment 
+
+We did the following tasks today: 
+
+- Transferred any ID tags to the outside of cages
+- Took images of oysters for growth analysis 
+- Counted dead oysters and removed dead shells
+- Cleaned tags and temperature loggers 
+- Downloaded temperature loggers 
+
+The assessment went well with no major issues to note. I was unable to find one bag (Tag 094) from the Effort A project. All other bags were found. 
+
+All temperature loggers were downloaded at 1130 and still had sufficient memory and battery for this next deployment. 
+
+Overall the oysters look good! 
+
+All data from today is on GitHub [for Effort A](https://github.com/RobertsLab/project-gigas-conditioning/tree/main/data/outplanting/Sequim) and for [PolyIC outplants](https://github.com/RobertsLab/polyIC-larvae/tree/main/data/outplant/sequim).  
+
+# Survival
+
+We recorded 1-2 dead oysters in all bags There was no major mortality. Mortality data has been updated [here for PolyIC](https://github.com/RobertsLab/polyIC-larvae/blob/main/data/outplant/sequim/survival.xlsx) and [here for Effort A](https://github.com/RobertsLab/project-gigas-conditioning/blob/main/data/outplanting/Sequim/survival_Sequim.csv). 
+
+# Growth images
+
+We took images for growth that are stored on GitHub [here for PolyIC](https://github.com/RobertsLab/polyIC-larvae/tree/main/data/outplant/sequim/size/20260531) and [here for Effort A](https://github.com/RobertsLab/project-gigas-conditioning/tree/main/data/outplanting/Sequim/20250531_images). 
+
+This analysis is detailed in an [Issue on GitHub](https://github.com/RobertsLab/resources/issues/2446). 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260531/pic1.jpeg?raw=true)
+
+After we removed the oysters from bags for growth images, we put them back in bags with their original tag attached on the outside of the bags. Only bag 094 was not recovered today.  
+
+PolyIC bags are 013-020 and Effort A bags are 093-100.  
+
+I will analyze the images for growth next. 
+
+# Loggers 
+
+We downloaded loggers and I plotted the logger data for temperature over the course of our deployment (loggers deployed in 2025).  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260531/pic2.png?raw=true)
