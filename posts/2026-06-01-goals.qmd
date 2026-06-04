@@ -1,0 +1,58 @@
+---
+title: "June Goals and Daily Entries"
+author: "Ariana Huffmyer"
+date: "2026-06-02"
+categories: [goals, daily-entries]
+description: "June 2026 goals and daily entries"
+image: ""
+---
+
+# Overview
+
+Here are my goals and daily entries for June 2026. I am returning from leave and this includes a list of the main projects I will start working on as I return to work. Bold projects are the things that are most critical.    
+
+## Goals
+
+### Writing and manuscripts 
+              
+1. **Revise E5 physiology paper (due end of June)**
+2. Submit PolyIC paper and revise with resazurin citations
+3. Full draft of Hawaii 2023 paper
+4. Start draft of Moorea 2023 paper (abstract, methods)
+5. Start draft of Westcott oyster priming manuscript
+
+### Grants
+
+1. NSF IOS application with H. Putnam 
+2. Moore foundation grant
+
+### Analysis
+
+1. Moorea 2023 RNAseq 
+2. Moorea 2023 metabolomics 
+
+### Field and lab work 
+
+1. July 2026 outplants and Westcott 
+2. Conduct Baywater assessment (June 6)
+
+## **Daily Log**   
+
+### June 3
+
+- Lab meeting
+- Manchester oyster data analysis
+- E5 revisions 
+- Plate reader instrument research 
+
+### June 2
+
+- E5 revisions
+- Meeting with Steven 
+- Oyster outplant data management and analysis
+
+### June 1
+
+- E5 revisions
+- Meeting with Hollie 
+- Oyster outplant data management and analysis
