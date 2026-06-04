@@ -1,0 +1,156 @@
+---
+title: "Analyzing Manchester project stress test survival data"
+author: "Ariana Huffmyer"
+date: "2026-06-03"
+categories: [hardening, oyster, cgigas, wsg-usda, survival, manchester-hardening]
+description: "Analyzing Manchester project stress test survival data"
+image: ""
+---
+
+<img alt="AI Use Level 0" src="https://img.shields.io/badge/AI%20Use-L0%20None-lightgrey">  
+*This icon means that I did not use AI to conduct the analysis detailed here and did not use AI to write this notebook post.*
+
+# Overview
+
+Last week we assessed growth and survival of oysters in our [Manchester Hardening]() project and subsampled oysters from 4 families to test for acute stress survival in the lab at UW. 
+
+[Here is my post detailing this sampling](https://ahuffmyer.github.io/posts/2026-05-28-manchester-assessment.html) and [Steven's post detailing the lab work](https://sr320.github.io/tumbling-oysters/posts/72-manchester-mort/). 
+
+We subsampled oysters that were either treated with thermal hardening in spring of 2025 or those that were not (control). These oysters were deployed at Manchester in early summer 2025 and monitored for growth and survival.  
+
+In this analysis, I am looking at the effect of family and stress hardening treatment on survival under acute stress. Acute stress was conducted at UW using the following approach: 
+
+- Oysters were assigned a unique ID and put into individual cups with Instant Ocean water
+- Oysters were then loaded into an incubator at 37°C
+- Mortality was assessed twice daily until 54 hours of exposure with mortality recorded as a binary value (0=alive, 1=dead)
+
+In this post, I will summarize the use of Kaplan-Meier survivorship curves and Cox Proportional Hazards models to analyze this data and test for effects of family and stress hardening treatment.  
+
+# tl;dr 
+
+There was no effect of stress treatment on acute stress survival, but there was variation between families.  
+
+# Relevant links
+
+The [data](https://github.com/RobertsLab/manchester-hardening/tree/main/data/stress) and [code](https://github.com/RobertsLab/manchester-hardening/blob/main/scripts/stress_survival.Rmd) for this project can be found at the hyperlinks here.   
+
+# Analysis 
+
+I have included the code and outputs in line below for this analysis and an interpretation at the end.  
+
+## Set up 
+
+Load libraries. 
+```
+library(tidyverse)
+library(ggplot2)
+library(survival)
+library(readxl)
+library(ggsurvfit)
+library(gtsummary)
+library(cardx)
+library(cowplot)
+```
+
+## Read in data 
+
+Read in data. 
+```
+data<-read_csv("data/stress/stress_mortality.csv")
+```
+
+Turn into long format. 
+```
+data<-data%>%
+  pivot_longer(names_to="time", values_to="status", cols=`0`:`54`)%>%
+  mutate(time=as.numeric(time))
+```
+
+## Generate Kaplan Meier survival curves
+
+```
+s1 <- survival::survfit(Surv(time, status) ~ Hardening_Treatment+Family, data = data)
+str(s1)
+```
+
+Plot the survival function
+```
+ggsurvfit::survfit2(Surv(time, status) ~ Hardening_Treatment+Family, data = data) %>% 
+  ggsurvfit::ggsurvfit() +
+  labs(
+    x = "Hours",
+    y = "Survival probability"
+  )
+```
+Analyze  with a Cox proportional hazards model. 
+```
+survival::coxph(Surv(time, status) ~ Hardening_Treatment*Family, data = data)
+
+survival::coxph(Surv(time, status) ~ Hardening_Treatment*Family, data = data) %>% 
+  tbl_regression(exp = TRUE) 
+```
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260603/Rplot1.png?raw=true)
+
+This model output tells us a few things:  
+
+- There was no effect of hardening treatment 
+- There was lower risk of mortality (lower hazard ratio, HR) in families 153 and 163. In other words, families 087 and 116 were more susceptible to acute stress. 
+- There was no interactive effect of hardening treatment and family, indicating that there were no family-specific stress responses.  
+
+## Generate plots 
+ 
+Set theme. 
+```
+my_theme<-theme_classic()+
+  theme(
+    axis.title.y = element_text(size = 14, color = "black"),
+    axis.text.y = element_text(size=12, color = "black"),
+    axis.text.x = element_text(size=12, color = "black"),
+    axis.title.x =element_text(size = 14, color = "black"),
+    legend.position = "none")
+```
+
+Effect of hardening treatment on survival under acute stress: Note that there is no difference by hardening treatment.   
+
+```
+#options("ggsurvfit.switch-color-linetype" = TRUE)
+plot1<-ggsurvfit::survfit2(Surv(time, status) ~ Hardening_Treatment, data = data) %>% 
+  ggsurvfit::ggsurvfit() +
+  labs(
+    x = "Hours",
+    y = "Survival probability",
+    title=""
+  )+
+  ylim(0,1)+
+  my_theme+
+  #scale_linetype_manual(values=c("solid", "dashed"))+
+  scale_colour_manual(values=c("darkgray", "orange"))+
+  theme(legend.position="right");plot1
+```
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260603/Rplot2.png?raw=true)
+
+Effect of family on acute stress survival: Note that families 087 and 116 had lower survival under stress than the other two (regardless of hardening treatment history).   
+```
+#options("ggsurvfit.switch-color-linetype" = TRUE)
+plot2<-ggsurvfit::survfit2(Surv(time, status) ~ Family, data = data) %>% 
+  ggsurvfit::ggsurvfit() +
+  labs(
+    x = "Hours",
+    y = "Survival probability",
+    title=""
+  )+
+  ylim(0,1)+
+  my_theme+
+  theme(legend.position="right");plot2
+```
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260603/Rplot3.png?raw=true)
+
+# Take homes 
+
+- There was no effect of hardening treatment on acute stress survival 
+- Two families were more susceptible to acute stress regardless of hardening history 
+
+
