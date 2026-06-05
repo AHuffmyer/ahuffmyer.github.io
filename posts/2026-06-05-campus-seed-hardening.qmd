@@ -1,0 +1,53 @@
+---
+title: "Starting a new round of seed hardening on UW campus"
+author: "Ariana Huffmyer"
+date: "2026-06-04"
+categories: [hardening, oyster, cgigas, wsg-usda]
+description: "Conducting the first weekly stress on oyster seed at UW"
+image: ""
+---
+
+<img alt="AI Use Level 0" src="https://img.shields.io/badge/AI%20Use-L0%20None-lightgrey">  
+*I did not use AI to conduct the work detailed here and did not use AI to write this notebook post.*
+
+# Overview
+
+Today Steven and I started a thermal hardening on seed for deployment at Westcott in July. *These are from the same group of seed that we are hardening at Point Whitney and will be hardened and deployed in parallel.*
+
+# Thermal hardening 
+
+Last week Steven purchased seed from Jamestown Seafood, split them into two groups in two separate seed bags that are being held in the tanks in FTR in Instant Ocean seawater. We are going to conduct thermal hardening for 30 min each week for ~6 weeks prior to outplanting at Westcott.  
+
+We used the following approach to conduct the stress: 
+
+- Filled two 5-gallon buckets with seawater (one control, one high)
+- In the control bucket we added a small recirculating pump
+- In the high bucket we added a small recirculating pump and a small titanium heater connected to a thermostat
+- I set the thermostat at 25°C (77°F) and waited until the bucket read at 25°C to add the oysters - we used an infrared thermometer to monitor the temperature and confirm the thermostat
+- I then added the control bag into the control bucket and the heat bag into the heated bucket 
+- I recorded the temperature and then started a timer for 30 min 
+- After 30 minutes I removed the oysters and rinsed all the equipment 
+- During the trial I recorded the start temperature and ending temperature with the probe
+
+Here is what the equipment looked like:  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260605/pic4.jpeg?raw=true)
+
+All of the equipment is stored together in the incubator room in FTR. To run another stress, we will just need to fill buckets, add the equipment, and turn on the power strip. 
+
+The thermostat should stay at 77°C set point when it is turned on next. 
+
+# Size images
+
+I then took images for size of a subset of each group.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260605/pic1.jpeg?raw=true)
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260605/pic2.jpeg?raw=true)
+
+Oysters were then returned to their ambient temperature holding tank in FTR. 
+
+
+
+
+
