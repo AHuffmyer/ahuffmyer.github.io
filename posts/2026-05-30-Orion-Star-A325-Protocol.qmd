@@ -1,7 +1,7 @@
 ---
 title: "Orion Star A325 Protocol"
 author: "Ariana Huffmyer"
-date: "2026-05-28"
+date: "2026-06-05"
 categories: [protocol, equipment]
 description: "Orion Star A325 Protocol"
 image: ""
@@ -36,6 +36,30 @@ This protocol is based off of the [Putnam Lab protocol](https://github.com/Putna
 5. Always keep the instrument clean, away from seawater, and wipe down with DI water when finished. 
 6. Replace the pH storage solution regularly and ensure the probe is fully submerged when storing.  
 
+Here is the instrument: 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260605/pic7.jpeg?raw=true)
+
+You can see the pH probe connected on the left and the conductivity probe connected on the right: 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260605/pic8.jpeg?raw=true)
+
+The probes are stored in the back portion of the case (note that the label is peeling off on the pH probe): 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260605/pic9.jpeg?raw=true)
+
+This is the conductivity probe: 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260605/pic10.jpeg?raw=true)
+
+This is the pH probe: 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260605/pic11.jpeg?raw=true)
+
+When the pH probe is removed from the solution it looks like this - do not touch or wipe the glass probe inside the plastic housing.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260605/pic12.jpeg?raw=true)
+
 # Take readings
 
 1. Once the probe is connected and ready, you can take readings. 
@@ -45,6 +69,8 @@ This protocol is based off of the [Putnam Lab protocol](https://github.com/Putna
 5. I highly recommend taking one "dummy" measurement before recording actual measurements so the machine is warmed up. 
 
 # Calibration (pH)
+
+See pictures below of the supplies needed.  
 
 1. pH should be calibrated <24 hours before use and done once every 2-3 weeks with regular use.
 2. Fill a small clean beaker with DI water, and pour the three calibration solutions (pH of 4, 7, and 10) into three clean beakers, and place near your work station.
@@ -67,6 +93,28 @@ This protocol is based off of the [Putnam Lab protocol](https://github.com/Putna
 5. Proceed to the next standard and repeat for the second conductivity standard (1413 μS/cm).
 6. Press the f3 (cal done) key to save and end the calibration.
 
+The calibration supplies are on this shelf in 213: 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260605/pic13.jpeg?raw=true)
+
+This box has all of the supplies needed: 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260605/pic14.jpeg?raw=true)
+
+The salinity standards look like this: 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260605/pic15.jpeg?raw=true)
+
+pH buffers are in these pouches in boxes: 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260605/pic16.jpeg?raw=true)
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260605/pic17.jpeg?raw=true)
+
+This is the pH probe storage solution:  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260605/pic18.jpeg?raw=true)
+
 # Cleaning and storage 
 
 #### pH meter storage
@@ -76,9 +124,7 @@ This protocol is based off of the [Putnam Lab protocol](https://github.com/Putna
         
 #### Conductivity meter storage
   - The conductivity meter can be stored dry in the Orion Star Meter plastic black case after cleaning with DI water and drying.
-
-![Orion Case](https://raw.githubusercontent.com/Putnam-Lab/Lab_Management/master/Lab_Resources/Equipment_Protocols/Equip_Images/OrionStar_Case.png)
-
+  
 # User manual 
 
-*  [Orion Star User Manual](https://www.thermofisher.com/document-connect/document-connect.html?url=https%3A%2F%2Fassets.thermofisher.com%2FTFS-Assets%2FLED%2Fmanuals%2FOrion-Star-A220-Series-Portable-Meter-User-Manual-EN.pdf&title=T3Jpb24gU3RhciBBMjIwIFNlcmllcyBQb3J0YWJsZSBNZXRlciBVc2VyIE1hbnVhbCBbRU5d)
+[Orion Star User Manual](https://www.thermofisher.com/document-connect/document-connect.html?url=https%3A%2F%2Fassets.thermofisher.com%2FTFS-Assets%2FLED%2Fmanuals%2FOrion-Star-A220-Series-Portable-Meter-User-Manual-EN.pdf&title=T3Jpb24gU3RhciBBMjIwIFNlcmllcyBQb3J0YWJsZSBNZXRlciBVc2VyIE1hbnVhbCBbRU5d)
