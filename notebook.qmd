@@ -16,6 +16,13 @@ title-block-banner: false
 
 Welcome to my open lab notebook! This is a searchable, cataloged collection of research notes and findings.  
 
+::: {.highlight-box}
+**Looking for older entries?**
+
+View my [legacy notebook website](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/) for previous entries prior to January 2026.
+:::
+
+
 ## How to Explore This Notebook
 
 - **Search**: Use the search box to find entries by keywords
