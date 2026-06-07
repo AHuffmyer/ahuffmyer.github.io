@@ -1,0 +1,98 @@
+---
+title: "Assessing oyster outplants at Baywater"
+author: "Ariana Huffmyer"
+date: "2026-06-06"
+categories: [hardening, oyster, cgigas, wsg-usda, growth, polyic, 10K-seed]
+description: "Assessing oyster outplants at Baywater"
+image: ""
+---
+
+# Overview
+
+Today we checked oysters at Baywater for growth and survival and download temperature loggers from our 2024-2025 outplants for the 10K Seed project and PolyIC outplants. These oysters will be left out for the summer. This post details activities and outcomes from today.  
+
+10K Seed oysters include control, fresh water, temperature, polyIC, and fresh water + temperature hardened oysters from 2024. 
+
+PolyIC oysters include outplants raised from PolyIC broodstock treatment groups and control oysters outplanted in 2025. 
+
+# Assessment 
+
+We did the following tasks today: 
+
+- Took oyster bags off of lines on the farm and brought them to land for processing 
+- Took out oysters and put them into new clean bags
+- Transferred any ID tags to the outside of new cleanbags
+- Took images of oysters for growth analysis 
+- Counted dead oysters and removed dead shells
+- Cleaned tags and temperature loggers 
+- Downloaded temperature loggers 
+- Re deployed bags back onto lines
+
+The assessment went well. We found some bags were empty that must have broke open or perhaps that the oysters were too small and fell through the mesh. See the table below for bag information. 
+
+All temperature loggers were downloaded and still had sufficient memory and battery for this next deployment. 
+
+Overall the oysters look good! 
+
+All data from today is on GitHub [for 10K Seed](https://github.com/RobertsLab/10K-seed-Cgigas/tree/main/data/outplant) and for [PolyIC outplants](https://github.com/RobertsLab/polyIC-larvae/tree/main/data/outplant/baywater).  
+
+# Bag and mortality data summary 
+
+Here is a summary table of the bags assessed today and mortalities noted.  
+
+| bag | experiment | treatment | mortalities | notes                               |
+|-----|------------|-----------|-------------|-------------------------------------|
+| 326 | polyIC     | Control   | NA          | weird size variation                |
+| 325 | polyIC     | Control   | 1           |                                     |
+| 327 | polyIC     | Control   | NA          | empty, removed from outplant        |
+| 323 | polyIC     | Treated   | NA          | weird size variation; logger in bag |
+| 324 | polyIC     | Treated   | NA          | empty, removed from outplant        |
+| 362 | polyIC     | Control   | 0           | logger in bag                       |
+| 363 | polyIC     | Treated   | 1           |                                     |
+| 377 | polyIC     | Control   | NA          | empty, removed from outplant        |
+| 378 | polyIC     | Treated   | 5           |                                     |
+| 382 | polyIC     | Control   | 0           |                                     |
+| 381 | polyIC     | Treated   | NA          | empty, removed from outplant        |
+| 383 | polyIC     | Control   | NA          | empty, removed from outplant        |
+| 364 | polyIC     | Treated   | NA          | empty, removed from outplant        |
+| 400 | 10K-seed   | FW 35C    | 4           |                                     |
+| 328 | 10K-seed   | FW 35C    | 1           |                                     |
+| 304 | 10K-seed   | FW 35C    | 1           |                                     |
+| 301 | 10K-seed   | FW 35C    | 6           |                                     |
+| 306 | 10K-seed   | FW 35C    | 3           |                                     |
+| 318 | 10K-seed   | FW 35C    | 26          |                                     |
+| 311 | 10K-seed   | 35C       | 1           |                                     |
+| 309 | 10K-seed   | 35C       | 2           |                                     |
+| 316 | 10K-seed   | 35C       | 11          |                                     |
+| 315 | 10K-seed   | 35C       | 2           |                                     |
+| 319 | 10K-seed   | 35C       | 2           |                                     |
+| 317 | 10K-seed   | 35C       | 3           |                                     |
+| 305 | 10K-seed   | Immune    | 2           |                                     |
+| 302 | 10K-seed   | Immune    | 0           |                                     |
+| 303 | 10K-seed   | Immune    | 3           |                                     |
+| 312 | 10K-seed   | FW        | 1           |                                     |
+| 307 | 10K-seed   | FW        | 2           |                                     |
+| 308 | 10K-seed   | FW        | 1           |                                     |
+| 314 | 10K-seed   | FW        | 4           | logger in bag                       |
+| 329 | 10K-seed   | Control   | 12          |                                     |
+| 310 | 10K-seed   | Control   | 2           |                                     |
+| 313 | 10K-seed   | Control   | 7           |                                     |
+| 320 | 10K-seed   | Control   | 4           |                                     |
+| 330 | 10K-seed   | Control   | 2           |                                     |
+
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260606/pic1.jpeg?raw=true)
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260606/pic2.jpeg?raw=true)
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260606/pic3.jpeg?raw=true)
+
+We were able to get all bags processed and half of them back out on the lines. The other half were secured to a line closer to the beach and Steven will go back out tomorrow to add them back onto the lines. We cleaned all equipment. 
+
+We will reassess and conclude the deployment at the end of this summer.  
+
+# Temperature loggers 
+
+Here are the temperature logger read outs from our deployment going back to summer 2024. 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260606/plot.png?raw=true)
