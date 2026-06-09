@@ -1,9 +1,9 @@
 ---
-title: "Starting a new round of seed hardening at Point Whitney - Week 1"
+title: "Week 2 of seed hardening at Point Whitney"
 author: "Ariana Huffmyer"
-date: "2026-06-04"
+date: "2026-06-08"
 categories: [hardening, oyster, cgigas, wsg-usda]
-description: "Conducting the first weekly stress on oyster seed at Point Whitney"
+description: "Conducting the second weekly stress on oyster seed at Point Whitney"
 image: ""
 ---
 
@@ -12,11 +12,13 @@ image: ""
 
 # Overview
 
-Today I went out to Point Whitney to start thermal hardening treatments on our new batch of seed that we plan to outplant at Westcott in July. This post details my methods for today.  
+Today I went out to Point Whitney to continue thermal hardening treatments on our new batch of seed that we plan to outplant at Westcott in July. This post details my methods for today. 
+
+I am tracking treatments on [this spreadsheet here](https://github.com/RobertsLab/project-gigas-conditioning/blob/main/data/westcott-repeat-priming/treatment_tracking.csv).   
 
 # Thermal hardening 
 
-Last week Steven purchased seed from Jamestown Seafood, split them into two groups in two separate seed bags that are being held at Point Whitney hatchery in upwellers. We are going to conduct thermal hardening for 30 min each week for ~6 weeks prior to outplanting at Westcott.  
+Last week Steven purchased seed from Jamestown Seafood, split them into two groups in two separate seed bags that are being held at Point Whitney hatchery in upwellers. I conducted the first round of thermal hardening for 30 min last week and am repeating the process today for the second week.  
 
 I used the following approach to conduct the stress: 
 
@@ -40,21 +42,16 @@ High bucket
 
 ![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260604/pic4.jpeg?raw=true)
 
-All of the equipment is stored together on top of a yellow lid box in the attic. We will work on cleaning out the attic in the next month or so.  
+All of the equipment is stored together on top of a yellow lid box in the attic. Oysters were returned to their ambient temperature upweller tanks outside. 
 
-# Size images
+# Loggers 
 
-I then took images for size of a subset of each group.  
+I also deployed Hobo MX 400 loggers with each group of oysters. Loggers will record temperature every 30 minutes. 
 
-![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260604/pic5.jpeg?raw=true)
+- SSN 22105357 (control group)
+- SSN 22105355 (high group)
 
-![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260604/pic7.jpeg?raw=true)
-
-![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260604/pic6.jpeg?raw=true)
-
-Oysters were then returned to their ambient temperature holding tanks. 
-
-![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260604/pic8.jpeg?raw=true)
+Loggers were attached with a zip tie to each bag.  
 
 
 
