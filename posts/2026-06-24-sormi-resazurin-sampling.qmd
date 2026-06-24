@@ -1,0 +1,42 @@
+---
+title: "Resazurin sampling for the SORMI project"
+author: "Ariana Huffmyer"
+date: "2026-06-24"
+categories: [resazurin, oyster, cgigas, sormi]
+description: "Resazurin sampling of SORMI families in June 2026"
+image: ""
+---
+
+<img alt="AI Use Level 0" src="https://img.shields.io/badge/AI%20Use-L0%20None-lightgrey">  
+*I did not use AI to conduct the work detailed here and did not use AI to write this notebook post.*
+
+# Overview
+
+Today I helped with the SORMI project family sampling resazurin assays. This post provides an overview of our methods. 
+
+# Methods 
+
+Prior to today, Sam set up a shallow water table with cups glued onto trays for thermal exposures. The water was heated in a header bucket to 35°C, which resulted in a temperature of 33°C in the table. 
+
+We measured resazurin in n=9 families (1, 2, 3, 5, 6, 7, 8, 9, and 10) with n=6 replicates per family per round. We ran resazurin in 3 rounds with n=6 blanks per round. Here is the approach we used with this set up.  
+
+- Made resazurin stock and working solution as in our standard protocol
+- Read fluorescence on plate reader as in standard protocol at 0, 1, 2, and 3 hours of exposure
+- Oysters were photographed for size and then added to numbered plastic cups
+- Cups were filled with 100 mL resazurin stock solution 
+- A 200 uL subsample taken from each cup at each time point
+- T0 samples were taken immediately after oyster was added to the cup 
+- Cups placed in recirculating water table with water heated to ~33°C with spot check temperatures recorded every hour 
+- Analyzed data as in standard protocol 
+- No mortality observed
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260624/pic1.jpeg?raw=true)
+
+# Data and output 
+
+There was no difference in metabolism between families today.  
+
+- Data, code, and figure outputs [are found here on GitHub for 20260624 datasets](https://github.com/RobertsLab/sormi-assay-development/tree/main/Resazurin)
+- Our resazurin [standard protocol landing page is here](https://robertslab.github.io/resources/protocols/resazurin-assay/)
+- SORMI project [repo on GitHub](https://github.com/RobertsLab/sormi-assay-development)
+

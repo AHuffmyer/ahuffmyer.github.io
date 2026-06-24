@@ -1,0 +1,27 @@
+---
+title: "Preparing for Westcott outplants at UW"
+author: "Ariana Huffmyer"
+date: "2026-06-24"
+categories: [hardening, oyster, cgigas, wsg-usda]
+description: "Preparing oysters and supplies for Westcott outplanting at UW "
+image: ""
+---
+
+<img alt="AI Use Level 0" src="https://img.shields.io/badge/AI%20Use-L0%20None-lightgrey">  
+*I did not use AI to conduct the work detailed here and did not use AI to write this notebook post.*
+
+# Overview
+
+Today I prepared some supplies and bagged oysters in prep for outplanting at Westcott in July. 
+
+# Preparing oysters 
+
+We have two bags of oysters at UW for this experiment - a "heated" treatment group and a "control" group. I measured the volume of oysters in each bag (175 mL for both) and then partitioned these oysters into three small mesh bags that are all contained in the larger original red seed bag. Each replicate small bag includes about 60 mL of oysters. I counted a subset of oysters and there are approximately 400 in each bag. These oysters are very small (<5mm) and therefore will remain in mesh bags once outplanted until they are large enough to be released into the larger cages. 
+
+There are a total of 6 bags from the UW group that will therefore be outplanted.  
+
+I'll repeat this same approach with Point Whitney oysters. 
+
+# Preparing supplies 
+
+I set aside a box of supplies including seed bags, resazurin supplies, and cups in my office at FTR. I also set aside a 50 mL falcon tube of resazurin stock in the FTR 209 fridge. Either I or someone from UW will pick up these supplies to take to Westcott.  
