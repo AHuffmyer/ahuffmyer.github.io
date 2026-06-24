@@ -1,0 +1,58 @@
+---
+title: "Running log of inventory at Point Whitney"
+author: "Ariana Huffmyer"
+date: "2026-06-23"
+categories: [inventory, wsg-usda]
+description: "Assessing inventory and updating inventory logs for Point Whitney"
+image: ""
+---
+
+<img alt="AI Use Level 0" src="https://img.shields.io/badge/AI%20Use-L0%20None-lightgrey">  
+*This icon means that I did not use AI to conduct the work detailed here and did not use AI to write this notebook post.*
+
+# Overview
+
+Today I started cleaning our materials in the attic and started an inventory log. I'll continue to update this as I clean out the attic over the next couple of weeks. 
+
+# Inventory 
+
+- 1 insulated garbage can header 
+- 1 box of tubing and plumbing parts
+- Sampling box (yellow lid box)
+  - Waterproof paper
+  - Mesh
+  - 0.5 mL tubes
+  - Cattle tags (orange and purple)
+  - 1 RNA DNA shield
+  - Gloves
+  - 2 temp probes
+  - Glass slides 
+  - Freezer tube box 
+  - Pens/pencils
+  - Kim wipes
+  - Timer
+  - 1 P1000 pipette
+  - 4 calipers
+  - Notebook
+  - 50 mL tubes
+  - Petri dishes
+  - 15 mL tubes
+  - Plastic little ducks
+  - Razer blades 
+  
+- Other supplies box (yellow lid box)
+  - Tripours
+  - Puppy pads
+  - Zip ties
+  - Squirt bottles
+  - Large graduated cylinder 
+
+- ~75 small silos
+- ~10 large silos
+- 20 HUDLs
+
+- 1 microscope
+- Box of ducting
+- 1 small bucket
+- 1 box of logger supplies
+- 1 box of heaters and pumps 

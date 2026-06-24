@@ -1,0 +1,39 @@
+---
+title: "Week 4 of seed hardening at Point Whitney"
+author: "Ariana Huffmyer"
+date: "2026-06-23"
+categories: [hardening, oyster, cgigas, wsg-usda]
+description: "Conducting the second weekly stress on oyster seed at Point Whitney"
+image: ""
+---
+
+<img alt="AI Use Level 0" src="https://img.shields.io/badge/AI%20Use-L0%20None-lightgrey">  
+*This icon means that I did not use AI to conduct the work detailed here and did not use AI to write this notebook post.*
+
+# Overview
+
+Today I went out to Point Whitney to continue thermal hardening treatments on our new batch of seed that we plan to outplant at Westcott in July. This post details my methods for today. 
+
+I am tracking treatments on [this spreadsheet here](https://github.com/RobertsLab/project-gigas-conditioning/blob/main/data/westcott-repeat-priming/treatment_tracking.csv).   
+
+The oysters are being held in silos outsidee. Since the weather has warmed the oysters are exposed to ~20-22°C in the hatchery, which has led us to increase the treatment for hardening to 36°C to maintain a +10°C differential. The control oysters are now staying in the silos while the high treatment are brought into a treatment bucket. Both groups of oysters have temperature loggers attached.  
+
+# Thermal hardening 
+
+I used the following approach to conduct the stress: 
+
+- Filled one 5-gallon buckets with seawater (high treatment, control left in silo)
+- Added a small recirculating pump and a small titanium heater connected to a thermostat
+- I set the thermostat at 36°C and waited until the bucket read at 36°C to add the oysters 
+- Added oysters to the bucket
+- I recorded the temperature and then started a timer for 30 min 
+- After 30 minutes I removed the oysters and rinsed all the equipment 
+
+All of the equipment is stored together on top of a yellow lid box in the attic. Oysters were returned to their ambient temperature upweller tanks outside. 
+
+
+
+
+
+
+
