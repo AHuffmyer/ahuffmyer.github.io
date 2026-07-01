@@ -1,0 +1,42 @@
+---
+title: "July Goals and Daily Entries"
+author: "Ariana Huffmyer"
+date: "2026-07-01"
+categories: [goals, daily-entries]
+description: "July 2026 goals and daily entries"
+image: ""
+---
+
+# Overview
+
+Here are my goals and daily entries for July 2026. Bold projects are the things that are most critical.    
+## Goals
+
+### Writing and manuscripts 
+              
+1. Submit PolyIC paper and revise with resazurin citations
+2. Write discussion of Hawaii 2023 paper
+3. Start full draft of Moorea 2023 paper (abstract, methods)
+4. Start full draft of Westcott oyster priming manuscript
+
+### Grants
+
+1. NSF IOS application with H. Putnam 
+2. Moore foundation grant
+
+### Analysis
+
+1. Moorea 2023 RNAseq 
+2. Moorea 2023 metabolomics 
+
+### Field and lab work 
+
+1. July 2026 outplants at Westcott and hardening at Point Whitney 
+2. Summer quick check ups at Sequim, Baywater, and Goose Point
+
+## **Daily Log**   
+
+## July 1
+
+- Point Whitney hardening 
+- Assembling growth and survival data for SHIELD 
