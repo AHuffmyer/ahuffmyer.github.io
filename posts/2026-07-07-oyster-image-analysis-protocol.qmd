@@ -1,0 +1,115 @@
+---
+title: "Oyster image size analysis protocol"
+author: "Ariana Huffmyer, Noah Krebs"
+date: "2026-07-07"
+categories: [protocol, image, oyster]
+description: "Protocol for analyzing size in field images of oyster outplants"
+image: ""
+---
+
+<img alt="AI Use Level 0" src="https://img.shields.io/badge/AI%20Use-L0%20None-lightgrey">  
+*I did not use AI to conduct the work detailed here and did not use AI to write this notebook post.*
+
+# Overview
+
+This protocol details size analysis of oysters from images taken in the field. This protocol is based on Noah Kreb's protocol [detailed in his lab notebook](https://genefish.wordpress.com/2025/05/06/detailed-protocol-for-oyster-image-analysis/). 
+
+A similar video protocol of oyster image analysis is [available here](https://robertslab.github.io/resources/protocols/resazurin-assay/#size-measurements).  
+
+# Requirements 
+
+Before beginning, download [ImageJ/Fiji](https://imagej.net/software/fiji/) onto your computer.  
+
+# Set up a data sheet
+
+- Set up a datasheet that has the following columns (add more as needed): 
+  - Project or site
+  - Date image was taken
+  - Initials
+  - Image name
+  - Tag ID
+  - Oyster
+  - Measurement 
+  - Value mm
+  - Notes
+
+# Open an image 
+
+- Download images to analyze onto your desktop
+- Open Fiji/ImageJ
+- Click File > Open > select image you wish to analyze 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260707/pic1.png?raw=true)
+
+# Annotate oyster individual numbers
+
+- Click the "multi point" tool that looks like a group of cross hairs on the tool bar
+- Double click to adjust settings
+  - Type = "Hybrid"
+  - Color = "Magenta"
+  - Size = "XXL"
+  - Check "label points"
+  - Click "OK"
+- Now navigate your cursor to the first oyster and click. You will see a point and a number added to the oyster. Repeat for all oysters in the image. 
+- Use the command + "+" or command + "-" button to zoom in and out of the image. 
+- At the end, double click the "multi point" tool button again. You will see a "counter" that displays the total number of oysters you labeled in the image.  
+- On your datasheet, enter the correct number of lines for the total number of oysters in the image (e.g., enter 1 through 84 in the spreadsheet if you have 84 total oysters). 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260707/pic2.png?raw=true)
+
+
+# Add points as an overlay 
+
+Start here if an image is already annotated!  
+
+Before moving on we need to add the points as an overlay. 
+
+- Click Image > Overlay > Add selection 
+- Click Edit > Selection > Select None
+- Click the straight line tool to proceed to the next step 
+
+# Set scale bar 
+
+- Click the straight line tool on the toolbar. 
+- Zoom into the scale bar/caliper.
+- Draw a line between two major deviations (10 mm) or along another length that you can see on the scale bar in the image. On our field images, we use this caliper. Sometimes resolution is low - here is a line representing 10 mm. 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260707/pic7.png?raw=true)
+
+- Click Analyze > Set Scale 
+- Enter Known Distance as 10 (or your custom length)
+- Enter units as mm 
+- Zoom back out and then zoom in on Oyster #1
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260707/pic6.png?raw=true)
+
+# Measure length and width 
+
+- Now, measure the max length and width for each oyster in the image in order. 
+- Using the straight line tool, draw a line on the maximum length of the oyster. 
+- Click Command + M to measure. A measurement window will pop up with your measurement. 
+- Length is measured by default. If you want to see other measurements, then right click on the measurement window and select "Set Measurements". Check the measurements you want. 
+- Then draw a line for the maximum width of the oyster. 
+- Click Command + M
+- Repeat for all oysters
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260707/pic3.png?raw=true)
+
+Width: 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260707/pic4.png?raw=true)
+
+Length: 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260707/pic5.png?raw=true)
+
+# Record data 
+
+- Return to your spreadsheet.
+- Copy all of the measurements in your measurement window
+- Paste into the dataframe 
+- Record any notes for any problems or notes you have for the image 
+- Proceed to the next image! 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260707/pic8.png?raw=true)
+
