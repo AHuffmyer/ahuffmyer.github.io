@@ -86,10 +86,10 @@ Before moving on we need to add the points as an overlay.
 # Measure length and width 
 
 - Now, measure the max length and width for each oyster in the image in order. 
-- Using the straight line tool, draw a line on the maximum length of the oyster. 
+- Using the straight line tool, draw a line on the maximum length of the oyster. Use the axis that is most true to the longest shell length of the oyster from the hinge to the longest tip. 
 - Click Command + M to measure. A measurement window will pop up with your measurement. 
 - Length is measured by default. If you want to see other measurements, then right click on the measurement window and select "Set Measurements". Check the measurements you want. 
-- Then draw a line for the maximum width of the oyster. 
+- Then draw a line for the maximum width of the oyster. Use an axis as perpendicular as possible to the length, but most true to the widest point of the oyster. 
 - Click Command + M
 - Repeat for all oysters
 

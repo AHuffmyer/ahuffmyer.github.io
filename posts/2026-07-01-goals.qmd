@@ -9,7 +9,8 @@ image: ""
 
 # Overview
 
-Here are my goals and daily entries for July 2026. Bold projects are the things that are most critical.    
+Here are my goals and daily entries for July 2026. Bold projects are the things that are most critical.   
+
 ## Goals
 
 ### Writing and manuscripts 
@@ -35,6 +36,12 @@ Here are my goals and daily entries for July 2026. Bold projects are the things 
 2. Summer quick check ups at Sequim, Baywater, and Goose Point
 
 ## **Daily Log**   
+
+## July 13 
+
+- Oyster image analysis protocol
+- PolyIC paper
+- E5 paper proof 
 
 ## July 7
 
