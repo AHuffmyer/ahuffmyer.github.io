@@ -1,7 +1,7 @@
 ---
 title: "July Goals and Daily Entries"
 author: "Ariana Huffmyer"
-date: "2026-07-01"
+date: "2026-07-19"
 categories: [goals, daily-entries]
 description: "July 2026 goals and daily entries"
 image: ""
@@ -23,7 +23,6 @@ Here are my goals and daily entries for July 2026. Bold projects are the things 
 ### Grants
 
 1. NSF IOS application with H. Putnam 
-2. Moore foundation grant
 
 ### Analysis
 
@@ -36,6 +35,17 @@ Here are my goals and daily entries for July 2026. Bold projects are the things 
 2. Summer quick check ups at Sequim, Baywater, and Goose Point
 
 ## **Daily Log**   
+
+## July 20 
+
+- Westcott data management
+- New publications
+- Oyster image analysis
+- PolyIC paper
+
+## July 16-18 
+
+- Westcott travel and outplants
 
 ## July 15 
 
