@@ -1,0 +1,78 @@
+---
+title: "Outplanting repeat priming oysters at Westcott"
+author: "Ariana Huffmyer"
+date: "2026-07-20"
+categories: [hardening, oyster, cgigas, wsg-usda]
+description: "Outplanting oysters from repeat priming experiment at Westcott Shellfish"
+image: ""
+---
+
+<img alt="AI Use Level 0" src="https://img.shields.io/badge/AI%20Use-L0%20None-lightgrey">  
+*I did not use AI to conduct the work detailed here and did not use AI to write this notebook post.*
+
+# Overview
+
+Our team went to Westcott Shellfish to outplant oysters from our repeat priming experiment. In our last round of experiments, we saw increased stress tolerance in oysters that underwent thermal priming (weekly exposure to +10°C for 6 weeks) following a 2-year outplant at Westcott. Our goal was to repeat this experiment with a new cohort.  
+
+To do this, we exposed seed (<5 mm) to thermal priming (+10°C for 6 weeks) at both UW and Point Whitney Shellfish Hatchery. See my previous posts for priming information. This post details outplanting these oysters at Westcott for the upcoming summer.  
+
+## Transporting oysters 
+
+Oysters at Point Whitney were [picked up and transported to Westcott](https://ahuffmyer.github.io/posts/2026-07-15-point-whitney-seed-hardening.html) on July 16th and then held in a water table at Friday Harbor Labs on July 17th until outplanting on July 18th.  
+
+Oysters at UW were transported directly from campus on July 18th. All oysters were kept in coolers with ice during transport. 
+
+Oysters were previously allocated into replicate groups at [Point Whitney](https://ahuffmyer.github.io/posts/2026-07-01-point-whitney-seed-hardening.html) and [UW](https://ahuffmyer.github.io/posts/2026-06-24-westcott-uw-outplant-prep.html).  
+
+## Preparing outplants 
+
+We used the following approach to prepare oysters for outplant (12 bags total):  
+
+- Each replicate bag was emptied onto a white piece of waterproof paper
+- Oysters were spread out for imaging
+- An image was taken with a scale bar, the outplant yellow cattle tag, and oysters 
+- Cattle tags had "UW" with the treatment and "Huffmyer" written on the back and this information was also included in a waterproof piece of paper in the outplant bag
+- Oysters were then put into a red mesh seed bag, secured with a zip tie
+- This seed bag was then placed in the outplant bag on a rack that sits on the substrate
+- We will assess size in a couple months and then take them out of the seed bag once they are big enough for the bag mesh size 
+- Tags were attached to the exterior of the outplant bags
+- Two Hobo MX400 loggers were added to two bags
+- Eight robo-oyster temperature loggers were added to bags as well (in the same bags as the Hobo loggers and two bags each with two Robo loggers to test variability in loggers)
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260717/pic2.jpeg?raw=true)
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260717/pic5.PNG?raw=true)
+
+## Outplanting 
+
+Oyster racks (n=3 racks with 4 bags each) were put on the beach at the upper tidal limit
+
+See the notebook image below for a map.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260717/pic3.jpeg?raw=true)
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260717/pic1.jpeg?raw=true)
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260717/pic4.jpeg?raw=true)
+
+## Other activities 
+
+We tried out using resazurin at the farm and we could see a color change over ~ 3 hours in Pacifics and Olympia oysters. We will try taking samples to preserve and read on a plate reader at a future field trial.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260717/pic6.jpeg?raw=true)
+
+We also had a team outplanting clams led by Megan for her research! 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260717/pic7.jpeg?raw=true)
+
+## Data locations 
+
+All data for the outplant is in our [GitHub repository here](https://github.com/RobertsLab/project-gigas-conditioning/tree/main/data/westcott-repeat-priming/size/20260717).  
+
+- Metadata for outplanting [is here](https://github.com/RobertsLab/project-gigas-conditioning/blob/main/data/westcott-repeat-priming/outplant_metadata.csv)
+- Logger files [are here](https://github.com/RobertsLab/project-gigas-conditioning/tree/main/data/westcott-repeat-priming/loggers)
+- Size images [are here](https://github.com/RobertsLab/project-gigas-conditioning/tree/main/data/westcott-repeat-priming/size/20260717) along with an Issue for analysis [here]()
+
+## Next steps 
+
+In the next couple of months we will check oyster growth and see if they are big enough to release into the larger bags. We will track growth and survival over the next few months.  
