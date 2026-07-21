@@ -41,8 +41,6 @@ Venkataraman Y and AS Huffmyer. 2025. Interrogating metabolic plasticity in mari
 
 **Project:** From Blue to Pink: Resazurin as a High-Throughput Proxy for Metabolic Rate in Oysters
 
-**Status:** Ongoing 
-
 ![](images/lab_work/oysters/IMG_0447.jpeg) 
 
 **Overview:** In order to rapidly characterize health and tolerance at scales that inform aquaculture practices, there is a need to develop tools that provide information on shellfish health and metabolic state. In this work, we developed and tested a resazurin-based assay to measure metabolic rate in oysters.  
@@ -50,6 +48,10 @@ Venkataraman Y and AS Huffmyer. 2025. Interrogating metabolic plasticity in mari
 **Research Summary:**  
 
 We demonstrate that a simple, high-throughput dye-based assay can reliably measure oyster metabolism and reveal how oysters respond to heat stress. We found that oysters capable of temporarily slowing their metabolism during extreme temperatures were more likely to survive, and that metabolic responses varied among genetic families linked to performance. By validating this tool for whole organisms, this work provides hatcheries and managers with a practical way to identify resilient shellfish stocks and monitor stress in a changing ocean.
+
+**Citation:** 
+
+Huffmyer AS, N Ozguner, M Baird, C Elvrum, C Kounellas, D Dicksion, SJ White, L Plough, MR Gavery, N Krebs, W Walton, J Small, M Pitsenbarger, H Ealy-Whitfield, S Roberts. From blue to pink: Resazurin as a high-throughput proxy for metabolic rate in oysters. *PeerJ* 14:e21542. [Read here.](https://peerj.com/articles/21542/#) 
 
 **Funding and collaborations:** 
 
@@ -59,7 +61,6 @@ We demonstrate that a simple, high-throughput dye-based assay can reliably measu
 **Links and Information:**
 
 - Check out our landing page that highlights our protocols, ongoing efforts, and explore interactive data and tools [on GitHub here.](http://oyster.pink/) 
-- This work is currently under review. Read a preprint of this manuscript [on bioRxiv here.](https://www.biorxiv.org/content/10.1101/2025.11.06.686367v1) 
 - Explore the data and code on [GitHub here!](https://github.com/RobertsLab/resazurin-assay-development)
 - Explore the data from our [aquaculture case study on GitHub here!](https://github.com/RobertsLab/vims-resazurin)
 :::
@@ -70,7 +71,7 @@ We demonstrate that a simple, high-throughput dye-based assay can reliably measu
 
 ::: {.content-card}
 
-**Huffmyer AS**, N Ozguner, M Baird, C Elvrum, C Kounellas, D Dicksion, SJ White, L Plough, MR Gavery, N Krebs, W Walton, J Small, M Pitsenbarger, H Ealy-Whitfield, S Roberts. From blue to pink: Resazurin as a high-throughput proxy for metabolic rate in oysters. *In review*. *PeerJ*. [Read on bioRxiv here.](http://doi.org/10.1101/2025.11.06.686367) 
+**Huffmyer AS**, N Ozguner, M Baird, C Elvrum, C Kounellas, D Dicksion, SJ White, L Plough, MR Gavery, N Krebs, W Walton, J Small, M Pitsenbarger, H Ealy-Whitfield, S Roberts. From blue to pink: Resazurin as a high-throughput proxy for metabolic rate in oysters. *PeerJ* 14:e21542. [Read here.](https://peerj.com/articles/21542/#) 
 
 Venkataraman Y and **AS Huffmyer**. 2025. Interrogating metabolic plasticity in marine organisms: A framework for best practices using metabolomic and lipidomic approaches. *Integrative and Comparative Biology*. 65:1166-1184. [Read here.](https://doi.org/10.1093/icb/icaf138) 
 

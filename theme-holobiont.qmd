@@ -38,9 +38,7 @@ Huffmyer AS, KH Wong, DM Becker, E Strand, T Mass, HM Putnam. 2025. Shifts and c
 ::: {.content-card}
 ### Seasonal plasticity in coral symbiosis
 
-**Project:**  Collaborative research: Seasonal plasticity of symbiotic strategies clarifies coral holobiont resistance and resilience
-
-**Status:** Ongoing 
+**Project:**  Seasonal Physiological Strategies Reveal Contrasting Host–Symbiont Dynamics Among Dominant Indo-Pacific Reef-Building Corals
 
 ![](images/publications/e5_phys.png) 
 
@@ -50,6 +48,10 @@ Huffmyer AS, KH Wong, DM Becker, E Strand, T Mass, HM Putnam. 2025. Shifts and c
 
 In this work, we examine how coral symbiotic relationships and resilience change across seasonal environmental variation. We found that  cryptic holobiont identity among visually similar corals strongly shaped how they respond to changes in the environment  By tracking multiple coral species across sites and seasons in Mo‘orea, we found that some coral species undergo dramatic seasonal swings in their symbiotic interactions and metabolism, while others remain stable. These results highlight the importance of accounting for season, genetics, and symbiosis when evaluating coral resilience and guiding reef restoration efforts in a warming ocean.
 
+**Citation:** 
+
+Huffmyer AS, et al. 2026. Seasonal Physiological Strategies Reveal Contrasting Host–Symbiont Dynamics Among Dominant Indo-Pacific Reef-Building Corals. *Ecology and Evolution* 16:e74044. [Read here.](https://onlinelibrary.wiley.com/doi/10.1002/ece3.74044)
+
 **Funding and collaborations:** 
 
 - Collaborators: [E5 Coral Network](https://e5coral.org/)
@@ -57,7 +59,6 @@ In this work, we examine how coral symbiotic relationships and resilience change
 
 **Links and Information:**
 
-- This work is currently under review. A preprint can be found on [bioRxiv here](https://www.biorxiv.org/content/10.1101/2025.11.20.689604v1).
 - Learn more about the [E5 Coral project here!](https://e5coral.org/)
 - Explore data and code [on GitHub here.](https://github.com/urol-e5/timeseries)
 :::
@@ -93,9 +94,9 @@ Barott KL, AS Huffmyer, J Davidson, EA Lenz, SB Matsuda, J Hancock, T Innis, B G
 ::: {.content-card}
 ### Related Publications 
 
-**Huffmyer AS**, et al. Seasonal plasticity of symbiotic strategies clarifies coral holobiont resistance and resilience. *In review*. *Ecology and Evolution*. [Read on bioRxiv here.](https://doi.org/10.1101/2025.11.20.689604) 
+**Huffmyer AS**, et al. 2026. Seasonal Physiological Strategies Reveal Contrasting Host–Symbiont Dynamics Among Dominant Indo-Pacific Reef-Building Corals. *Ecology and Evolution* 16:e74044. [Read here.](https://onlinelibrary.wiley.com/doi/10.1002/ece3.74044)
 
-Ashey J, JA Rodriquez-Casariego, KM Durkin, Z Bengtsson, **AS Huffmyer**, SJ White, DM Becker, JM Eirin-Lopez, HM Putnam, S Roberts. Non-coding RNA repertoire in reef-building corals. *In review*. *Environmental Epigenetics*. [Read on bioRxiv here.](https://doi.org/10.1101/2025.03.15.643469)  
+Ashey J, JA Rodriquez-Casariego, KM Durkin, Z Bengtsson, **AS Huffmyer**, SJ White, DM Becker, JM Eirin-Lopez, HM Putnam, S Roberts. 2026. Characterization of long non-coding RNAs, microRNAs, and piwiRNAs in reef building corals. *Environmental Epigenetics* dvag021. [Read here.](https://doi.org/10.1093/eep/dvag021) 
 
 Gorman LM, **AS Huffmyer**, M Byrne, SC Mills, HM Putnam. Coral venom and toxins as protection against crown-of-thorns sea star attack. *Molecular Ecology* 35:e70202. [Read here.](https://doi.org/10.1111/mec.70202) 
 
