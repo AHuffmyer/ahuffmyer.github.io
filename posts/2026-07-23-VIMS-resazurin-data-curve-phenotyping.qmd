@@ -22,6 +22,8 @@ All data can be found in the [VIMS Resazurin repository here](https://github.com
 
 ## Key Results
 
+I added a directory to show diagnositic feature plots for each familiy [here](https://github.com/RobertsLab/vims-resazurin/tree/main/output/family-diagnostics). 
+
 ### 1. Family explains meaningful variation in metabolic curve shape
 
 All top-ranked curve features showed statistically significant family effects (BH-adjusted p < 0.05 in all cases). Family identity explained **15–19% of individual variation** in the best-distinguishing features (η² = 0.15–0.19), indicating that a substantial portion of metabolic output is heritable at the family level. 
