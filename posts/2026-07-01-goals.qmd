@@ -1,7 +1,7 @@
 ---
 title: "July Goals and Daily Entries"
 author: "Ariana Huffmyer"
-date: "2026-07-19"
+date: "2026-07-23"
 categories: [goals, daily-entries]
 description: "July 2026 goals and daily entries"
 image: ""
@@ -33,8 +33,31 @@ Here are my goals and daily entries for July 2026. Bold projects are the things 
 
 1. ~~July 2026 outplants at Westcott and hardening at Point Whitney~~ 
 2. Summer quick check ups at Sequim, Baywater, and Goose Point
+3. Check Westcott
+
+### Future publications to work on
+
+1. E5 metabolomics manuscript 
 
 ## **Daily Log**   
+
+## July 23 
+
+- Meeting with Yaamini
+- Resazurin index analysis
+- Peer review
+
+## July 22 
+
+- Poly IC paper
+- Oyster image analysis 
+- SORMI meeting
+
+## July 21 
+
+- Poly IC paper 
+- Hazel meeting 
+- Callie meeting
 
 ## July 20 
 

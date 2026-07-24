@@ -1,0 +1,228 @@
+---
+title: "Predictive resazurin phenotyping using VIMS oyster family data"
+author: "Ariana Huffmyer"
+date: "2026-07-23"
+categories: [resazurin, metabolism, cvirginica]
+description: "Predictive phenotyping using resazurin curve characteristics in VIMS oyster family data"
+image: ""
+---
+
+<img alt="AI Use Level 3" src="https://img.shields.io/badge/AI%20Use-L1%20Editing-blue">
+*I used AI to adapt existing code for the structure of this project and generate figures and used AI to write the base text below that I edited to describe the code and what was done in the analysis.*
+
+# Resazurin Curve Feature Analysis 
+
+## Overview
+
+This analysis extracts quantitative curve features from resazurin metabolic assay data collected across oyster families from two phenotype groups: **high-salinity** (25 families, n = 638 individuals) and **low-salinity** (25 families, n = 617 individuals). Each individual was measured at 5 timepoints (0–4 h), yielding one metabolic activity curve per oyster. Twenty-five curve features were derived per individual — capturing magnitude (AUC, peak), rate (initial slope, Vmax), temporal structure (time to peak, inflection time), and depression-recovery dynamics — and compared across families within each phenotype group using one-way ANOVA ranked by effect size (η²), with Benjamini-Hochberg correction for multiple comparisons and Tukey pairwise post-hoc tests.
+
+## Data links
+
+All data can be found in the [VIMS Resazurin repository here](https://github.com/RobertsLab/vims-resazurin).  
+
+## Key Results
+
+### 1. Family explains meaningful variation in metabolic curve shape
+
+All top-ranked curve features showed statistically significant family effects (BH-adjusted p < 0.05 in all cases). Family identity explained **15–19% of individual variation** in the best-distinguishing features (η² = 0.15–0.19), indicating that a substantial portion of metabolic output is heritable at the family level. 
+
+### 2. The most informative curve features differ between phenotype groups
+
+The feature that best discriminated families was **not the same** between the two phenotype groups:
+
+| Phenotype | Best feature | η² | F (df = 24) | BH-adj p |
+|---|---|---|---|---|
+| High-salinity | `initial_slope` | 0.154 | 4.65 | < 0.001 |
+| Low-salinity | `auc_late` | 0.193 | 5.90 | < 0.001 |
+
+High-salinity families were best differentiated by **early-phase metabolic rate** — how quickly resazurin reduction accelerated in the first hour. Low-salinity families were better differentiated by **sustained late-phase output** — total area under the curve in the second half of the assay. This pattern suggests the two phenotype groups may have distinct metabolic kinetics: high-salinity-origin oysters vary most in how fast they ramp up, while low-salinity-origin oysters vary most in how long they sustain high activity. The top five features for low-salinity families (`auc_late`, `auc_total`, `delta_auc_late_minus_early`, `metabolic_scope`, `peak_value`) uniformly describe metabolic magnitude and accumulation, whereas for high-salinity families the ranking is led by rate (`initial_slope`) alongside magnitude features. These results are relevant for this one experiment - we should not yet extrapolate these characteristics to these phenotype groups in general outside of the context of the individuals we measured here. 
+
+### 3. Individual families show consistent, distinctive metabolic fingerprints
+
+The family mean heatmap reveals coherent family-level metabolic phenotypes that hold across multiple curve features simultaneously. In the **high-salinity** group, families 14 and 15 are consistently below-average across all top features (lower initial slope, lower metabolic scope, lower AUC), while families 24 and 43 are consistently above average. In the **low-salinity** group, family 78 stands out as markedly high across AUC-related features, while families 57 and 61 trend low. The consistency of these rankings across independent curve metrics strengthens the interpretation that these represent real family-level differences in aerobic capacity, not assay noise.
+
+### 4. Most individuals follow a monotonic increase; trajectory class varies by family
+
+The trajectory class plot shows that the dominant response pattern across both phenotype groups is **monotonic increase** (~60–90% of individuals per family) — resazurin reduction rises steadily throughout the assay, consistent with sustained aerobic metabolism. A minority of individuals show **rise-then-depress** trajectories (~10–45% per family depending on family), in which activity peaks and then declines, potentially reflecting stress-induced suppression of aerobic pathways. Notably, the proportion of rise-then-depress individuals varies substantially among families (e.g., family 6 in high-salinity and family 48 in low-salinity show ~45% rise-then-depress vs. families with near-zero proportions), and this qualitative shape difference is not captured by magnitude features alone. A small number of individuals show **depress-then-recover** trajectories.
+
+## Implications for Predictive Phenotyping
+
+- **Family signal is detectable from a short assay.** A 4-hour resazurin incubation produces enough curve structure to rank families by metabolic output with effect sizes (η² ~0.15–0.19).
+
+- **Different features may be needed for different phenotype backgrounds.** The divergence in best-discriminating features between high-salinity and low-salinity families suggests that screening programs should not apply a single universal metric. High-salinity families should be screened using early-rate features; low-salinity families using total or late-phase AUC.
+
+- **Trajectory class adds complementary information.** Families with a high proportion of rise-then-depress individuals may represent a metabolically distinct stress-response phenotype that is missed by simple AUC or slope summaries. Including trajectory class alongside magnitude features would give a richer picture of family-level capacity.
+
+- **Consistent family rankings across multiple features increase confidence.** The convergence of multiple independent metrics (slope, AUC, peak, metabolic scope) on the same high- and low-performing families reduces the chance that rankings reflect feature-specific artifacts.
+
+## Figures
+
+`curve_feature_family_effect_ranking.png`  
+η² (family effect size) for the top 8 curve features per phenotype group; blue bars are BH-significant
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260723/curve_feature_family_effect_ranking.png?raw=true)
+
+`curve_feature_best_family_boxplots.png`  
+Distribution of the single best-ranked feature per phenotype group across all families
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260723/curve_feature_best_family_boxplots.png?raw=true)
+
+`curve_feature_family_mean_heatmap.png`  
+Z-scored family means for the top 5 features per phenotype group; red = above average, blue = below average
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260723/curve_feature_family_mean_heatmap.png?raw=true)
+
+`curve_feature_trajectory_classes.png`   
+Proportion of individuals per family following each trajectory class (monotonic increase, rise-then-depress, depress-then-recover) 
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260723/curve_feature_trajectory_classes.png?raw=true)
+
+# Resazurin Predictive Phenotyping 
+
+## Overview
+
+This analysis tested whether resazurin metabolic curve features measured on live
+oysters can predict family-level survival performance, and whether different
+metabolic signals predict survival under high-salinity vs low-salinity conditions.
+
+**Dataset:** 48 families matched across two sources — resazurin curve features
+(~25 traits per individual, aggregated to family means) from
+`output/resazurin-curves/curve_features.csv`, and observed survival proportions
+under high-salinity and low-salinity challenge conditions from
+`data/predicted_performance.xlsx`. Families span two parentage groups:
+high-salinity origin (24 families) and low-salinity origin (24 families).
+
+**Approach:** For each curve feature × parentage group combination, Spearman rank
+correlations were computed against both survival conditions in parallel. The
+top-performing features were validated with leave-one-family-out cross-validation
+(LOFO-CV), and a multi-feature resazurin index was built by z-scoring and
+sign-aligning the top four traits. All analyses were run separately for
+predicted high-salinity survival and low-salinity survival, with a direct comparison of
+predictive divergence between the two.
+
+
+## Key Results
+
+### 1. Low-salinity survival is strongly and reliably predictable from resazurin curves
+
+Multiple resazurin curve features show significant correlations with low-salinity
+survival, all concentrated in the **low-salinity parentage group**:
+
+| Feature | Spearman ρ | p | LOFO-CV ρ |
+|---|---|---|---|
+| `vmax` | +0.61 | 0.002 | 0.48 |
+| `auc_early` | +0.60 | 0.003 | 0.40 |
+| `initial_slope` | +0.57 | 0.004 | 0.35 |
+| `auc_total` | +0.57 | 0.004 | — |
+| `auc_late` | +0.53 | 0.008 | — |
+| `time_to_peak` | −0.50 | 0.013 | — |
+
+The direction is consistent and biologically interpretable: **families with
+higher metabolic capacity** (faster initial rate, larger total and early-phase
+AUC, higher Vmax) **survive better under low-salinity challenge**. A
+multi-feature composite index built from the top four traits achieves a LOFO-CV
+Spearman ρ of **0.53**, indicating that the resazurin metabolic profile genuinely
+recovers the low-salinity survival ranking for new, held-out families.
+
+### 2. High-salinity survival is weakly and unreliably predictable
+
+Only one feature reaches statistical significance for high-salinity survival:
+`time_to_min_slope` in the low-salinity parentage group (ρ = 0.42, p = 0.04,
+CV ρ = 0.27). No features in the high-salinity parentage group or the pooled
+dataset achieve p < 0.05. The multi-feature index built for high-salinity
+survival fails cross-validation entirely (LOFO-CV ρ = −0.26), meaning the
+in-sample relationship does not generalise to new families.
+
+The weak signal that does exist points to **timing and metabolic depression
+features** rather than capacity: families that delay the onset of metabolic
+decline (`time_to_min_slope`) and show greater post-peak depression
+(`metabolic_depression_index`, `depression_abs`) tend to have marginally better
+high-salinity survival. This is a qualitatively different physiological story
+from what predicts low-salinity survival.
+
+This reflects our previous analysis that correlated AUC with high and low salinity survival predictions.  
+
+### 3. High-salinity and low-salinity survival are predicted by fundamentally different features
+
+The comparison scatter plot makes this divergence visually clear. Most features
+fall well off the diagonal (equal-prediction line), separating into two clusters:
+
+- **Metabolic capacity features** (`vmax`, `auc_early`, `initial_slope`,
+  `auc_total`, `auc_late`, `final_delta`) cluster in the upper-centre of the
+  plot: near-zero correlation with high-salinity survival but strongly positive
+  correlation with low-salinity survival. These features predict one condition
+  while being uninformative for the other.
+
+- **Metabolic timing and depression features** (`time_to_min_slope`,
+  `metabolic_depression_index`, `depression_abs`) fall to the right of centre:
+  positive correlation with high-salinity survival but weaker correlation with
+  low-salinity survival. These are the only features with any above-diagonal
+  signal for high-salinity performance.
+
+- **High-salinity parentage families** (orange circles) cluster tightly near the
+  origin — their resazurin features are largely uninformative for either survival
+  condition, at least at the 24-family scale analysed here.
+
+- **`resilience_ratio`** and **`time_to_peak`** are strong predictors of
+  low-salinity survival in the negative direction (families that reach peak
+  activity quickly and have lower resilience ratios survive better), and show
+  negligible signal for high-salinity survival.
+
+This pattern suggests that **high-salinity and low-salinity survival draw on
+different physiological mechanisms** that are captured by different aspects of
+the resazurin curve. Metabolic capacity (how much total aerobic activity a
+family can sustain during the assay) predicts performance under low-salinity
+stress; metabolic timing and depression dynamics (how long a family can sustain
+activity before declining) give a modest signal for high-salinity performance.
+
+### 4. Predictive signal is concentrated in the low-salinity parentage group
+
+Across both survival conditions, the low-salinity-origin families consistently
+produce the strongest predictive signal. The high-salinity-origin families show
+near-zero or negative correlations for both conditions (visible in the comparison
+scatter as orange circles near the origin), and no high-salinity parentage
+feature reaches significance. This may reflect greater phenotypic variation in
+metabolic rate among low-salinity-origin families, or a tighter coupling between
+metabolic phenotype and survival outcome in that cohort.
+
+## Figures
+
+`feature_phenotype_correlation_ranking.png`  
+Spearman ρ for the top 8 features per parentage group and survival condition; blue = significant (p < 0.05). Low-salinity survival (bottom row) shows a cluster of significant positive predictors in the low-salinity parentage group; high-salinity survival (top row) shows only one.
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260723/feature_phenotype_correlation_ranking.png?raw=true) 
+
+`feature_comparison_high_vs_low_salinity.png`  
+Scatter of each feature's ρ for high-salinity survival (x) vs low-salinity survival (y). Features above the dashed line predict low-salinity survival better; below predict high-salinity better. Capacity features (vmax, AUC) cluster upper-center; timing/depression features sit to the right. 
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260723/feature_comparison_high_vs_low_salinity.png?raw=true) 
+
+`best_single_predictor_scatter.png`  
+(A) Best single predictor of high-salinity survival: `time_to_min_slope` in low-salinity families (ρ = 0.42, CV ρ = 0.27) — wide confidence interval, moderate scatter. (B) Best single predictor of low-salinity survival: `vmax` in low-salinity families (ρ = 0.61, CV ρ = 0.48) — tighter fit, clearer trend. 
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260723/best_single_predictor_scatter.png?raw=true) 
+
+`resazurin_index_scatter.png`   
+Multi-feature composite index vs survival. (A) High-salinity: index fails cross-validation (CV ρ = −0.26); family 78 drives overfitting. (B) Low-salinity: index generalises well (CV ρ = 0.53); families 48 and 54 with high index values show highest low-salinity survival. 
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260723/resazurin_index_scatter.png?raw=true) 
+
+`family_profile_heatmap.png`  
+Z-scored family means for top 10 features, families ordered left-to-right from best to worst survival. (A) High-salinity: no clear colour gradient left-to-right, consistent with weak signal. (B) Low-salinity: visible gradient — left-side families (48, 54, 79) are redder on capacity features (vmax, auc_early, initial_slope), right-side families (57, 55, 84) are bluer. 
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260723/family_profile_heatmap.png?raw=true) 
+
+## Implications for Predictive Phenotyping
+
+1. **Resazurin is a viable screening tool for low-salinity survival.** A 4-hour
+   assay on low-salinity-origin families recovers the survival ranking with
+   LOFO-CV ρ ≈ 0.50, which is meaningful given that the comparison families are
+   different animals from the survival experiment. The key metric is early
+   metabolic rate (Vmax or initial slope) — simple, fast, and non-lethal to
+   measure.
+
+2. **High-salinity survival likely requires a different assay design.** The
+   near-zero predictive power for high-salinity survival suggests that the
+   metabolic feature relevant to that condition — the timing of metabolic
+   depression — may not be well-captured in a standard 4-hour resazurin
+   incubation, or that survival under high-salinity is more strongly determined
+   by genetic or developmental factors not reflected in resting metabolic
+   phenotype. A longer or thermally challenged assay may improve signal.
+
+3. **A single universal resazurin metric cannot serve both conditions.** The
+   features that predict low-salinity survival (capacity) are orthogonal to
+   those that weakly predict high-salinity survival (timing/depression).
+   Screening programs should select the metric matched to the target condition.
+
