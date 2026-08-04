@@ -130,7 +130,7 @@ Residuals          74  187.2     2.5
 ```
 Assumptions of this test were met.  
 
-There is lower expression under heat stress conditions with lower expression in the PolyIC treated groups regardless of temperature conditions. This is an interesting result because it may relate to observed variation in thermal tolerance! 
+There is higher expression under heat stress conditions with higher expression in the PolyIC treated groups regardless of temperature conditions. This is an interesting result because it may relate to observed variation in thermal tolerance! 
 
 ![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260803/hsp70.png?raw=true)
 
@@ -151,7 +151,7 @@ Residuals          64 13.713   0.214
 ```
 Assumptions of this test were met.  
 
-There is lower expression in the PolyIC treated groups regardless of temperature conditions. This is an interesting result because it may relate to observed variation in thermal tolerance! 
+There is higher expression in the PolyIC treated groups regardless of temperature conditions. This is an interesting result because it may relate to observed variation in thermal tolerance! 
 
 ![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260803/hsp90.png?raw=true)
 
@@ -172,7 +172,7 @@ Residuals          64  59.66   0.932
 ```
 Assumptions of this test were met.  
 
-There is lower expression in the PolyIC treated groups regardless of temperature conditions. This is also an interesting result because it is related to immune function! 
+There is higher expression in the PolyIC treated groups regardless of temperature conditions. This is also an interesting result because it is related to immune function! 
 
 ![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260803/viperin.png?raw=true)
 
