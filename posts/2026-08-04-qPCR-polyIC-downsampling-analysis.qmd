@@ -1,0 +1,143 @@
+---
+title: "Downsampling analysis of PolyIC qPCR data"
+author: "Ariana Huffmyer"
+date: "2026-08-04"
+categories: [cgigas, oyster, polyic, analysis]
+description: "Downsampling analysis of PolyIC project qPCR data"
+image: ""
+---
+
+<img alt="AI Use Level 2" src="https://img.shields.io/badge/AI%20Use-L2%20Drafting%2FCoding-yellowgreen">  
+*I used AI to help me draft and edit the code for the analysis I describe in this post.*
+
+# Overview 
+
+We have [drafted the PolyIC project manuscript](https://www.biorxiv.org/content/10.64898/2025.12.10.693539v1) and prepped for submission. We are evaluating whether qPCR data run with samples from this project should be included. In this post I conduct a downsampling analysis to determine how robust our results are due to unequal sample size. 
+
+Before reading this post, [see my analysis post from yesterday](https://ahuffmyer.github.io/posts/2026-08-03-qPCR-polyIC-initial-analysis.html). 
+
+In this project, we exposed broodstock to PolyIC (or not for a control) and then reared their offspring to track growth, thermal tolerance, and metabolism. When the analyses below refer to PolyIC treatment, that is indicating the original broodstock treatment that the offspring came from (about 4 months prior to the qPCR samples).  
+
+# Data and code 
+
+All data can be found in our [PolyIC repo here](https://github.com/RobertsLab/polyIC-larvae/tree/main) and the code used to generate the following results is [here directly](https://github.com/RobertsLab/polyIC-larvae/blob/main/scripts/qPCR/01.00-polyIC-qPCR-analysis.Rmd).  
+
+# tl;dr 
+
+Significance results are robust to unequal sample size. I am proceeding with analyzing this data and incorporating it into our manuscript.    
+
+# Method
+
+ΔCq values for HSP70, HSP90, and VIPERIN were analyzed using two-way ANOVA tests with acute stress treatment (i.e., control or high temperature) as main effects. Assumptions of residual normality and homogeneity of variance were verified using quantile-quantile plots and scale-location plots, respectively. Post hoc tests were performed using estimated marginal means in the emmeans package (Lenth, 2018). Due to variation in sample size between groups, we performed a downsampling analysis to determine the robustness of significance results to unequal sample size. For each gene, minimum sample size was identified with the lowest sample size occurring in the Poly(I:C) treated - high temperature group (HSP70 n=18, HSP90 and VIPERIN n=8). Data were then randomly subsampled without replacement to the minimum n from treatment group and the ANOVA model was re-run for 1,000 iterations. For each ANOVA model term, we report the proportion of iterations in which the term was significant at P<0.05. Final results are presented from the full ANOVA model with all available observations. Log2 fold change (log2 FC) values were calculated from ΔΔCq as log2 FC = −ΔΔCq, where ΔΔCq = ΔCq_sample − mean(ΔCq_reference), with the control Poly(I:C) - control temperature group used as the reference. Individual sample log2 FC values were plotted with the mean log2 FC of the reference group equal to 0. Cohen’s D effect sizes were calculated for the effect of Poly(I:C) treatment on ΔCq values of each gene. 
+
+# Downsampling results 
+
+Downsampling was conducted for the same ANOVA models that I analyzed in my [post from yesterday](https://ahuffmyer.github.io/posts/2026-08-03-qPCR-polyIC-initial-analysis.html). I am proceeding with analyzing HSP70, HSP90, and VIPERIN. These genes were selected because the other genes are either not relevant to our study or had variance violations and were removed from the analysis. 
+
+Here are the sample sizes that were used for downsampling. See the full code for more detailed information - here I'll provide an overview.   
+
+```
+Gene: HSP70 
+  Group sizes before downsampling:
+     polyIC stress_type  n
+1 No_PolyIC     Control 20
+2 No_PolyIC Temperature 20
+3    PolyIC     Control 18
+4    PolyIC Temperature 20
+  Downsampling all groups to n = 18 per group
+
+Gene: HSP90 
+  Group sizes before downsampling:
+     polyIC stress_type  n
+1 No_PolyIC     Control 20
+2 No_PolyIC Temperature 20
+3    PolyIC     Control  8
+4    PolyIC Temperature 20
+  Downsampling all groups to n = 8 per group
+
+Gene: VIPERIN 
+  Group sizes before downsampling:
+     polyIC stress_type  n
+1 No_PolyIC     Control 20
+2 No_PolyIC Temperature 20
+3    PolyIC     Control  8
+4    PolyIC Temperature 20
+  Downsampling all groups to n = 8 per group
+```
+
+The lowest sample size was n=8.  
+
+I then ran each ANOVA model for each gene through 1,000 iterations and calculated the proportion of times the effects were significant at P<0.05.  
+
+```
+HSP70 (n = 18 per group):
+  polyIC: 100% — ROBUST — significant in >= 80% of downsampled iterations; sample size is not driving this result.
+  stress_type: 100% — ROBUST — significant in >= 80% of downsampled iterations; sample size is not driving this result.
+  interaction: 0.4% — NOT ROBUST — significant in < 50% of iterations; result may be sensitive to sample size.
+
+HSP90 (n = 8 per group):
+  polyIC: 99.8% — ROBUST — significant in >= 80% of downsampled iterations; sample size is not driving this result.
+  stress_type: 6.3% — NOT ROBUST — significant in < 50% of iterations; result may be sensitive to sample size.
+  interaction: 8.2% — NOT ROBUST — significant in < 50% of iterations; result may be sensitive to sample size.
+
+VIPERIN (n = 8 per group):
+  polyIC: 80% — ROBUST — significant in >= 80% of downsampled iterations; sample size is not driving this result.
+  stress_type: 1.2% — NOT ROBUST — significant in < 50% of iterations; result may be sensitive to sample size.
+  interaction: 1.9% — NOT ROBUST — significant in < 50% of iterations; result may be sensitive to sample size.
+```
+
+For all genes, results were robust to unequal sample sizes, with the effect of Poly(I:C) treatment remaining significant in 100%, 99.8%, and 80% of downsampling iterations for HSP70, HSP90, and VIPERIN, respectively. The lower iteration significance rate for VIPERIN (80%) is consistent with the observed moderate effect size (D = -0.684). The Poly(I:C) effect for VIPERIN was significant in the full dataset (P=0.001; Table 3) but showed greater sensitivity to sample size variation in downsampling (80% of iterations significant). This suggests that while the effect is robust, unequal sample size across treatment groups may contribute to the strength of the observed Poly(I:C) effect on VIPERIN expression. 
+
+Note that I show effect sizes referenced in the text above in a section below.  
+
+I then generated p-value distribution plots to view these results.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260804/downsampling.png?raw=true)
+
+Note that the significant PolyIC effects are robust and the non-significant effects of the interaction and stress temperature are less robust as expected. The other effect that is highly robust is the strong effect of stress temperature on HSP70. These results are expected given the high significance of these effects and verifies that these results are not sensitive to sample size.  
+
+# Fold change and effect size results 
+
+I then displayed expression as log2 fold change for a more intuitive way to view expression.  
+
+![](![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260804/fc_genes.png?raw=true)
+
+This plot shows log2 fold change in gene expression relative to the control Poly(I:C) - control temperature group for HSP70, HSP90, and VIPERIN genes at control (10°C) and high temperature (44°C) acute stress treatments. Individual data points represent individual sample log2 fold change values; diamonds indicate group means ± standard error of mean. Cyan = Poly(I:C)-control; salmon = Poly(I:C)-treated. Dashed line indicates no change in expression (log2 FC = 0; equivalent to 1-fold change). Asterisks indicate significant (P<0.05) post hoc comparison between Poly(I:C) treatments at the respective temperature. 
+
+Fold change is calculated with PolyIC control - control temperature group as the reference.   
+
+Here is a full table of the fold change values. Note that stress = control is the 10°C condition and stress = temperature is the 44°C condition.    
+
+```
+|Gene    |PolyIC    |Stress      |  n| Mean log2 FC| SE log2 FC| Mean FC|  SE FC|
+|:-------|:---------|:-----------|--:|------------:|----------:|-------:|------:|
+|HSP70   |No_PolyIC |Control     | 20|        0.000|      0.340|   1.000|  0.235|
+|HSP70   |PolyIC    |Control     | 18|        2.221|      0.459|   4.662|  1.482|
+|HSP70   |No_PolyIC |Temperature | 20|        5.016|      0.343|  32.356|  7.698|
+|HSP70   |PolyIC    |Temperature | 20|        6.200|      0.300|  73.521| 15.286|
+|HSP90   |No_PolyIC |Control     | 20|        0.000|      0.091|   1.000|  0.063|
+|HSP90   |PolyIC    |Control     |  8|        0.571|      0.155|   1.485|  0.160|
+|HSP90   |No_PolyIC |Temperature | 20|        0.031|      0.119|   1.021|  0.085|
+|HSP90   |PolyIC    |Temperature | 20|        0.853|      0.100|   1.806|  0.125|
+|VIPERIN |No_PolyIC |Control     | 20|        0.000|      0.233|   1.000|  0.162|
+|VIPERIN |PolyIC    |Control     |  8|        1.183|      0.326|   2.270|  0.513|
+|VIPERIN |No_PolyIC |Temperature | 20|        0.136|      0.166|   1.099|  0.127|
+|VIPERIN |PolyIC    |Temperature | 20|        0.775|      0.244|   1.711|  0.289|
+```
+
+Finally, I calculated Cohen's D effect sizes. Note that a negative d means a lower ΔCq and therefore higher gene expression in the PolyIC treated group.  
+
+```
+Table: Cohen's d effect sizes for Poly(I:C) effect on ΔCq. Positive d = higher ΔCq (lower expression) in PolyIC group.
+
+|Gene    |Stress      | n PolyIC| n No PolyIC| Cohen's d|Magnitude |
+|:-------|:-----------|--------:|-----------:|---------:|:---------|
+|HSP70   |Control     |       18|          20|    -1.281|large     |
+|HSP70   |Temperature |       20|          20|    -0.821|large     |
+|HSP90   |Control     |        8|          20|    -1.375|large     |
+|HSP90   |Temperature |       20|          20|    -1.667|large     |
+|VIPERIN |Control     |        8|          20|    -1.170|large     |
+|VIPERIN |Temperature |       20|          20|    -0.684|medium    |
+```
+
+The effect sizes were all large except for a medium effect of PolyIC at high temperature in the VIPERIN gene. 
