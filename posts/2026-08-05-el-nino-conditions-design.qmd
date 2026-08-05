@@ -1,0 +1,123 @@
+---
+title: "El Nino experimental conditions planning"
+author: "Ariana Huffmyer"
+date: "2026-08-03"
+categories: [el-nino, experimental design]
+description: "Planning potential El Nino experimental conditions"
+image: ""
+---
+
+# Overview 
+
+We have received funding to test the effect of El Nino conditions (particularly "super" El Ninos) on oyster physiology and subsequent stress tolerance. As we start to design this project, we need to know the environmental scenarios that we should test.  
+
+Today, I gathered some information from the literature to help us design some preliminary project conditions.  
+
+# El Nino conditions 
+
+The primary El Nino conditions that we may want to test include:  
+
+1. **Warming temperatures**: El Nino conditions can lead to 2-5°C increases in water temperature with shallow water and estuaries warming more rapidly due to shallow water. Heat waves last weeks rather than just days due to the longer climactic shift.   
+
+2. **Elevated salinity**: Changes in salinity are highly variable due to local conditions and hydrodynamics. On average, there is typically reduced rainfall and river discharge, leading to higher salinity conditions. Note that increases in salinity would occur in summer, with decreased salinity in winter as rainfall shifts.    
+
+3. **Hypoxia**: Warmer water holds less oxygen and can lead to more stratification and less water column mixing. Oxygen can be reduced in this scenario.    
+
+4. **Changing food availability**: Influenced by reduced upwelling and higher stratification, there are fewer nutrients in coastal waters, decreasing chlorophyll and phytoplankton biomass. This can reduce food availability.  
+
+Note that effects on pH are variable and I did not dig into this factor as much here.    
+
+For oysters, the combination of these conditions may increase energetic and metabolic demand while also increasing physiological stress and may lead to negative synergistic effects on performance, reproduction, and tolerance.   
+
+# Literature review 
+
+Here, I summarize previous findings for the primary El Nino effects of temperature, salinity, oxygen, and food availability.   
+
+[Gaona-Hernandez et al. 2025](https://bioone.org/journals/journal-of-shellfish-research/volume-44/issue-1/035.044.0111/Impact-of-Perkinsus-marinus-on-Oyster-Health--Survey-Findings/10.2983/035.044.0111.short): Examined protozoan parasite infection in a week La Nina year and a strong El Nino year in Texas (Gulf of Mexico). There were higher infection levels in El Nino year likely driven by warm and saline conditions (high temps, higher salinity). This was associated with poor tissue quality.   
+
+[Wright-LaGreca et al. 2026](https://www.sciencedirect.com/science/article/pii/S235251342600356X): Used modeling to examine shellfish outbreaks and mortality. Heat waves were longer (9 days) under El Nino than in neutral periods (7 days). ENSO cycles shift risk windows to be earlier or later in the year. Higher Vibrio outbreaks in warming cycles.   
+
+[Tan et al. 2023](https://www.tandfonline.com/doi/abs/10.1080/10408398.2023.2242943): Warming had negative impacts on lipid content in bivalves, suggesting changes in nutrition.    
+
+[McFarland et al. 2022](https://www.int-res.com/journals/meps/articles/meps14178): Tested response of oyster life stages to a range of salinity (0-40 ppt) and temperature (25 and 30°C). Elevated temperatures amplified negative effects of extreme salinity. Earlier developmental stages were more sensitive.   
+
+[Lodhi et al. 2026](https://onlinelibrary.wiley.com/doi/full/10.1111/raq.70169): Reviewed multi-stressor effects in bivalves. Cumulative and interactive effects led to oxidative stress, disrupted energy allocation, destabilized microbial relationships, lowered tolerance.   
+
+[Smith et al. 2023](https://www.annualreviews.org/content/journals/10.1146/annurev-marine-032122-121437): Review on biological effects of heat waves across taxa highlighting mortality events associated with El Nino events.   
+
+[Quigg et al. 2025](https://www.mdpi.com/2674-1334/4/2/17): Examined pathogens in Gulf of Mexico across seasonal cycles. Temperature has strong positive correlation with Vibrio infections. Salinity showed a negative correlation.   
+
+[Okon et al. 2023](https://www.mdpi.com/2071-1050/15/17/12775): Review on pathogens and climate change in oysters. Highlights increase in pathogens with temperature.   
+
+[Savage et al. ](2025): Salinity and temperature affected infection severity of Perkinsus marinus in eastern oysters.    
+
+Overall, studies testing multiple factors that characterize an El Nino/ENSO period are rare, especially those combining environmental effects with food availability. Most studies also focus on infections/pathogens with few focusing on the host physiology. Studies do track survival and growth, but less on metabolism. I also could not find any latent or cross-generational effects in this context. Finally, I could not find a study in Pacific oysters that tested all of these factors together.    
+
+# Experimental designs 
+
+Here are two potential experimental designs for *summer* El Nino simulations.  
+
+## Design 1 (simpler design in FTR tanks)
+
+### Temperature X Salinity X Food Availability
+
+These treatments could be manipulated in FTR with our available resources.  
+
+Control Treatment:   
+- **Temperature**: Current FTR control temperature of 16-18°C  
+- **Salinity**: Current FTR salinity of 20-25 ppt   
+- **Food Availability**: 3x per week feeding of algal paste (volume TBD)  
+
+El Nino Treatment:   
+- **Temperature**: Elevate to 24-26°C, increasing by about 8-10°C to simulate a high intensity El Nino  
+- **Salinity**: Increase salinity to 30-35 ppt  
+- **Food Availability**: 1x per week feeding of algal paste (volume TBD) to simulate reduced food availability   
+
+## Design 2 (more complex design, perhaps needing different facility)
+
+### Temperature X Salinity X Oxygen X Food Availability 
+
+This treatment would require manipulation of oxygen, which adds more complexity and facility needs.    
+ 
+Control Treatment:   
+- **Temperature**: Current FTR control temperature of 16-18°C  
+- **Salinity**: Current FTR salinity of 20-25 ppt   
+- **Food Availability**: 3x per week feeding of algal paste (volume TBD)  
+- **Oxygen**: Control conditions of 8-10 mg/L  
+
+El Nino Treatment:   
+- **Temperature**: Elevate to 24-26°C, increasing by about 8-10°C to simulate a high intensity El Nino  
+- **Salinity**: Increase salinity to 30-35 ppt  
+- **Food Availability**: 1x per week feeding of algal paste (volume TBD) to simulate reduced food availability   
+- **Oxygen**: Reduced oxygen conditions of 4-6 mg/L (moderate hypoxia)  
+
+## Time line and measurements of interest 
+
+- Exposure to El Nino or control conditions for 4-6 weeks  
+- Measure growth, survival, and metabolism (resazurin) of oysters at the end of the exposure period  
+- Return all oysters to control conditions for a recovery phase for another 4-6 weeks   
+- Reassess growth, survival, and metabolism (resazurin) of all oysters after recovery to determine if El Nino effects are persistent  
+- Perform an acute thermal stress test after recovery period to determine if El Nino conditions influence acute thermal tolerance   
+
+## Equipment and replication 
+
+We would require the following equipment:   
+
+- n=6 tanks (n=3 replicates per condition)  
+- Heaters with thermostats  
+- Bubblers  
+- Pumps  
+- Instant Ocean salts   
+- Algal paste food   
+- Thermometers and temp loggers   
+
+Replication:   
+
+- n=3 tanks per condition  
+- Max sample size n=100 oysters per tank (general excess/mixed families) totaling 600 oysters   
+
+Sampling:   
+
+- Sample n=20 oysters per tank for resazurin analysis after exposure period and n=20 after recovery period totaling n=120 oyster measured for resazurin at each time point  
+- All oysters photographed and tracked for growth and survival (n=600 total)  
+- Sample all remaining oysters (approx. n=40-60) for acute stress survival testing after the recovery period totaling n=240-360 oysters tested  

@@ -1,7 +1,7 @@
 ---
 title: "August Goals and Daily Entries"
 author: "Ariana Huffmyer"
-date: "2026-08-03"
+date: "2026-08-05"
 categories: [goals, daily-entries]
 description: "August 2026 goals and daily entries"
 image: ""
@@ -40,6 +40,17 @@ Here are my goals and daily entries for August 2026.
 1. E5 metabolomics manuscript 
 
 ## **Daily Log**   
+
+### August 5 
+
+- PolyIC paper
+- El Nino project design
+
+### August 4 
+
+- qPCR analysis data 
+- PolyIC paper
+- Meeting with Steven
 
 ### August 3 
 
