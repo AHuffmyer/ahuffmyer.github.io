@@ -1,7 +1,7 @@
 ---
 title: "August Goals and Daily Entries"
 author: "Ariana Huffmyer"
-date: "2026-08-05"
+date: "2026-08-10"
 categories: [goals, daily-entries]
 description: "August 2026 goals and daily entries"
 image: ""
@@ -15,10 +15,11 @@ Here are my goals and daily entries for August 2026.
 
 ### Writing and manuscripts 
               
-1. Submit PolyIC paper and revise with qPCR data 
-2. Write discussion of Hawaii 2023 paper
-3. Start full draft of Moorea 2023 paper (abstract, methods)
-4. Start full draft of Westcott oyster priming manuscript
+1. ~~Submit PolyIC paper and revise with qPCR data~~ 
+2. Write intro and discussion of Hawaii 2023 paper
+3. Start draft of Moorea 2023 paper (abstract, methods)
+4. Start draft of Westcott oyster priming manuscript
+5. Submit PolyIC paper
 
 ### Grants
 
@@ -34,12 +35,35 @@ Here are my goals and daily entries for August 2026.
 1. Summer quick check ups at Sequim, Baywater, Westcott, and Goose Point
 2. Oyster image analysis for all 2026 summer outplants
 3. Manchester hardening experiment final sampling 
+4. El Nino experiment planning 
 
 ### Future publications to work on
 
-1. E5 metabolomics manuscript 
+1. E5 metabolomics/lipidomics manuscript - methods first 
 
 ## **Daily Log**   
+
+### August 11 
+
+- PolyIC paper
+- Manchester experiment planning
+- Reimbursements for travel 
+- IOS grant meeting with Hollie
+
+### August 10 
+
+- PolyIC paper
+- Manchester experiment planning
+
+### August 7 
+
+- PolyIC paper
+- Manchester experiment planning
+
+### August 6 
+
+- SICB symposium planning
+- PolyIC paper
 
 ### August 5 
 

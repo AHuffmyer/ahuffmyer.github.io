@@ -1,0 +1,91 @@
+---
+title: "Manchester Hardening project final lab sampling plan"
+author: "Ariana Huffmyer"
+date: "2026-08-11"
+categories: [manchester-hardening, experimental design]
+description: "Planning final sampling of Manchester Hardening experiment oysters"
+image: ""
+---
+
+# Overview 
+
+This post details the experimental design plans for sampling survival and metabolism of Manchester Hardening experiment oysters.  
+
+*Note that I will keep updating this post as we get more information on sample size and specific protocols.*  
+
+## Oysters 
+
+Oysters will be collected from Manchester on Friday, August 15th and transported to UW campus by Mac.    
+
+The oysters will be held in red seed bags (n=20 total bags) that correspond to 10 families from 2 treatment groups (10 x 2 = 20). These are our "family treatment groups".    
+
+Each bag will contain a waterproof paper label with the family and treatment information.   
+
+We will see how many oysters are surviving from each family treatment group to update and finalize sample size.  
+
+#### Family treatment groups: 
+
+The oysters will be identified by a family + a treatment group from our hardening experiment. This will be something like "YC24-087" (family) and "High" or "Control" (treatment). Note that the treatment refers to the hardening treatment, *NOT* the treatment for survival or resazurin testing. These assays will run at a stressful temperature for all oysters as in the standard lab protocols.  
+
+#### Sample size: 
+
+This will be based on how many oysters are sampled. I will update this as we go. I expect at least n=10 per family group (~200 oysters). Depending on how things go, we will prioritize survival assays first. If things go well and we have time, we can also run resazurin.  
+
+## Survival (week of Aug 17, extending to week of Aug 24 if needed)
+
+#### Materials needed:  
+
+- Numbered plastic cups (number will be dependent on sample size)
+- Seawater (Instant Ocean adjusted to ambient levels) 
+- Seawater table running for temperature control 
+
+#### Base protocol: 
+
+- Pre heat the water table such that cups in the water table reach 36°C (may need to have the table heater set at 38-40°C)
+- Place oysters into numbered cups, being sure to record which treatment is in each cup (e.g.,  YC24-087 Control or YC24-087 High). Labels are based on the label in each bag of oysters. 
+- Fill cups with seawater and ensure each oyster is alive. 
+- Record which oysters are dead in the morning and evening of each day for 3-5 days until ~80-90% of oysters have died. 
+- Record the temperature in 5 cups in the water table each time mortality is assessed and write down the temperature readings.  
+- Send all data to Ariana. 
+
+#### Data sheets that will need to be recorded: 
+
+1. Temperature recorded in n=5 cups at each sampling point 
+2. Alive/dead oysters at each time point 
+3. The time of the start of the experiment and time of each sampling time point 
+4. A metadata sheet that contains the cup number, family and treatment, and any notes 
+
+## Resazurin (week of Aug 24)
+
+#### Materials needed:  
+
+- Numbered plastic cups 
+- Seawater (Instant Ocean adjusted to ambient levels) 
+- Seawater table running for temperature control 
+- Resazurin solution - enough to fill up the desired number of cups 
+- 96 well plates for resazurin sampling
+- Plate reader and computer in FTR 213
+- P1000 pipette and tips 
+- Gloves
+- Camera/phone
+- Whiteboard surface to take images and write identifiers to include in photos 
+
+#### Base protocol: 
+
+- Prepare the resazurin solution 
+- Pre heat the water table such that cups in the water table reach 36°C (may need to have the table heater set at 38-40°C)
+- Place oysters into numbered cups, being sure to record which treatment is in each cup (e.g.,  YC24-087 Control or YC24-087 High). Labels are based on the label in each bag of oysters. 
+- Photograph each oyster for size and include the cup number and date in the image. Follow Sam's protocols for calculating oyster size automatically. 
+- Fill cups with seawater resazurin solution and ensure each oyster is alive. Place in water table. 
+- Take an initial sample of resazurin into a 96-well plate. Record the plate location of the sample and use this location at every sampling point. 
+- Read the sample on the plate reader and save the data with the date and timepoint in the file name. 
+- Repeat the sampling at 1, 2, and 3 hours. We can also sample at 30 min intervals as per the most recent SORMI protocol, but this will be dependent on sample size. 
+- After measurements are completed, discard resazurin and oysters. 
+- Send all data to Ariana. 
+
+#### Datasheets that will need to be recorded: 
+
+1. Temperature recorded in n=5 cups at each sampling point 
+2. The time of the start of the experiment and time of each sampling time point 
+3. A metadata sheet that contains the cup number, date, family and treatment, plate well location, and any notes for all oysters
+4. Raw plate reader files for all readings
