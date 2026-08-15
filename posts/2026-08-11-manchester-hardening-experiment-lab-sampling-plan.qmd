@@ -9,7 +9,7 @@ image: ""
 
 # Overview 
 
-This post details the experimental design plans for sampling acute stress survival of Manchester Hardening experiment oysters.  
+This post details the experimental design plans for sampling acute stress survival of Manchester Hardening experiment oysters.   
 
 ## Oysters 
 
@@ -38,20 +38,20 @@ There are a total of n=20 oysters per bag available for assays. We will use 15-2
 
 #### Schedule: 
 
-Aug 17-21: Round 1 of n=4 oysters per bag, n=80 oysters total 
-August 24-28: Round 2 of n=4 oysters per bag, n=80 oysters total 
-August 31-Sept 4: Round 3 of n=4 oysters per bag, n=80 oysters total 
-Sept 7-Sept 11: Round 3 of n=4 oysters per bag, n=80 oysters total 
+- Aug 17-21: Round 1 of n=4 oysters per bag, n=80 oysters total   
+- August 24-28: Round 2 of n=4 oysters per bag, n=80 oysters total   
+- August 31-Sept 4: Round 3 of n=4 oysters per bag, n=80 oysters total   
+- Sept 7-Sept 11: Round 3 of n=4 oysters per bag, n=80 oysters total   
 
 *Note that specific dates can be flexible based on student schedules and what works best for the team.  
 
 This will result in n=16 oysters per bag being used for assays, which will leave a few extra in case an oyster is found dead or needs to be replaced.  
 
 #### Materials needed:  
-
-- Numbered plastic cups (n=80 per round)
-- Seawater (Instant Ocean adjusted to ambient levels) 
-- Seawater table running for temperature control 
+ 
+- Numbered plastic cups (n=80 per round)   
+- Seawater (Instant Ocean adjusted to ambient levels)   
+- Seawater table running for temperature control   
 
 #### Base protocol: 
 
