@@ -1,7 +1,7 @@
 ---
 title: "Manchester Hardening project final lab sampling plan"
 author: "Ariana Huffmyer"
-date: "2026-08-12"
+date: "2026-08-14"
 categories: [manchester-hardening, experimental design]
 description: "Planning final sampling of Manchester Hardening experiment oysters"
 image: ""
@@ -11,35 +11,41 @@ image: ""
 
 This post details the experimental design plans for sampling acute stress survival of Manchester Hardening experiment oysters.  
 
-*Note that I will keep updating this post as we get more information on sample size and specific protocols.*  
-
 ## Oysters 
 
-Oysters will be collected from Manchester on Friday, August 15th and transported to UW campus by Mac.    
+Oysters were collected from Manchester on Friday, August 15th and transported to UW campus by Mac. They are all contained in one tank in FTR in red seed bags. 
 
-The oysters will be held in red seed bags (n=20 total bags) that correspond to 10 families from 2 treatment groups (10 x 2 = 20). These are our "family treatment groups".    
+There are **20 red mesh bags of oysters** labeled with yellow cattle tags numbered with **# 1-20**. The numbers are written on the back of each cattle tag with a cirle around it. See the images below.  
 
-Each bag will contain a waterproof paper label with the family and treatment information.   
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260814/pic2.jpeg?raw=true)  
+The cattle tag number is crossed out - refer to the back of the tag for the ID number.  
 
-We will see how many oysters are surviving from each family treatment group to update and finalize sample size.  
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260814/pic3.jpeg?raw=true)
 
-#### Family treatment groups: 
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260814/pic4.jpeg?raw=true)
 
-The oysters will be identified by a family + a treatment group from our hardening experiment. This will be something like "YC24-087" (family) and "High" or "Control" (treatment). Note that the treatment refers to the hardening treatment, *NOT* the treatment for survival or resazurin testing. These assays will run at a stressful temperature for all oysters as in the standard lab protocols.  
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260814/pic5.jpeg?raw=true)
 
-I will label the bags with numbers 1-20 to make labeling easy. I'll create a metadata sheet with the family group information assigned to each number.  
+Each red bag contains n=20 oysters that correspond to a specific treatment group. Students do not need to worry about the specific treatment group - just **track everything by the bag number (1-20)**. Each bag has  a waterproof paper label with the family and treatment information as backup information. I already have this information recorded.  
+
+These 20 oysters per group will be used for survival assays.  
 
 #### Sample size: 
 
-This will be based on how many oysters are sampled. I will update this as we go. I expect at least n=10 per family group (~200 oysters). We are going to proceed with survival assays as the main lab test.  
+There are a total of n=20 oysters per bag available for assays. We will use 15-20 oysters from each depending on how the assays and schedule goes.  
 
 ## Survival 
 
 #### Schedule: 
 
-August 17-20 (ish): Round 1 of n=4 oysters per bag, n=80 oysters total 
-August 24-27 (ish): Round 2 of n=4 oysters per bag, n=80 oysters total 
-August 31-Sept 3 (ish): Round 3 of n=4 oysters per bag, n=80 oysters total 
+Aug 17-21: Round 1 of n=4 oysters per bag, n=80 oysters total 
+August 24-28: Round 2 of n=4 oysters per bag, n=80 oysters total 
+August 31-Sept 4: Round 3 of n=4 oysters per bag, n=80 oysters total 
+Sept 7-Sept 11: Round 3 of n=4 oysters per bag, n=80 oysters total 
+
+*Note that specific dates can be flexible based on student schedules and what works best for the team.  
+
+This will result in n=16 oysters per bag being used for assays, which will leave a few extra in case an oyster is found dead or needs to be replaced.  
 
 #### Materials needed:  
 
@@ -49,14 +55,16 @@ August 31-Sept 3 (ish): Round 3 of n=4 oysters per bag, n=80 oysters total
 
 #### Base protocol: 
 
+- Make a datasheet online in a Google Sheet and share it with Ariana. 
 - Pre heat the water table such that cups in the water table reach 36°C (may need to have the table heater set at 38-40°C)
 - Obtain n=4 oysters per bag per round (n=80 oysters per round)
-- Place oysters into numbered cups, being sure to record which bag is in represented in each cup (e.g.,  Bags 1-20). Labels are based on the label in each bag of oysters. 
+- Place oysters into numbered cups, being sure to record which bag is in represented in each cup (e.g.,  Bags 1-20). 
 - Fill cups with seawater and ensure each oyster is alive. 
-- Record which oysters are dead in the morning and evening of each day for 3-5 days until ~80-90% of oysters have died. 
+- Record which oysters are dead in the morning and evening of each day for 3-5 days until ~80-90% of oysters have died. Follow the standard lab protocols for survival assays. 
+- Record all methods used and send to Ariana. 
 - Record the temperature in 5 cups in the water table each time mortality is assessed and write down the temperature readings.  
-- Send all data to Ariana. 
-- Repeat until we get through at least 12-16 oysters per bag.  
+- Send all data to Ariana/add to a Google Sheet. 
+- Repeat until we get through ~16 oysters per bag.  
 
 #### Data sheets that will need to be recorded: 
 
