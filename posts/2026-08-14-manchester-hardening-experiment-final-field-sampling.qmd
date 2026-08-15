@@ -1,0 +1,60 @@
+---
+title: "Manchester Hardening project final field sampling"
+author: "Ariana Huffmyer"
+date: "2026-08-14"
+categories: [manchester-hardening, experimental design]
+description: "Final field sampling of Manchester Hardening experiment oysters"
+image: ""
+---
+
+# Overview 
+
+Today we conducted the final sampling of our Manchester Heat Hardening experiment! In this project, we exposed 10 families of Pacific oysters to a sublethal heat stress in June 2025 and then deployed the oysters (with respective controls) to hang off the docks at NOAA NWFS Manchester station. We have monitored growth and survival for the last year.  
+
+Today, our goal was to do the final growth and survival assessment and take a subset of oysters back to UW for acute survival testing.  
+
+For context, here is the tempreature profile we used for our hardening stress:  
+
+![](https://github.com/RobertsLab/manchester-hardening/blob/main/figures/loggers/Manchester_loggers_experiment.png?raw=true)
+
+We included n=~20-40 oysters per family per treatment (high or control) and deployed them in replicate seed bags at Manchester.  
+
+## Data and code 
+
+All data and code for this project [can be found on GitHub here](https://github.com/RobertsLab/manchester-hardening/tree/main).  
+
+## Loggers 
+
+I downloaded the loggers from our field deployment. The data files from today [are here on GitHub](https://github.com/RobertsLab/manchester-hardening/tree/main/data/loggers).   
+
+Here are the temperatures over the course of our field deployement:  
+
+![](https://github.com/RobertsLab/manchester-hardening/blob/main/figures/loggers/Manchester_loggers_field.png?raw=true)  
+
+Note that the blips of high/low temps occured on our sampling days and are artifacts of the oysters being out on the dock during sampling.  
+
+## Final sampling 
+
+Today we did the following activities:  
+
+- Removed all bags from the outplant cages 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260814/pic8.jpeg?raw=true)
+
+- We took images of all oysters in the bag and counted live and dead oysters
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260814/pic1.jpeg?raw=true)
+
+- We then labeled 20 red mesh bags (no. 1-20) corresponding to a specific family/treatment group. Here are the assignments. This is recorded as metadata with live/dead counts on [GitHub here](https://github.com/RobertsLab/manchester-hardening/blob/main/data/final-lab-testing/bag_metadata.csv). The images of my notebook are below.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260814/pic6.jpeg?raw=true)
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260814/pic7.jpeg?raw=true)
+
+- We combined duplicate bags of the same treatment/family combination into a red bag, resulting in 20 total bags. After combining, we mixed the oysters and then subsampled to n=20 oysters into each bag. These will be used for survival assays in the lab next week.  
+
+- We then cleaned everything and Mac took the oysters to campus.  
+
+## Lab sampling 
+
+To see our plan for lab sampling, refer to [my notebook post here](https://ahuffmyer.github.io/posts/2026-08-11-manchester-hardening-experiment-lab-sampling-plan.html).  
+
