@@ -1,0 +1,62 @@
+---
+title: "Manchester Hardening project lab survival assays"
+author: "Ariana Huffmyer"
+date: "2026-08-18"
+categories: [manchester-hardening, experimental design]
+description: "Final lab survival assays of Manchester Hardening experiment oysters"
+image: ""
+---
+
+# Overview 
+
+Over the next few weeks, students in the lab will be conducting final sampling and survival assays of Manchester Hardening oysters [that were sampled from the field last week](https://ahuffmyer.github.io/posts/2026-08-14-manchester-hardening-experiment-final-field-sampling.html). I previously wrote a post with a [general plan for this sampling](https://ahuffmyer.github.io/posts/2026-08-11-manchester-hardening-experiment-lab-sampling-plan.html).  
+
+This post details the experiments. I will describe the methods and continually update the log of survival assays as they happen.  
+
+All data will be stored on [GitHub here](https://github.com/RobertsLab/manchester-hardening/tree/main/data/final-lab-testing).   
+
+Scripts to analyse this data are [also on GitHub here](https://github.com/RobertsLab/manchester-hardening/blob/main/scripts/final_lab_survival.Rmd).  
+
+# Lab survival sampling 
+
+## Project methods and set up 
+
+Undergraduates in the lab, Jesse L, Maddy B, and Naomi K are conducting this project in the lab. The following methods were written by Jesse Lowe.  
+
+- Cup preparation: Labeled cups 1-80   
+- Seawater preparation: Prepared a 32 gallon (Brute brand gray bin) bucket with 30 ppt seawater/instant ocean water. For 32 gallons of water I used 2.5 tripours full of instant ocean salt   
+- Water table preparation: 
+  - Rinsed, drained and wiped down the water table    
+  - Placed a heater in the gray Brute bin set to high temperature ~36 and heated the water up till it reached 36C  
+  - Placed two heaters in the water table on each short side  
+  - Pumped in the 36C water from the gray bin into the water table enough to cover at least half the height of the cups  
+  - Placed the cups (no. 1-80) in the water table and filled each with enough seawater from the gray Brute bin to hold the cups in place  
+  - Turned on the 2 heaters placed in the water table and periodically (around every 15 minutes) checked temperatures of random cups until at least one cup had reached 36C  
+- Oyster preparation  
+  - Collected 4 oysters from each red bag (famly/treatment groups; 1-20), and took pictures of the 4 oysters with a ruler for image analysis if needed, noting in the picture the family number  
+  - Recorded the length of each oyster in mm and noted the cup number in a spreadsheet (T0)
+  - Placed each oyster into its individual cup with 350-400 mL of seawater and measured the temperature of 5 random cups of varying distances from the heaters and recorded it in the spreadsheet
+  - Randomly shuffled oysters around the table  
+- Mortality assessments
+  - Conducted T0 morning mortality assessment as we placed the oysters in their cups, and recorded the temperature of the 5 randomly selected cups in the spreadsheet  
+  - A live oyster will have either an open shell that will close upon contact with a dissection probe or tweezers or a closed shell (you can use whatever tool you have available as long as it is water safe e.g. plastic bulb pipette). If the oyster is open and upon contact or removal from the water the oyster remains open it is likely dead  
+  - To double check you can close the oyster and note if it opens up again (live oysters will typically stay closed) dead oysters will typically (sometimes water will create a seal and keep the shell closed) open up again because it’s adductor muscle is not holding the shell closed  
+
+## Week 1: August 17-20  
+
+- Experiment started on August 17 at 11:30 am
+- Mortality first measured on August 17 at 1:30 pm (no mortalities)
+- Mortality assessed on August 18 at 9:00 am (a few mortalities) - AH shuffled cups around the table and added a recirculating pump
+
+Water table:  
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260818/pic1.jpeg?raw=true)
+
+Example of a dead oyster in the bottom cup:  
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260818/pic2.jpeg?raw=true)
+
+Oysters in holding tanks in FTR at 10.3°C:  
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260818/pic4.jpeg?raw=true)
+
+[Data is being recorded here](https://docs.google.com/spreadsheets/d/1itmKbwnoydFJQBb9HAg5PVh7IQZ3xGYe3uqu70PdRZw/edit?gid=0#gid=0)    
+
+I'll continue to update this post with a log of our activities as we go.  

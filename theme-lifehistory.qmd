@@ -69,9 +69,9 @@ This multi-year effort tested whether exposing Pacific oysters to controlled env
 ::: {.content-card}
 ### Parental priming in oysters 
 
-**Project:** Parental immune priming reshapes offspring performance growth, metabolism, and thermal tolerance in the Pacific Oyster
+**Project:** Parental immune priming reshapes offspring growth, metabolism, and thermal tolerance in the Pacific Oyster
 
-**Status:** Ongoing 
+**Status:** Manuscript in review  
 
 ![](images/lab_work/oysters/IMG_0423.jpeg) 
 
@@ -79,7 +79,7 @@ This multi-year effort tested whether exposing Pacific oysters to controlled env
 
 **Research Summary:**  
 
-In this study, we exposed adult oysters to an immune challenge and examined how their offspring responded to thermal stress. We found that immune-priming in parent oysters influenced how their offspring grow and respond to heat stress. Offspring from immune-primed parents grew faster and survived better under moderate heat, but benefits were lost at extreme temperatures, revealing context-depedent limits to stress priming. Metabolic measurements suggested that parental immune exposure reshapes offspring metabolic flexibility, helping explain how cross-generational experiences can influence oyster resilience in a warming ocean. 
+Pacific Oysters (*Magallana/Crassostrea gigas*) are marine bivalves that are widely cultivated but increasingly experience summer mortality due to interacting stressors. Two major concerns are (1) the rising severity and frequency of marine heat waves and (2) disease outbreaks (e.g., OsHV-1). It is critical to understand how these interacting stressors influence oyster resilience and how stress memory is passed down from parent to offspring. Specifically, it is not known how parental immune stress impacts offspring tolerance to other stressors, including heat stress. Therefore, we tested the effects of parental immune challenge on offspring performance under elevated temperature. Broodstock were exposed to a Poly(I:C) immune challenge, then their offspring were reared to the seed stage and assessed for survival, growth, and metabolic responses under thermal stress in the lab. We found that parental immune priming elicited metabolic flexibility in offspring, which may underlie altered stress tolerance. Offspring of immune-challenged parents were 6.5% larger by 236 days post-fertilization at the end of the study. Under elevated temperatures, offspring from treated parents had 35% lower mortality than controls at 40°C, but this was reversed at 42°C with 17% higher mortality compared to controls, suggesting thermal limits to priming benefits. Metabolic assays further revealed that at moderately elevated temperature (36°C), primed offspring had 43% higher metabolic activity, whereas at higher temperature (40°C), they exhibited 30% lower metabolic activity than controls. Offspring of immune primed parents differentially expressed heat shock (HSP70, HSP90) and immune genes (viperin) under acute stress, suggesting molecular mechanisms underlying immune priming effects. This pattern indicates that parental immune challenge may influence offspring metabolic flexibility, potentially enhancing thermal tolerance through an increased capacity for metabolic depression at extreme temperatures. Together, the results of this study highlight cross-generational links between immune priming and thermal tolerance.
 
 **Funding and collaborations:** 
 
@@ -88,7 +88,7 @@ In this study, we exposed adult oysters to an immune challenge and examined how 
 
 **Links and Information:**
 
-- This work is currently under review. A preprint can be found on [bioRxiv here](https://www.biorxiv.org/content/10.64898/2025.12.10.693539v1).
+- This work is currently under review. A preprint can be found on [bioRxiv here](https://www.biorxiv.org/content/10.64898/2025.12.10.693539).
 - Explore the data and code on [GitHub here!](https://github.com/RobertsLab/polyIC-larvae/tree/main)
 :::
 
