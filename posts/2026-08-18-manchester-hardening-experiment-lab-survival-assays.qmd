@@ -49,6 +49,8 @@ Undergraduates in the lab, Jesse L, Maddy B, and Naomi K are conducting this pro
 - Mortality assessed on August 18 at 9:00 am (a few mortalities) - AH shuffled cups around the table and added a recirculating pump
 - Assessed on August 19 at 2:00pm - more mortalities observed
 - Assessed on August 19 at 8:30 am
+- Assessed on August 19 at 1:00 pm - there are substantial mortalities and we will end the experiment after one more time point in the morning 
+- Final assessment on August 20 at 10:00 - all but 2 oysters are dead, trial ended and will reset for the next round. 
 
 Water table:  
 ![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260818/pic1.jpeg?raw=true)
