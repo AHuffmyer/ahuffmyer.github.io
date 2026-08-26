@@ -33,7 +33,7 @@ Data from this assessment are available on [GitHub here](https://github.com/Robe
 
 # Thermal hardening project (Effort A) 
 
-![]() 
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260825/sequim-effortA.png?raw=true) 
 
 No effect of treatment. 
 
@@ -47,7 +47,7 @@ treatment:date    8797    4398     2 814.96   1.2464 0.2881
 
 # PolyIC cross-generational project 
 
-![]()
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260825/polyic-plot.png?raw=true)
 
 There was no effect of treatment, only an increase in size with time.  
 
@@ -61,4 +61,4 @@ treatment:date   3351    1676     2 2501.11  1.7075    0.1815
 
 Survival was calculated at the level of each bag and was not different between treatments.  
 
-![]()
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260825/polyic-surv.png?raw=true)
