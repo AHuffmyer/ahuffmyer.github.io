@@ -1,0 +1,64 @@
+---
+title: "Sequim Bay site growth analysis from 20250531 sampling"
+author: "Ariana Huffmyer"
+date: "2026-08-25"
+categories: [cgigas, sequim-bay, hardening, oyster, growth]
+description: "Sequim Bay site growth analysis from 20250531 sampling"
+image: ""
+---
+
+# Overview 
+
+Maddy B. has completed photo analysis for oyster growth at the Sequim site from the 05/31/2026 assessment. This brings analysis of Sequim growth up to date with the most recent assessment.  
+
+There are two projects deployed at Sequim Bay: 1) PolyIC cross-generational immune priming projecct and 2) thermal hardening project (Effort A).  
+
+In the PolyIC project, parent broodstock were immersed in PolyIC and performance is measured on offspring outplants over the last 2 years.  
+
+In the Effort A thermal hardening project, we exposed USDA general excess oysters to two weeks of daily exposure to ~6 h of +10°C conditions and deployed alongside controls. 
+
+## tl;dr 
+
+There was no effect of immune or thermal hardening treatments on field growth.  
+
+## Data and code 
+
+### PolyIC project 
+
+Data from this assessment are available on [GitHub here](https://github.com/RobertsLab/polyIC-larvae/tree/main/data/outplant/sequim). The code used to analyse the data is also on [GitHub here](https://github.com/RobertsLab/polyIC-larvae/blob/main/scripts/outplant/growth_SequimBay.Rmd). 
+
+### Thermal hardening project (Effort A)
+
+Data from this assessment are available on [GitHub here](https://github.com/RobertsLab/project-gigas-conditioning/tree/main/data/outplanting/Sequim). The code used to analyse the data is also on [GitHub here](https://github.com/RobertsLab/project-gigas-conditioning/blob/main/code/growth_SequimBay.Rmd). 
+
+# Thermal hardening project (Effort A) 
+
+![]() 
+
+No effect of treatment. 
+
+```
+Type III Analysis of Variance Table with Satterthwaite's method
+                Sum Sq Mean Sq NumDF  DenDF  F value Pr(>F)    
+treatment         2272    2272     1   5.07   0.6438 0.4583    
+date           1843507  921753     2 814.96 261.2006 <2e-16 ***
+treatment:date    8797    4398     2 814.96   1.2464 0.2881  
+```
+
+# PolyIC cross-generational project 
+
+![]()
+
+There was no effect of treatment, only an increase in size with time.  
+
+```
+Type III Analysis of Variance Table with Satterthwaite's method
+               Sum Sq Mean Sq NumDF   DenDF F value    Pr(>F)    
+treatment         524     524     1    6.01  0.5342    0.4923    
+date            67246   33623     2 2501.11 34.2616 2.092e-15 ***
+treatment:date   3351    1676     2 2501.11  1.7075    0.1815   
+```
+
+Survival was calculated at the level of each bag and was not different between treatments.  
+
+![]()
