@@ -1,7 +1,7 @@
 ---
 title: "Manchester Hardening project lab survival assays"
 author: "Ariana Huffmyer"
-date: "2026-08-18"
+date: "2026-09-05"
 categories: [manchester-hardening, experimental design]
 description: "Final lab survival assays of Manchester Hardening experiment oysters"
 image: ""
