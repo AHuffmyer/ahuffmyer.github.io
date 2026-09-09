@@ -1,0 +1,54 @@
+---
+title: "September Goals and Daily Entries"
+author: "Ariana Huffmyer"
+date: "2026-09-08"
+categories: [goals, daily-entries]
+description: "September 2026 goals and daily entries"
+image: ""
+---
+
+# Overview
+
+Here are my goals and daily entries for September 2026.     
+
+## Goals
+
+### Writing and manuscripts 
+              
+1. Revise and resubmit PolyIC manuscript
+2. Write intro and discussion of Hawaii 2023 paper
+3. Start draft of Moorea 2023 paper (abstract, methods)
+4. Start draft of Westcott oyster priming manuscript
+
+### Grants
+
+1. NSF IOS application with H. Putnam 
+
+### Analysis
+
+1. Moorea 2023 RNAseq 
+2. Moorea 2023 metabolomics 
+
+### Field and lab work 
+
+1. Last time point checks at Sequim, Baywater, Westcott, and Goose Point
+2. Oyster image analysis for all 2026 summer outplants
+3. El Nino experiment planning 
+
+### Future publications to work on
+
+1. E5 metabolomics/lipidomics manuscript  
+
+## **Daily Log**   
+
+### September 8
+
+- Oyster mortality data analysis 
+- NSF grant with Hollie 
+
+### September 1-4
+
+- PolyIC manuscript revisions
+- Manchester project survival assays 
+- BIO Core grant with Putnam 
+- PCSGA talk preparations 

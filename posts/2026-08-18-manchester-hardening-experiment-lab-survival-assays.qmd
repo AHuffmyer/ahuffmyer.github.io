@@ -42,7 +42,7 @@ Undergraduates in the lab, Jesse L, Maddy B, and Naomi K are conducting this pro
   - A live oyster will have either an open shell that will close upon contact with a dissection probe or tweezers or a closed shell (you can use whatever tool you have available as long as it is water safe e.g. plastic bulb pipette). If the oyster is open and upon contact or removal from the water the oyster remains open it is likely dead  
   - To double check you can close the oyster and note if it opens up again (live oysters will typically stay closed) dead oysters will typically (sometimes water will create a seal and keep the shell closed) open up again because it’s adductor muscle is not holding the shell closed  
 
-## Week 1: August 17-20  
+## Round 1: August 17-20  
 
 - Experiment started on August 17 at 11:30 am
 - Mortality first measured on August 17 at 1:30 pm (no mortalities)
@@ -61,6 +61,58 @@ Example of a dead oyster in the bottom cup:
 Oysters in holding tanks in FTR at 10.3°C:  
 ![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260818/pic4.jpeg?raw=true)
 
-[Data is being recorded here](https://docs.google.com/spreadsheets/d/1itmKbwnoydFJQBb9HAg5PVh7IQZ3xGYe3uqu70PdRZw/edit?gid=0#gid=0)    
+[Data is recorded here](https://docs.google.com/spreadsheets/d/1itmKbwnoydFJQBb9HAg5PVh7IQZ3xGYe3uqu70PdRZw/edit?gid=0#gid=0)    
 
-I'll continue to update this post with a log of our activities as we go.  
+## Round 2: August 24-27  
+
+- Started August 24 at 10:00am 
+- Assessed August 24 at 1:00pm
+- Assessed August 25 at 10:00am
+- Assessed August 25 at 1:00pm
+- Assessed August 26 at 10:00am
+- Final assessment August 26 at 2:00pm
+
+There was a problem with the water draining out and therefore temperatures dropped in the middle of the trial. Oysters also died more rapidly - this may be an outlier round.  
+
+[Data is recorded here](https://docs.google.com/spreadsheets/d/1itmKbwnoydFJQBb9HAg5PVh7IQZ3xGYe3uqu70PdRZw/edit?gid=0#gid=0)    
+
+## Round 3: August 31-September 2  
+
+- Started August 31 at 10:00am 
+- Assessed August 31 at 3:00pm
+- Assessed Sept 1 at 10:00am
+- Assessed Sept 1 at 3:00pm
+- Assessed Sept 2 at 8:30am
+- Assessed Sept 2 at 10:30am
+- Assessed Sept 2 at 11:30am
+- Final assessment Sept 2 at 2:30pm
+
+In this round, oysters were moved to a large chest incubator for the trials. The incubator was set at 36C with cups reaching the target temperature of 33-34C.  
+
+[Data is recorded here](https://docs.google.com/spreadsheets/d/1itmKbwnoydFJQBb9HAg5PVh7IQZ3xGYe3uqu70PdRZw/edit?gid=0#gid=0)  
+
+## Round 4: September 3-5
+
+- Started September 3 at 9:00am
+- Assessed Sept 3 at 1:00pm
+- Assessed Sept 4 at 10:00am 
+- Assessed Sept 4 at 3:00pm
+- Assessed Sept 5 at 8:00am
+- Assessed Sept 5 at 3:00pm
+
+This round was conducted in the incubator.  
+
+[Data is recorded here](https://docs.google.com/spreadsheets/d/1itmKbwnoydFJQBb9HAg5PVh7IQZ3xGYe3uqu70PdRZw/edit?gid=0#gid=0)  
+
+## Round 5: September 5-7
+
+- Started September 5 at 2:00pm
+- Assessed Sept 6 at 9:00am
+- Assessed Sept 6 at 3:00pm
+- Assessed Sept 7 at 10:00am
+- Assessed Sept 7 at 4:00pm 
+
+This round was conducted in the incubator.  
+
+[Data is recorded here](https://docs.google.com/spreadsheets/d/1itmKbwnoydFJQBb9HAg5PVh7IQZ3xGYe3uqu70PdRZw/edit?gid=0#gid=0)  
+

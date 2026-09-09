@@ -1,0 +1,244 @@
+---
+title: "Manchester Hardening project lab survival testing results"
+author: "Ariana Huffmyer"
+date: "2026-08-18"
+categories: [manchester-hardening, experimental design]
+description: "Results of final lab survival assays of Manchester Hardening experiment oysters"
+image: ""
+---
+
+<img alt="AI Use Level 0" src="https://img.shields.io/badge/AI%20Use-L0%20None-lightgrey">  
+
+# Overview 
+
+Over the last few weeks, students in the lab conducted final sampling and survival assays of Manchester Hardening oysters [that were sampled from the field](https://ahuffmyer.github.io/posts/2026-08-14-manchester-hardening-experiment-final-field-sampling.html). 
+
+See my [previous post here](https://ahuffmyer.github.io/posts/2026-08-18-manchester-hardening-experiment-lab-survival-assays.html) for methods information for these trials. 
+
+This post details the preliminary statistical analysis for the results of survival assays.  
+
+All data is on [GitHub here](https://github.com/RobertsLab/manchester-hardening/tree/main/data/final-lab-testing) and the scripts to analyse this data are [also on GitHub here](https://github.com/RobertsLab/manchester-hardening/blob/main/scripts/final_lab_survival.Rmd).  
+
+# tl;dr 
+
+There are four families of oysters for which heat tolerance was dependent on hardening history - there are two families with improved tolerance and two with decreased tolerance that underwent hardening. Hardening effects are highly family specific with some families responding with higher tolerance and some with lower tolerance.  
+
+# Data overview 
+
+Data are recorded for individual oysters with a "status" column indicating mortality. Each oyster is recorded as either a "0" (alive) or a "1" (dead) at each assessed time point. While the exact hours for survival checks vary for each of the 5 rounds of trials, in general oysters were checked twice per day for about 50-60 hours of total heat exposure.  
+
+Trials were conducted in 5 rounds with n=4 per family treatment group in each round. The first two rounds were conducted in a water bath with the last 3 conducted in an incubator due to a failing heater. Rounds will be accounted for as random effects in models.  
+
+For all analyses, we are interested in the effect of family and hardening treatment. The hardening treatment refers to either control or heat hardening treatment from the initial experiment in spring 2025. See my [previous posts for more info on the experiment here](https://ahuffmyer.github.io/posts/2026-05-28-manchester-assessment.html).   
+
+# Method overview 
+
+In the script linked above, I performed Kaplan-Meier survivorship curves with Cox Proportional Hazards survival models to initially explore the data. This revealed that rounds were significantly different from each other, as expected.  
+
+I therefore proceeded with binomial logistic regressions to allow me to account for round and oyster length as random effects while testing for the main effects of family and hardening treatment.  
+
+In this analysis that I describe below, I present the statistical results from the logistic regression and post hoc tests for each family. I also show model-projected survivorship curves with calculations of LT50 (time to 50% mortality) to quantify the differences between hardening treatment for each family.  
+
+# Results 
+
+## Temperatures from each round
+
+I first plotted temperatures from each round, which were recorded in n=5 cups at each time point.  
+
+![](https://github.com/RobertsLab/manchester-hardening/blob/main/figures/final-lab-survival/temperature_rounds.png?raw=true)  
+
+A few notes:  
+
+- Round 1 and 2 were conducted in water tables, which is why the temperatures immediately started out at the desired temperature. Rounds 3-5 were conducted in incubators, so the cups needed warm up time.  
+- The average temperatures held well across all rounds.  
+- Round 2 had a malfunction in the heater causing the temperature dip before returning back up to the correct temperature. 
+- ROunds 4 and 5 appear to be the warmest.  
+
+Because we have n=4 per group per round, we will account for this using random effects and this should ameliorate batch effects if present.  
+
+I am keeping data from all rounds for now.  
+
+## Survival model 
+
+I used a binomial logistic regression using the following code.  
+
+```
+surv_model<-glmer(status ~ time * family * treatment + (1|round) + (1|length.mm), family = binomial(link = "logit"), data=data)
+
+summary(surv_model)
+Anova(surv_model)
+```
+
+The ANOVA results are:  
+
+```
+Analysis of Deviance Table (Type II Wald chisquare tests)
+
+Response: status
+                         Chisq Df Pr(>Chisq)    
+time                  739.1253  1  < 2.2e-16 ***
+family                 80.0483  9  1.581e-13 ***
+treatment               0.0131  1    0.90875    
+time:family            17.8003  9    0.03756 *  
+time:treatment          6.4900  1    0.01085 *  
+family:treatment       34.7844  9  6.503e-05 ***
+time:family:treatment  37.4128  9  2.221e-05 ***
+```
+
+This suggests that survival curves are shaped by family-dependent hardening effects (time x family x treatment is significant).  
+
+Random effects demonstrate no trend of length affecting mortality with rounds 2 and 4 exhibiting lower mortality.  
+
+```
+# Plot the random effects
+ranef(surv_model)
+
+library(sjPlot)
+
+plot_model(surv_model, type = "re")
+
+library(performance)
+r2(surv_model)
+```
+
+```
+$round
+       (Intercept)
+round1  0.01907504
+round2 -0.20184779
+round3  0.42728324
+round4 -0.25426044
+```
+
+I generated post hoc comparisons shown below.   
+
+## Survival curve plotting 
+
+I then generated model predicted mortality probabilities and plotted them for each family x treatment group.  
+
+```
+# Generate predicted probabilities
+data$predicted_mortality <- predict(surv_model, type = "response")
+
+# Plot
+plot2<-ggplot(data, aes(x = time, y = predicted_mortality, color = treatment, fill = treatment, group=treatment)) +
+  facet_wrap(~family)+
+  geom_point(aes(y = status), alpha = 0.6, position = position_jitter(height = 0.03)) +
+  geom_smooth(method = "glm", method.args = list(family = "binomial"), se = FALSE) +
+  scale_color_manual(values=c("cyan3", "coral"))+
+  labs(
+    title = "",
+    y = "Probability of Mortality",
+  ) +
+  theme_classic();plot2
+```
+
+![](https://github.com/RobertsLab/manchester-hardening/blob/main/figures/final-lab-survival/survival_families.png?raw=true)  
+
+I performed post hoc tests using emmeans.  
+
+```
+emm<-emmeans(surv_model, ~treatment|family)
+pairs(emm)
+
+emm<-emmeans(surv_model, ~family)
+multcomp::cld(emm)
+```
+
+```
+family = YC24-087:
+ contrast       estimate    SE  df z.ratio p.value
+ Control - High    0.533 0.512 Inf   1.042  0.2976
+
+family = YC24-099:
+ contrast       estimate    SE  df z.ratio p.value
+ Control - High    0.957 0.516 Inf   1.855  0.0636
+
+family = YC24-105:
+ contrast       estimate    SE  df z.ratio p.value
+ Control - High    0.667 0.539 Inf   1.236  0.2164
+
+family = YC24-116:
+ contrast       estimate    SE  df z.ratio p.value
+ Control - High   -1.276 0.428 Inf  -2.983  0.0029
+
+family = YC24-137:
+ contrast       estimate    SE  df z.ratio p.value
+ Control - High    6.920 2.100 Inf   3.290  0.0010
+
+family = YC24-148:
+ contrast       estimate    SE  df z.ratio p.value
+ Control - High   -0.229 0.453 Inf  -0.505  0.6135
+
+family = YC24-153:
+ contrast       estimate    SE  df z.ratio p.value
+ Control - High    2.427 0.796 Inf   3.048  0.0023
+
+family = YC24-158:
+ contrast       estimate    SE  df z.ratio p.value
+ Control - High   -0.378 0.675 Inf  -0.561  0.5750
+
+family = YC24-163:
+ contrast       estimate    SE  df z.ratio p.value
+ Control - High   -3.008 1.390 Inf  -2.170  0.0300
+
+family = YC24-164:
+ contrast       estimate    SE  df z.ratio p.value
+ Control - High    0.660 0.814 Inf   0.810  0.4177
+
+Results are given on the log odds ratio (not the response) scale.
+```
+
+A few interesting findings from the post hoc analysis and the plot above:  
+
+- Family 163: Treated died earlier (p=0.030)   
+- Family 153: Treated died later (p=0.002)   
+- Family 137: Treated died later (p=0.001)   
+- Family 116: Treated died earlier (p=0.003)   
+
+The other families showed no effect of hardening treatment. These four families show a signal of past hardening history. Interestingly, two show a positive effect (longer time to mortality) and two show a negative effect (shorter time to mortality) if they were in the treated group.    
+
+At the family level, there is variation in thermal tolerance across families.  
+
+![](https://github.com/RobertsLab/manchester-hardening/blob/main/figures/final-lab-survival/survival_all.png?raw=true)  
+
+- Family 137 is the most tolerant (curve farthest to the right)  
+- Family 116 is the X tolerant (curve farthest to the left)  
+
+## LT50 calculations 
+
+I then calculated LT50's for each family-treatment group. The LT50 is the time to estimated 50% mortality for each group. If this value is higher that indicates a longer time to reach 50% mortality and therefore more tolerance.  
+
+```
+Table: LT50 (hours to 50% mortality) by family and treatment group
+
+|Family   | LT50 Control (hrs)| LT50 Treated (hrs)| Difference (hrs)|Direction                 |
+|:--------|------------------:|------------------:|----------------:|:-------------------------|
+|YC24-087 |               34.7|               36.1|              1.4|Treated more tolerant (+) |
+|YC24-099 |               33.6|               36.9|              3.3|Treated more tolerant (+) |
+|YC24-105 |               32.6|               40.5|              7.9|Treated more tolerant (+) |
+|YC24-116 |               34.0|               27.5|             -6.5|Treated less tolerant (−) |
+|YC24-137 |               39.5|               48.0|              8.5|Treated more tolerant (+) |
+|YC24-148 |               33.1|               31.0|             -2.1|Treated less tolerant (−) |
+|YC24-153 |               35.8|               41.9|              6.1|Treated more tolerant (+) |
+|YC24-158 |               36.5|               37.2|              0.7|Treated more tolerant (+) |
+|YC24-163 |               44.3|               39.8|             -4.5|Treated less tolerant (−) |
+|YC24-164 |               45.9|               40.2|             -5.7|Treated less tolerant (−) |
+```
+
+Of our 4 families that showed significant effects:  
+
+- Family 163: Treated died earlier (p=0.030) - LT50 is 4.5 hrs less in treated group  
+- Family 153: Treated died later (p=0.002) - LT50 is 6.1 hours more in treated group  
+- Family 137: Treated died later (p=0.001) - LT50 is 8.5 hours more in treated group  
+- Family 116: Treated died earlier (p=0.003) - LT50 is 6.5 hours less in treated group   
+
+Family 137 showed the strongest positive effect of hardening with an LT50 about 8.5 hours later than average.  
+
+# Conclusions 
+
+Overall, this survival test suggests:  
+
+- Families exhibit a spread in thermal tolerance 
+- Hardening history makes some families either more or less heat tolerant 
+- Most families show no effect of hardening  
