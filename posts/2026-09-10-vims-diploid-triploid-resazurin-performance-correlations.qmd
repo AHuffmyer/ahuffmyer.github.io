@@ -1,0 +1,90 @@
+---
+title: "VIMS Diploid/Triploid performance-resazurin correlations"
+author: "Ariana Huffmyer"
+date: "2026-09-10"
+categories: [resazurin, vims, metabolism, cvirginica]
+description: "Correalting field performance and resazurin in diploids and triploids outplanted at VIMS"
+image: ""
+---
+
+Code displayed here was edited and drafted with AI.<img alt="AI Use Level 2" src="https://img.shields.io/badge/AI%20Use-L2%20Drafting%2FCoding-yellowgreen">  
+
+# Overview 
+
+In collaboration with folks at VIMS, there were resazurin trials ran on diploid and triploid *C. virginica* oysters in summer 2025. We obtained resazurin data on about 160 oysters and they were then individually tagged and outplanted at VIMS for the last year. They were recently retrieved and performance data was recorded (size, weight, condition index, cup, fan size, etc.). In this post, I show the preliminary analysis correlating these performance metrics with resazurin curve characteristics.  
+
+See [my previous post here](https://ahuffmyer.github.io/posts/2026-07-23-VIMS-resazurin-data-curve-phenotyping.html) for more information on how the resazurin curve features were extracted for another VIMS project. These features were analyzed using the [script on GitHub here](https://github.com/RobertsLab/vims-resazurin/blob/main/code/ploidy/resazurin-curve-features-ploidy.Rmd) with all data contained in our [VIMS Resazurin repo](https://github.com/RobertsLab/vims-resazurin).  
+
+The script for the analysis I described here is in our [GitHub for correlations](https://github.com/RobertsLab/vims-resazurin/blob/main/code/ploidy/resazurin-ploidy-field-performance.Rmd).  
+
+# tl;dr 
+
+- Diploid and triploid oysters showed opposite relationships in the correlations between performance and metabolism
+- Diploids show more negative correlations between field performance and metabolic activity - suggesting a trade off between condition index and metabolic activity. 
+- Triploids show more positive correlations between perforance and metabolism, suggesting that there is not the same metabolic cost on condition and growth that we see in diploids.  
+- Perhaps not having reproductive energetic investment releases triploids from this metabolic limitation.  
+
+These results may suggest that metabolic strategies vary between diploids and triploids, with potential energetic costs of reproduction producing trade offs between metabolism and performance in diploids.  
+
+# Background data 
+
+When we ran the original resazurin assays, metabolism appeared higher in diploid oysters. [See my previous post for these results](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/VIMS-Ploidy-Resazurin-Trials-Part-2/).  
+
+Here, I extracted curve characteristics that were then correlated to field performance.    
+
+# Approach 
+
+In this analysis, I read in the [resazurin feature predictions](https://github.com/RobertsLab/vims-resazurin/tree/main/output/ploidy/resazurin-curves), [raw resazurin data](https://github.com/RobertsLab/vims-resazurin/blob/main/output/ploidy/ploidy_metabolism.csv) and the [field performance data](https://github.com/RobertsLab/vims-resazurin/blob/main/data/ploidy/field/ploidy_field_performance.xlsx) and then conducted correlations. To assess relationships between individual-level resazurin metabolic assay measurements and field performance, resazurin curve features were matched to  performance data at the individual level using the unique plate-well identifier (date, plate, and well position from resazurin assays). Spearman rank correlations were computed between each resazurin curve feature and each field performance metric (shell height, shell length, shell width, cup ratio, fan ratio, whole wet weight, dry shell weight, dry tissue weight, and condition index) separately for diploid and triploid oysters and for each resazurin value metric.   
+
+*Note* that p-values are reported as Spearman correlation p-values *without* false discovery rate corrections. This is a preliminary analysis only.   
+ 
+# Results 
+
+These results are preilminary and exploratory only. The p-values have not undergone false discovery rate corrections and are therefore not as conservative. This is useful for initial exploration.  
+
+### 1. More resazurin metrics are correlated with field performance in triploids
+
+There were several features that correlated with field performance in both dipliods and triploids, with more features in triploids. In general, as you can see in the heatmap below, more of these associations were positive in triploids (more red) and negative in diploids (more blue).  
+
+Some key definitions of rate metrics:  
+
+- AUC = area under the curve; total metabolism
+- Peak = max metabolism
+- CV = variation in metabolism 
+- Inflection = point in metabolism curve where rates change from increasing to decreasing
+- Delta AUC late minus early = change in the metabolic rate early in incubations compared to late (e.g., positive values means oysters were more metabolically active by the end of the observation; negative indicates oyster metabolic activity ramped down during the observation). I am going to call this *metabolic acceleration*.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260910/resazurin_performance_heatmap.png?raw=true)
+
+Some metrics of interest are:  
+
+- **Condition index in diploids** is negatively correlated with resazurin stability, peak metabolism, time to inflection point, and metabolic acceleration ("delta_auc_late_minus_early"). This suggests that there is a metabolic trade off between condition and metabolic rate in diploids. 
+- **Condition index in triploids** is positively correlated with inflection time and metabolic acceleration ("delta_auc_late_minus_early"). This suggests that in triploids, high metabolic activity does not present a cost for condition index and actually enhances condition index. 
+- **Whole wet weight** is positively correlated with metabolic depression in triploids, suggesting that capacity for metabolic depression provides energy savings that reduce strain on biomass storage.  
+- **Shell height and dry tissue weight in triploids** is negatively correlated with time to peak (the time for metabolism to reach maximal level), suggesting a trade off between total metabolic capacity and growth.  
+
+### 2. Inflection time, time to metabolic peak, and metabolic acceleration are the most influential
+
+This plot shows the spearman correlation coefficient for diploids (left) and triploid (right). The blue bars indicate siginficant correlations between curve features and field performance metrics.  
+
+The text is small, but here are the highlights:  
+
+- Metabolic acceleration ("delta_auc_late_minus_early") is positively related to condition index in triploids, but negatively related in diploids. 
+- The same is true of inflection time.
+- In triploids, whole wet weight is negatively associated with time to peak and resilience index and positively related to metabolic depression indices.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260910/resazurin_performance_ranking.png?raw=true)   
+
+### 3. Opposite relationships in diploids and triploids 
+
+Finally, this plot shows the 8 top metrics. There are a couple cool things I want to point out:  
+
+- Metabolic acceleration ("delta_auc_late_minus_early") is negatively related to condition index in diploids, but positively related in triploids. This suggests that there is a metabolic trade off between condition and metabolic rate in diploids but not triploids. Perhaps not having reproductive energetic investment releases triploids from this metabolic limitation.  
+- Inflection time (time to point where metabolism starts to decrease during a trial) is negatively associated with condition index in diploids but is positive in triploids. This may relate to the point above.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260910/top_correlation_scatter.png?raw=true)
+
+# Next steps 
+
+Next, we will examine these same types of correlations in the full resazurin dataset in 50 families that we measured in summer 2025 when data are available this fall.  
+
