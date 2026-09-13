@@ -1,0 +1,39 @@
+---
+title: "El Nino pilot project set up"
+author: "Ariana Huffmyer"
+date: "2026-09-11"
+categories: [el-nino, experimental design]
+description: "Setting up a pilot El Nino project"
+image: ""
+---
+
+# Overview
+
+Today Steven and I set up a pilot experiment for the El Nino project. [See my prevoius post](https://ahuffmyer.github.io/posts/2026-08-05-el-nino-conditions-design.html) outlining potential El Nino laboratory treatments. 
+
+## Experiment set up 
+
+We decided to start a pilot El Nino project to run stress conditions for ~10 days prior to outplanting oysters to the field in a couple weeks (WDFW permit in review). We set up the following:   
+
+- Filled two large bins with Instant Ocean seawater, each with recirculating pumps 
+- We are doing to treatments (n=1 bin per treatment): El Nino and control
+- El Nino treatment: 
+  - 26°C (summer heat wave scenario)
+  - 30 psu salinity (summer increased salinity scenario)
+  - Reduced food availability (1x feed/week)
+- Control treatment: 
+  - 18°C
+  - 20 psu salinity 
+  - Regular food availability (3x feed/week)
+- The El Nino treatment is controlled by a heater with a thermostat and the control treatment is regulated with a chiller 
+- Salinity was adjusted with Instant Ocean 
+- Feeding will be done by adding 2 mL of Shellfish Diet 1400 once in the El Nino treatment (Monday) and three times in the control treatment (Monday, Wednesday, Friday)
+- We pooled all available SORMI families and counted n=50 oysters into mesh seed bags. We allocated n=5 bags into the El Nino bin and n=5 bags in the control bin. 
+- We added ear tags to the bags and wrote new numbers on the back of the tags - numbers 1-5 are in the control bin and numers 6-10 are in the El Nino bin. 
+- We also added n=1 bag per bin of the small SORMI families to each tank with n=50 oysters each. These are bags "A" (control) and "B" (El Nino)
+
+After setting up we checked temperature and salinity conditions to confirm and fed the control tank. Grace will look in on the oysters over the weekend and next week and will record temperature and salinity at each check.  
+
+## Next steps 
+
+Next steps will be to deploy in the field. During the deployment we will add to new cages, attach tags, attach a logger, and take photos and deploy.  

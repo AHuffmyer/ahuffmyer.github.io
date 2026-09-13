@@ -1,0 +1,73 @@
+---
+title: "Fall 2026 field site assessment and experiment closing plan"
+author: "Ariana Huffmyer"
+date: "2026-09-11"
+categories: [sequim-bay, goose-point, baywater]
+description: "Plan for Fall 2026 field assessments and closing experiments"
+image: ""
+---
+
+# Overview
+
+Below I have outlined our plan for field assessments and closing some of our outplanting experiments in Sept-October 2026.    
+
+## Sequim Bay 
+
+*Tentative plan*: Wednesday, September 23rd in morning (waiting for confirmation on date)  
+
+Close out Effort A/thermal hardening experiment: 
+
+- 2 treatment groups, 8 total cages  
+- Take final photos and counts of mortality 
+- Clean and empty cages 
+- Sub sample n=15 per cage (n=40-60 per treatment group, n=120) for transport back to UW; put into two mesh bags (1 for each treatment group) 
+- Retrieve loggers and make sure a logger is left in a PolyIC bag
+
+Photograph PolyIC experiment (optional, only if time): 
+
+- Take photos of oysters in PolyIC bags (n=8 bags)
+- Leave a logger in a PolyIC bag
+- Continue deployment 
+
+## Baywater 
+
+*Tentative plan*: Tuesday, September 22nd in morning (waiting for confirmation on date)  
+
+Close out 10K Seed experiment: 
+
+- 5 treatment groups, 30 total cages  
+- Take final photos and counts of mortality 
+- Clean and empty cages 
+- Sub sample n=8 per cage (n=40 per treatment group, n=200) for transport back to UW; put into five mesh bags (1 for each treatment group) 
+- Retrieve loggers and make sure a logger is left in a PolyIC bag
+
+Photograph PolyIC experiment (optional, only if time): 
+
+- Take photos of oysters in PolyIC bags (n=7 bags)
+- Leave a logger in a PolyIC bag
+- Continue deployment 
+
+## Goose Point 
+
+4 treatment groups, 18 total cages  
+
+*Tentative plan*: Friday, September 25th (waiting for confirmation on date)  
+
+Close out experiment: 
+
+- Take final photos and counts of mortality 
+- Clean and empty cages 
+- Sub sample n=15 per cage (n=45 per treatment group, n=210) for transport back to UW; put into four mesh bags (1 for each treatment group) 
+- Fully close out deployment 
+- Retrieve loggers 
+
+## Westcott 
+
+Emily Carrington will monitor current outplants at Westcott and will check size to see if inner mesh bag can be removed later in September/early October.  
+
+## To Do 
+
+- Prepare metadata and bag list for closing out experiments and subsampling at Goose Point, Sequim, and Baywater
+- Prepare mesh bags, cattle tags for subsampling at Goose Point, Sequim, and Baywater
+- Prepare zip ties, cattle tags, and data sheets and photography for deploying El Nino oysters at Baywater
+- Arrange schedule at UW for processing subsampled oysters for survival assays 
