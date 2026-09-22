@@ -1,0 +1,78 @@
+---
+title: "Fall 2026 lab survival assessment plan"
+author: "Ariana Huffmyer"
+date: "2026-09-21"
+categories: [sequim-bay, goose-point, baywater]
+description: "Plan for Fall 2026 lab survival assessments from closing field experiments"
+image: ""
+---
+
+# Overview
+
+*I will update this post as we do collections with more specific information.*  
+
+Below I have outlined our plan for lab survival assessments of oysters collected from our field deployments at Baywater (10K seed project), Sequim Bay (Effort A thermal hardening), and Goose Point (Effort E salinity and thermal hardening).  
+
+## General protocol 
+
+These experiments will follow the same [protocol we used in our last round of survival assays](https://ahuffmyer.github.io/posts/2026-08-18-manchester-hardening-experiment-lab-survival-assays.html).  
+
+We will conduct these assays by placing oysters in individual cups and letting them sit at the target temperature of 34-35°C for ~50 hours.  
+
+We will need to be sure to randomize the location of replicates from each bag as we did on the last round of assays.  
+
+Assays will be conducted for each "experiment/field site" separately. THe experiments are described below.  
+
+## Experiment 1: 10K Seed Oysters (Baywater) 
+
+These oysters will be collected from Baywater and brought back to UW campus and placed in the FTR tanks. I will post the tag numbers when we do the collections.  
+
+There will be 5 bags brought back to FTR with the oysters for this experiment:  
+
+1. "10K FW 35C" (tag number TBD)  
+2. "10K 35C" (tag number TBD)  
+3. "10K PolyIC" (tag number TBD)    
+4. "10K FW" (tag number TBD)  
+5. "10K Control" (tag number TBD)  
+
+There will be one bag per treatment group and each bag will have 30-40 oysters. The experiment will be done using n=30 oysters per bag (n=150 total oysters). This will therefore be done in 2 rounds with half done each round. This will be n=75 oysters per round or n=15 oysters per bag per round. 
+
+This experiment should be run first with the two rounds done one right after the other.  
+
+## Experiment 2: Effort A Oysters (Sequim)
+
+These oysters will be collected from Sequim Bay and brought back to UW campus and placed in the FTR tanks. I will post the tag numbers when we do the collections.  
+
+There will be 2 bags brought back to FTR with the oysters for this experiment:  
+
+1. "Effort A Treated" (tag number TBD)    
+2. "Effort A Control" (tag number TBD)    
+
+There will be one bag per treatment group and each bag will have 30-40 oysters. The experiment will be done using n=30 oysters per bag (n=60 total oysters). This will therefore be done in 1 round with all 60 oysters. 
+
+This experiment should be run after the 10K work is done.  
+
+## Experiment 3: Effort E Oysters (Goose Point)
+
+These oysters will be collected from Goose Point and brought back to UW campus and placed in the FTR tanks. I will post the tag numbers when we do the collections.  
+
+There will be 4 bags brought back to FTR with the oysters for this experiment:  
+
+1. "Effort E FW Control" (tag number TBD)    
+2. "Effort E FW Treated" (tag number TBD)   
+3. "Effort E Temp Control" (tag number TBD)  
+4. "Effort E Temp Treated" (tag number TBD)  
+
+There will be one bag per treatment group and each bag will have 30-40 oysters. The experiment will be done using n=30 oysters per bag (n=120 total oysters). This will therefore be done in 2 rounds with half done each round. This will be n=60 oysters per round or n=15 oysters per bag per round. 
+
+This experiment should be run after the Effort A Sequim experiment with the two rounds done one right after the other.  
+
+## Data recording 
+
+Data sheets will need to include the following:  
+
+- Round, time, date, initials, cup number, live/dead, and temperature, as done previously
+- Bag tag number (TBD)
+- Also include the site (e.g., Goose Point) and the experiment (e.g., "10K"), and the treatment (e.g., "Effort E FW Control")
+
+

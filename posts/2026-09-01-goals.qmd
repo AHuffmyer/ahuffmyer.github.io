@@ -1,7 +1,7 @@
 ---
 title: "September Goals and Daily Entries"
 author: "Ariana Huffmyer"
-date: "2026-09-07"
+date: "2026-09-20"
 categories: [goals, daily-entries]
 description: "September 2026 goals and daily entries"
 image: ""
@@ -35,11 +35,25 @@ Here are my goals and daily entries for September 2026.
 2. Oyster image analysis for all 2026 summer outplants
 3. El Nino experiment planning 
 
+### Conferences 
+
+1. Submit MCR AIM abstract for metabolomics and lipidomics 
+2. ~~PCSGA talk~~ 
+
 ### Future publications to work on
 
 1. E5 metabolomics/lipidomics manuscript  
 
 ## **Daily Log**   
+
+### September 21 
+
+- NSF grant with Hollie 
+- Preparing for big week of field work and planning lab assays 
+
+### September 14-18
+
+- PCSGA conference week
 
 ### September 11
 
