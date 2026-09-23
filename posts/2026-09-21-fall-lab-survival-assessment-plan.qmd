@@ -25,17 +25,17 @@ Assays will be conducted for each "experiment/field site" separately. THe experi
 
 ## Experiment 1: 10K Seed Oysters (Baywater) 
 
-These oysters will be collected from Baywater and brought back to UW campus and placed in the FTR tanks. I will post the tag numbers when we do the collections.  
+These oysters were collected from Baywater and will brought back to UW campus and placed in the FTR tanks.  
 
 There will be 5 bags brought back to FTR with the oysters for this experiment:  
 
-1. "10K FW 35C" (tag number TBD)  
-2. "10K 35C" (tag number TBD)  
-3. "10K PolyIC" (tag number TBD)    
-4. "10K FW" (tag number TBD)  
-5. "10K Control" (tag number TBD)  
+1. "10K FW 35C" (tag number 020)  
+2. "10K 35C" (tag number 019)  
+3. "10K PolyIC" (tag number 018)    
+4. "10K FW" (tag number 017)  
+5. "10K Control" (tag number 016)  
 
-There will be one bag per treatment group and each bag will have 30-40 oysters. The experiment will be done using n=30 oysters per bag (n=150 total oysters). This will therefore be done in 2 rounds with half done each round. This will be n=75 oysters per round or n=15 oysters per bag per round. 
+There is one bag per treatment group and each bag has 30-40 oysters. The experiment will be done using n=30 oysters per bag (n=150 total oysters). This will therefore be done in 2 rounds with half done each round. This will be n=75 oysters per round or n=15 oysters per bag per round. 
 
 This experiment should be run first with the two rounds done one right after the other.  
 

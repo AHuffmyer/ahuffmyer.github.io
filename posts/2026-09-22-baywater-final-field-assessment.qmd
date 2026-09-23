@@ -1,0 +1,81 @@
+---
+title: "Final assessment and closing 10K experiment at Baywater"
+author: "Ariana Huffmyer"
+date: "2026-09-23"
+categories: [baywater, 10K-seed, cgigas, oyster, survival, wsg-usda]
+description: "Final assessment and closing 10K experiment at Baywater""
+image: ""
+---
+
+# Overview
+
+On 9/23 we did our final assessment of the 10K seed at Baywater and closed out this project! We checked on the PolyIC outplants and left those deployed. We also outplanted a trial set of El Nino oysters and SORMI families.      
+
+## Final assessment 
+
+We did the following today to assess and close out the 10K seed experiment: 
+
+- Collected all 10K seed bags (24 bags) from the lines and brought them up to the processing facility 
+- Removed oysters from each bag and counted mortalities
+- Arranged oysters for a photograph to capture number of live animals and for growth analysis
+- Tag and scale bar included in each photo
+- Subsampled oysters from each bag to total n=~30 oysters per treatment group (5 treatment groups total) into red mesh bags with their own tag labels for survival assays in the lab (see below)
+- Bags and equipment were cleaned 
+- Two temperature loggers were downloaded that were brought in on the bags. There is still one logger remaining with the PolyIC outplants in the field. One logger was attached to a mesh bag to follow the oysters to UW.  
+- I recorded data and uploaded size image photos.  
+
+All data is in our [10K seed GitHub repo](https://github.com/RobertsLab/10K-seed-Cgigas/). 
+
+Temperatures from loggers:  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260922/10K-outplant-loggers.png?raw=true)  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260922/pic3.jpeg?raw=true)  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260922/pic4.jpeg?raw=true)  
+
+## Samples for survival assays 
+
+All data is in our [10K seed GitHub repo in the lab survival folder](https://github.com/RobertsLab/10K-seed-Cgigas/data/final-lab-survival/). 
+
+Here is a table of the tags collected today from Baywater. I will use this to help Jesse and Maddy prepare datasheets for assays. Each bag has about 30-35 oysters. 30 will be used for collections.   
+
+See our methods plan [in my previous post here for the survival assays](https://ahuffmyer.github.io/posts/2026-09-21-fall-lab-survival-assessment-plan.html).  
+
+| tag | experiment | location | treatment |
+|-----|------------|----------|-----------|
+| 20  | 10K        | Baywater | FW 35C    |
+| 19  | 10K        | Baywater | 35C       |
+| 18  | 10K        | Baywater | PolyIC    |
+| 17  | 10K        | Baywater | FW 35C    |
+| 16  | 10K        | Baywater | Control   |
+
+## PolyIC checks  
+
+The PolyIC oysters grew a lot! We redistributed a couple of over packed bags into other bags from the same treatment group. We also pulled out bag 362 because it was open and empty.  
+
+## El Nino outplants 
+
+We received a shellfish transfer permit (26-1256) to outplant thermal hardened oysters to the field. We did this with the following bags:  
+
+| tag | description | number of oysters | 
+|-----|------------|----------|
+| 001  | Family 5 SORMI | 23 | 
+| 002  | Family 6 SORMI | 24 | 
+| 003  | El Nino Control  | 32 | 
+| 004  | Family 7 SORMI  | 24 | 
+| 005  | Family 10 SORMI | 23 | 
+| 006  | El Nino Treated | 32 | 
+| 007  | Family 2 SORMI  | 24 | 
+| 008  | Family 9 SORMI   | 24 | 
+| 009  | General excess   | 50 | 
+| 010  | General excess   | 50 | 
+| 011  | General excess   | 50 | 
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260922/pic1.jpeg?raw=true)   
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260922/pic2.jpeg?raw=true)  
+
+## To do 
+
+- Start final photo analysis for growth and survival 
+- Survival assays in the lab (Jesse & Maddy) 
