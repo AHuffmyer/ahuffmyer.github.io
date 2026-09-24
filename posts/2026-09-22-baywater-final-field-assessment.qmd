@@ -3,7 +3,7 @@ title: "Final assessment and closing 10K experiment at Baywater"
 author: "Ariana Huffmyer"
 date: "2026-09-23"
 categories: [baywater, 10K-seed, cgigas, oyster, survival, wsg-usda]
-description: "Final assessment and closing 10K experiment at Baywater""
+description: "Final assessment and closing 10K experiment at Baywater"
 image: ""
 ---
 
