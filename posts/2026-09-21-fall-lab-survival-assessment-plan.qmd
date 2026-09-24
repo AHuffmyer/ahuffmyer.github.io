@@ -33,7 +33,7 @@ There will be 5 bags brought back to FTR with the oysters for this experiment:
 2. "10K 35C" (tag number 019)  
 3. "10K PolyIC" (tag number 018)    
 4. "10K FW" (tag number 017)  
-5. "10K Control" (tag number 016)  
+5. "10K Control" (tag number 016)    
 
 There is one bag per treatment group and each bag has 30-40 oysters. The experiment will be done using n=30 oysters per bag (n=150 total oysters). This will therefore be done in 2 rounds with half done each round. This will be n=75 oysters per round or n=15 oysters per bag per round. 
 
