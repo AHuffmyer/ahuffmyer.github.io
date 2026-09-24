@@ -41,14 +41,14 @@ This experiment should be run first with the two rounds done one right after the
 
 ## Experiment 2: Effort A Oysters (Sequim)
 
-These oysters will be collected from Sequim Bay and brought back to UW campus and placed in the FTR tanks. I will post the tag numbers when we do the collections.  
+These oysters were collected from Sequim Bay and will brought back to UW campus and placed in the FTR tanks on 9/24.  
 
 There will be 2 bags brought back to FTR with the oysters for this experiment:  
 
-1. "Effort A Treated" (tag number TBD)    
-2. "Effort A Control" (tag number TBD)    
+1. "Effort A Treated" (tag number 049)    
+2. "Effort A Control" (tag number 050)    
 
-There will be one bag per treatment group and each bag will have 30-40 oysters. The experiment will be done using n=30 oysters per bag (n=60 total oysters). This will therefore be done in 1 round with all 60 oysters. 
+There is one bag per treatment group and each bag will have 30-40 oysters. The experiment will be done using n=30 oysters per bag (n=60 total oysters). This will therefore be done in 1 round with all 60 oysters. 
 
 This experiment should be run after the 10K work is done.  
 
@@ -72,7 +72,7 @@ This experiment should be run after the Effort A Sequim experiment with the two 
 Data sheets will need to include the following:  
 
 - Round, time, date, initials, cup number, live/dead, and temperature, as done previously
-- Bag tag number (TBD)
+- Bag tag number 
 - Also include the site (e.g., Goose Point) and the experiment (e.g., "10K"), and the treatment (e.g., "Effort E FW Control")
 
 
