@@ -1,0 +1,96 @@
+---
+title: "Resazurin stability readings analysis"
+author: "Ariana Huffmyer"
+date: "2026-09-25"
+categories: [resazurin]
+description: "Analyzing stability readings from Naomi's resazurin experiment"
+image: ""
+---
+
+<img alt="AI Use Level 0" src="https://img.shields.io/badge/AI%20Use-L0%20None-lightgrey">  
+No AI was used in this analysis or process.  
+
+# Overview
+
+Namoi previously conducted [resazurin stability experiments](https://genefish.wordpress.com/author/naomikang44/) to test whether resazurin readings stay stable once sampled from the oyster cup and left in the fridge for up to 5 weeks. This analysis looks at the data to see if readings are stable. Data are available on GitHub [here](https://github.com/RobertsLab/resazurin-assay-development/tree/main/data/fluorescence_stability/20260924) with the code to analyze [here](https://github.com/RobertsLab/resazurin-assay-development/blob/main/scripts/fluorescence_stability/01.00-fluorescence_stability-20260924.Rmd).   
+
+# Analysis and results  
+
+Resazurin was measured on 12 oysters with samples taken at 0, 0.5, 1, 1.5, and 2 hours during the initial incubation. These samples were re-read at each time point and again at 2, 3, 4, and 5 weeks to test stability in measurements. 
+
+Since I am only interested in stability of the readings over time, I am not doing normalization for this analysis - I am analyzing the raw values and how they change over time.  
+
+Load data 
+```
+data<-read_excel("data/fluorescence_stability/20260924/stability_data.xlsx")
+head(data)
+```
+
+```
+plot<-data%>%
+  mutate(unique=paste0(original_time, reading_time, well))%>%
+  filter(reading_time>2)%>%
+  
+  ggplot(aes(x=reading_time, y=value, group=well))+
+  facet_wrap(~original_time)+
+  geom_point()+
+  geom_line()+
+  theme_classic()
+
+plot
+```
+
+This plot shows the resazurin value (y-axis) across the repeat time points at 2, 3, 4, and 5 weeks (shown in hours). Each facet shows the original time point the samples were taken during the 2 hr assay (taken every 30 minutes).   
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260925/plot.png?raw=true)
+
+Here is what I noticed:  
+
+- Values increased over the incubation period (0-2 hours) as expected. 
+- Values appear to increase after hour 2 (the time point at which we care about the value relevant to the assay) peaking at 3 weeks after the assay and decreasing 4-5 weeks after the assay.  
+- Except for one case in the 2 hour group, the rankings of samples does not appear to change even though the values change, suggesting relative differences between samples are not affected 
+
+Run a linear mixed effect model to see if time is a significant factor.  
+
+```
+model<-data%>%
+  filter(reading_time>=2)%>%
+  
+  lmer(value~as.factor(reading_time) + (1|well) + (1|original_time), data=.)
+
+anova(model, type="II")
+summary(model)
+```
+
+```
+Type II Analysis of Variance Table with Satterthwaite's method
+                        Sum Sq Mean Sq NumDF DenDF F value    Pr(>F)    
+as.factor(reading_time) 147936   36984     4   236  82.608 < 2.2e-16 ***
+```
+
+Reading time is significant.  
+
+See what the posthoc comparisons are.  
+```
+emm<-emmeans(model, ~reading_time)
+pairs(emm)
+```
+
+I am most interested in the time 2 measurements vs subsequent time points.  All of the subsequent time points are different from the original readings with the greatest difference at weeks 2-3 (3-4% difference from original values) and smaller differences at weeks 4-5 (1.5-3% differences from original reading). 
+```
+contrast                          estimate   SE  df t.ratio p.value
+ reading_time2 - reading_time336     -55.47 3.86 236 -14.358 <0.0001
+ reading_time2 - reading_time504     -63.58 3.86 236 -16.459 <0.0001
+ reading_time2 - reading_time672     -35.97 3.86 236  -9.310 <0.0001
+ reading_time2 - reading_time840     -30.08 3.86 236  -7.787 <0.0001
+ reading_time336 - reading_time504    -8.12 3.86 236  -2.101  0.2230
+ reading_time336 - reading_time672    19.50 3.86 236   5.048 <0.0001
+ reading_time336 - reading_time840    25.38 3.86 236   6.571 <0.0001
+ reading_time504 - reading_time672    27.62 3.86 236   7.149 <0.0001
+ reading_time504 - reading_time840    33.50 3.86 236   8.672 <0.0001
+ reading_time672 - reading_time840     5.88 3.86 236   1.523  0.5486
+```
+
+# Overall conclusions 
+
+The measurements are largely stable over time, but do deviate from original readings by 1.5-4% depending on time point. The samples behave uniformely, so relative differences between samples are unlikely to be affected. I think we can proceed with using samples at later time points for field work or places where having a plate reader are not possible.  
