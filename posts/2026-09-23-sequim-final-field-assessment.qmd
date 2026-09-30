@@ -2,7 +2,7 @@
 title: "Final assessment and closing Effort A experiment at Sequim Bay"
 author: "Ariana Huffmyer"
 date: "2026-09-23"
-categories: [baywater, 10K-seed, cgigas, oyster, survival, wsg-usda]
+categories: [sequim, 10K-seed, cgigas, oyster, survival, wsg-usda]
 description: "Final assessment and closing Effort A experiment at Sequim Bay"
 image: ""
 ---
@@ -46,7 +46,6 @@ See our methods plan [in my previous post here for the survival assays](https://
 |-----|------------|----------|-----------|
 | 49  | Effort A        | Sequim | Treated    |
 | 50  | Effort A        | Sequim | Control    |
-
 
 ## PolyIC checks  
 
