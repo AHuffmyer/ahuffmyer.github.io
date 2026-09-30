@@ -1,0 +1,35 @@
+---
+title: "Oyster outplant projects lab survival assays"
+author: "Ariana Huffmyer"
+date: "2026-09-30"
+categories: [manchester-hardening, experimental design]
+description: "Final lab survival assays of 10K, Effort A, and Effort E oyster outplants"
+image: ""
+---
+
+# Overview 
+
+Over the next few weeks, students in the lab will be conducting final sampling and survival assays of outplanted oysters [that were sampled from the field last week](https://ahuffmyer.github.io/posts/2026-09-22-baywater-final-field-assessment.html). I previously wrote a post with a [general plan for this sampling](https://ahuffmyer.github.io/posts/2026-09-21-fall-lab-survival-assessment-plan.html).  
+
+This post details the experiments. I will describe the methods and continually update the log of survival assays as they happen.  
+
+All data will be stored on [GitHub here for the 10K project](https://github.com/RobertsLab/10K-seed-Cgigas/) and [here for the Efforts A and E projects](https://github.com/RobertsLab/project-gigas-conditioning/tree/main).   
+
+# Lab survival sampling 
+
+## Project methods and set up 
+
+Undergraduates in the lab, Jesse L and Maddy B are conducting this project in the lab. The following methods were written by Jesse Lowe. Methods are following [our previous survival assays](https://ahuffmyer.github.io/posts/2026-08-18-manchester-hardening-experiment-lab-survival-assays.html).
+
+## Round 1: Sept 28-30 (10K Round 1 of 2)
+
+- Experiment started on Sept 28 at 10:00am
+- Assessed 9/28 at 2:00pm
+- Assessed 9/29 at 10:00am
+- Assessed 9/29 at 3:30pm
+- Assessed 9/30 at 10:00am
+- Final assessment at 2:00pm
+
+[Data is recorded here](https://docs.google.com/spreadsheets/d/1PS9vVl1s0zHoekY7GVq6e5uXz8-OarHob8HlzlPyxlk/edit?gid=0#gid=0)   
+## Round 2: Oct 1-3 (10K Round 2 of 2)
+
