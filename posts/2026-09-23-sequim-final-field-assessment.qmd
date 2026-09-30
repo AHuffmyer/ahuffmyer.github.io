@@ -1,0 +1,58 @@
+---
+title: "Final assessment and closing Effort A experiment at Sequim Bay"
+author: "Ariana Huffmyer"
+date: "2026-09-23"
+categories: [baywater, 10K-seed, cgigas, oyster, survival, wsg-usda]
+description: "Final assessment and closing Effort A experiment at Sequim Bay"
+image: ""
+---
+
+# Overview
+
+On 9/23 we did our final assessment of the Sequim environmental hardening oysters for Effort A and closed out this project! We checked on the PolyIC outplants and left those deployed.  
+
+## Final assessment 
+
+We did the following today to assess and close out the Effort A experiment: 
+
+- Collected all Effort A seed bags (7 bags) from the lines and brought them up to the beach
+- Removed oysters from each bag and counted mortalities
+- Arranged oysters for a photograph to capture number of live animals and for growth analysis
+- Tag and scale bar included in each photo
+- Subsampled oysters from each bag to total n=~30 oysters per treatment group (2 treatment groups total) into red mesh bags with their own tag labels for survival assays in the lab (see below)
+- Bags and equipment were cleaned 
+- Two temperature loggers were downloaded that were brought in on the bags. There is still one logger remaining with the PolyIC outplants in the field and I added one more to an outplant bag. 
+- I recorded data and uploaded size image photos.  
+
+All data is in our [oyster hardening GitHub repo](https://github.com/RobertsLab/project-gigas-conditioning/). 
+
+Temperatures from loggers:  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260923/sequim-loggers.png?raw=true)  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260923/pic1.jpeg?raw=true)  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20260923/pic2.jpeg?raw=true)  
+
+## Samples for survival assays 
+
+All data is in our [hardening GitHub repo in the lab survival folder](https://github.com/RobertsLab/project-gigas-conditioning/data/final-lab-survival/). 
+
+Here is a table of the tags collected today from Sequim. I will use this to help Jesse and Maddy prepare datasheets for assays. Each bag has about 30-35 oysters. 30 will be used for collections.   
+
+See our methods plan [in my previous post here for the survival assays](https://ahuffmyer.github.io/posts/2026-09-21-fall-lab-survival-assessment-plan.html).  
+
+| tag | experiment | location | treatment |
+|-----|------------|----------|-----------|
+| 49  | Effort A        | Sequim | Treated    |
+| 50  | Effort A        | Sequim | Control    |
+
+
+## PolyIC checks  
+
+The PolyIC oysters look good! All 8 bags are still deployed.  
+
+## To do 
+
+- Start final photo analysis for growth and survival 
+- Survival assays in the lab (Jesse & Maddy) 
