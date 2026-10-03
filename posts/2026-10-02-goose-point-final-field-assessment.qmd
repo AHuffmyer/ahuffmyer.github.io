@@ -1,0 +1,57 @@
+---
+title: "Final assessment and closing Effort E experiment at Goose Point"
+author: "Ariana Huffmyer"
+date: "2026-10-02"
+categories: [goose-point, cgigas, oyster, survival, wsg-usda]
+description: "Final assessment and closing Effort E experiment at Goose Point"
+image: ""
+---
+
+# Overview
+
+On 10/02 I did our final assessment of the Effort E (fresh water and thermal hardening) seed at Goose Point and closed out this project!      
+
+## Final assessment 
+
+I did the following today to assess and close out the Effort E Goose Point seed experiment: 
+
+- Goose Point collected our cages and brought them to the dock. 1 bag was missing (no. 342; FW treated) and 1 was empty (no. 343; Temp treated). There were 12 in good shape. We had n=5 of FW control, n=2 FW treated, n=3 Temp control, and n=2 Temp treated cages.  
+- Removed oysters from each cage and counted mortalities
+- Arranged oysters for a photograph to capture number of live animals and for growth analysis
+- Tag and scale bar included in each photo
+- Subsampled oysters from each bag to total n=~30 oysters per treatment group (4 treatment groups total) into red mesh bags with their own tag labels for survival assays in the lab (see below)
+- Bags and equipment were cleaned 
+- Four temperature loggers were downloaded that were brought in on the cages. 
+- I recorded data and uploaded size image photos.  
+
+All data is in our [oyster hardening seed GitHub repo](https://github.com/RobertsLab/project-gigas-conditioning/). 
+
+Temperatures from loggers:  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261002/goose-loggers.png?raw=true)  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261002/pic1.jpeg?raw=true)  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261002/pic2.jpeg?raw=true)  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261002/pic3.jpeg?raw=true)  
+
+## Samples for survival assays 
+
+All data is in our [hardening seed GitHub repo in the lab survival folder](https://github.com/RobertsLab/project-gigas-conditioning/data/final-lab-survival/). 
+
+Here is a table of the tags collected today from Goose Point I will use this to help Jesse and Maddy prepare datasheets for assays. Each bag has about 30-35 oysters. 30 will be used for collections.   
+
+See our methods plan [in my previous post here for the survival assays](https://ahuffmyer.github.io/posts/2026-09-21-fall-lab-survival-assessment-plan.html).  
+
+| tag | experiment | location | treatment |
+|-----|------------|----------|-----------|
+| 87  | Effort E        | Goose Point | FW Control    |
+| 88  | Effort E        | Goose Point | FW Treated       |
+| 89  | Effort E        | Goose Point | Temp Control    |
+| 90  | Effort E        | Goose Point | Temp Treated    |
+
+## To do 
+
+- Start final photo analysis for growth and survival 
+- Survival assays in the lab (Jesse & Maddy) 

@@ -54,16 +54,16 @@ This experiment should be run after the 10K work is done.
 
 ## Experiment 3: Effort E Oysters (Goose Point)
 
-These oysters will be collected from Goose Point and brought back to UW campus and placed in the FTR tanks. I will post the tag numbers when we do the collections.  
+These oysters were collected from Goose Point and brought back to UW campus and placed in the FTR tanks.  
 
-There will be 4 bags brought back to FTR with the oysters for this experiment:  
+There are 4 bags brought back to FTR with the oysters for this experiment:  
 
-1. "Effort E FW Control" (tag number TBD)    
-2. "Effort E FW Treated" (tag number TBD)   
-3. "Effort E Temp Control" (tag number TBD)  
-4. "Effort E Temp Treated" (tag number TBD)  
+1. "Effort E FW Control" (tag number 087)    
+2. "Effort E FW Treated" (tag number 088)   
+3. "Effort E Temp Control" (tag number 089)  
+4. "Effort E Temp Treated" (tag number 090)  
 
-There will be one bag per treatment group and each bag will have 30-40 oysters. The experiment will be done using n=30 oysters per bag (n=120 total oysters). This will therefore be done in 2 rounds with half done each round. This will be n=60 oysters per round or n=15 oysters per bag per round. 
+There is be one bag per treatment group and each bag will have 30-40 oysters. The experiment will be done using n=30 oysters per bag (n=120 total oysters). This will therefore be done in 2 rounds with half done each round. This will be n=60 oysters per round or n=15 oysters per bag per round. 
 
 This experiment should be run after the Effort A Sequim experiment with the two rounds done one right after the other.  
 
