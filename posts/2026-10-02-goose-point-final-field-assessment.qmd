@@ -23,6 +23,8 @@ I did the following today to assess and close out the Effort E Goose Point seed 
 - Bags and equipment were cleaned 
 - Four temperature loggers were downloaded that were brought in on the cages. 
 - I recorded data and uploaded size image photos.  
+- I will transport oysters to UW on Sunday. 
+- I took manual measurements of a subset of oysters for length, width, and depth. 
 
 All data is in our [oyster hardening seed GitHub repo](https://github.com/RobertsLab/project-gigas-conditioning/). 
 
