@@ -1,0 +1,33 @@
+---
+title: "Starting Effort A survival trial and transporting oysters"
+author: "Ariana Huffmyer"
+date: "2026-10-04"
+categories: [survival, goose-point]
+description: "Transporting oysters from Goose Point and starting Effort A survival trial"
+image: ""
+---
+
+# Overview
+
+Today I started Effort A survival trials in the lab (round 1 of 1) and transported oysters from Goose Point to UW. 
+
+## Survival trials 
+
+I started trials according to [our previous protocols](https://ahuffmyer.github.io/posts/2026-09-30-oyster-outplants-lab-survival-assays.html) for the Effort A project. There is only 1 round of trials for this group because there were only two treatment groups. Total sample size is 37-38 per group. All oysters were used.  
+
+- Cups 1-37 are Treated Effort A 
+- Cups 38-75 are Control Effort A
+
+All cups were loaded with 30 ppt water and added to the incubator (completely full) at 10:30am. I took initial temperature measurements and size measurements and added it to [our datasheet](https://docs.google.com/spreadsheets/d/1PS9vVl1s0zHoekY7GVq6e5uXz8-OarHob8HlzlPyxlk/edit?gid=1255277310#gid=1255277310).   
+
+I used all of the Effort A oysters. 
+
+I also cleaned up the remainder of the last 10K oyster round of survival measurements and uploaded data to GitHub. I'll start a new round of data collection for the Effort A project on GitHub. 
+
+## Transporting oysters and consolidating tanks 
+
+I transported 4 bags of Effort E Goose Point oysters to the tanks in FTR. I rinsed them all and put them in the right FTR blue tank. 
+
+I consolidated the remaining 10K oysters leftover and put them all into two red bags in the yellow bin. These are extra oysters that anyone can use.  
+
+I cleaned and left Hobo loggers from the field by the sink in FTR 213.  
