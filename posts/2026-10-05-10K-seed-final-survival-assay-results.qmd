@@ -1,0 +1,171 @@
+---
+title: "10K Seed project final survival assay results"
+author: "Ariana Huffmyer"
+date: "2026-10-05"
+categories: [manchester-hardening, experimental design]
+description: "Final lab survival assay results for 10K seed project from Baywater outplants"
+image: ""
+---
+
+# Overview 
+
+Over the last few weeks, students lab conducted final sampling and survival assays of outplanted oysters [that were sampled from the field at Baywater](https://ahuffmyer.github.io/posts/2026-09-22-baywater-final-field-assessment.html).  
+
+This post details the results from these assays. 
+
+All data will be stored on [GitHub here for the 10K project](https://github.com/RobertsLab/10K-seed-Cgigas/) and the script for today [is located here](https://github.com/RobertsLab/10K-seed-Cgigas/blob/main/scripts/final_lab_survival.Rmd).  
+
+# Data overview 
+
+Data are recorded for individual oysters with a "status" column indicating mortality. Each oyster is recorded as either a "0" (alive) or a "1" (dead) at each assessed time point. While the exact hours for survival checks vary for each of the 2 rounds of trials for this project, in general oysters were checked twice per day for about 50-60 hours of total heat exposure.  
+
+Trials were conducted in 2 rounds with n=15 per treatment group (n=5 groups) in each round. The treatment groups are from original hardening treatments conducted in 2024 followed by outplanting through summer 2026:  
+
+- Control
+- Fresh water 
+- Fresh water at 35°C
+- 35°C seawater
+- PolyIC immersion
+
+These treatments were originally conducted weekly for ~6 weeks prior to outplant.  
+
+For all analyses, we are interested in the effect hardening treatment. 
+
+# Method overview 
+
+In the script linked above, I performed Kaplan-Meier survivorship curves with Cox Proportional Hazards survival models to initially explore the data. This revealed that rounds were significantly different from each other, as expected.  
+
+I therefore proceeded with binomial logistic regressions to allow me to account for round and oyster length as random effects while testing for the main effects of hardening treatment.  
+
+In this analysis that I describe below, I present the statistical results from the logistic regression and post hoc tests for each group I also show model-projected survivorship curves with calculations of LT50 (time to 50% mortality) to quantify the differences between hardening treatments.  
+
+# Results 
+
+## Temperatures from each round
+
+I first plotted temperatures from each round, which were recorded in n=5 cups at each time point.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261005/temperature_rounds.png?raw=true)  
+
+Both rounds were similar in temperature profiles.  
+
+## Survival model 
+
+I used a binomial logistic regression using the following code.  
+
+```
+surv_model<-glmer(status ~ time * group + (1|round) + (1|length.mm), family = binomial(link = "logit"), data=data)
+
+summary(surv_model)
+Anova(surv_model)
+```
+
+The ANOVA results are:  
+
+```
+Analysis of Deviance Table (Type II Wald chisquare tests)
+
+Response: status
+              Chisq Df Pr(>Chisq)    
+time       208.6421  1    < 2e-16 ***
+group       12.7821  4    0.01239 *  
+time:group   0.5093  4    0.97258 
+```
+
+This suggests that survival is affected by hardening treatment.
+
+Random effects demonstrate no trend of length or round strongly affecting mortality.
+
+```
+# Plot the random effects
+ranef(surv_model)
+
+library(sjPlot)
+
+plot_model(surv_model, type = "re")
+
+library(performance)
+r2(surv_model)
+```
+
+```
+$round
+       (Intercept)
+round1  0.06904816
+round2 -0.06765700
+```
+
+I generated post hoc comparisons shown below.   
+
+## Survival curve plotting 
+
+I then generated model predicted mortality probabilities and plotted them for each treatment group.  
+
+```
+# Generate predicted probabilities
+data$predicted_mortality <- predict(surv_model, type = "response")
+
+# Plot
+plot2<-ggplot(data, aes(x = time, y = predicted_mortality, color = group, fill = group, group=group)) +
+  geom_point(aes(y = status), alpha = 0.6, position = position_jitter(height = 0.03)) +
+  geom_smooth(method = "glm", method.args = list(family = "binomial"), se = FALSE) +
+  #scale_color_manual(values=c("cyan3", "coral"))+
+  labs(
+    title = "",
+    y = "Probability of Mortality",
+  ) +
+  theme_classic();plot2
+
+ggsave(plot2, filename="figures/final-lab-survival/survival_group.png", width=8, height=6)
+```
+
+![](ttps://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261005/survival_group.png?raw=true)  
+
+I performed post hoc tests using emmeans.  
+
+```
+emm<-emmeans(surv_model, ~group)
+pairs(emm)
+
+```
+
+```
+ contrast                 estimate    SE  df z.ratio p.value
+ 10K Control - 10K 35C       0.978 0.444 Inf   2.201  0.1791
+ 10K Control - 10K FW        0.393 0.424 Inf   0.926  0.8868
+ 10K Control - 10K FW 35C    0.055 0.403 Inf   0.136  0.9999
+ 10K Control - 10K PolyIC    1.119 0.437 Inf   2.561  0.0776
+ 10K 35C - 10K FW           -0.586 0.450 Inf  -1.301  0.6908
+ 10K 35C - 10K FW 35C       -0.923 0.441 Inf  -2.092  0.2236
+ 10K 35C - 10K PolyIC        0.141 0.465 Inf   0.303  0.9982
+ 10K FW - 10K FW 35C        -0.338 0.420 Inf  -0.804  0.9296
+ 10K FW - 10K PolyIC         0.726 0.459 Inf   1.581  0.5095
+ 10K FW 35C - 10K PolyIC     1.064 0.436 Inf   2.439  0.1051
+```
+
+Even though the main effect of group is significant, individual post hoc comparisons only show a trend for a difference in the Control and PolyIC groups. 
+
+I then plotted these groups individually.  
+
+![](ttps://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261005/plot.png?raw=true)  
+
+This shows that there is a trend for the PolyIC group to have higher survival than the controls. Because this difference is small, it is likely why the post hoc comparison is not P<0.05 although the main effect is significant.  
+
+## LT50 calculations 
+
+I then calculated LT50's for each family-treatment group. The LT50 is the time to estimated 50% mortality for each group. If this value is higher that indicates a longer time to reach 50% mortality and therefore more tolerance.  
+
+```
+| LT50_control| LT50_FW| LT50_PolyIC| LT50_35C| LT50_FW35C|
+|------------:|-------:|-----------:|--------:|----------:|
+|           31|    33.7|        39.2|       37|       31.7|
+```
+
+Indeed, the PolyIC group has the highest LT50 at 39.2 hours while the control is the lowest at 31 hours.  
+
+# Conclusions 
+
+Overall, this survival test suggests:  
+
+- There may be a slight positive effect of PolyIC hardening, which aligns with some of our other work in the lab
+- There is no strong difference due to other hardening efforts 
