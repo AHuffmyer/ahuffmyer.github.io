@@ -119,7 +119,7 @@ plot2<-ggplot(data, aes(x = time, y = predicted_mortality, color = group, fill =
 ggsave(plot2, filename="figures/final-lab-survival/survival_group.png", width=8, height=6)
 ```
 
-![](ttps://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261005/survival_group.png?raw=true)  
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261005/survival_group.png?raw=true)  
 
 I performed post hoc tests using emmeans.  
 
@@ -147,7 +147,7 @@ Even though the main effect of group is significant, individual post hoc compari
 
 I then plotted these groups individually.  
 
-![](ttps://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261005/plot.png?raw=true)  
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261005/plot.png?raw=true)  
 
 This shows that there is a trend for the PolyIC group to have higher survival than the controls. Because this difference is small, it is likely why the post hoc comparison is not P<0.05 although the main effect is significant.  
 
