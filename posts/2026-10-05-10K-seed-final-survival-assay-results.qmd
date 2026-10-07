@@ -2,7 +2,7 @@
 title: "10K Seed project final survival assay results"
 author: "Ariana Huffmyer"
 date: "2026-10-05"
-categories: [manchester-hardening, experimental design]
+categories: [10K-seed, experimental design]
 description: "Final lab survival assay results for 10K seed project from Baywater outplants"
 image: ""
 ---

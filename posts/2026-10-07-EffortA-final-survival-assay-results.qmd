@@ -1,0 +1,127 @@
+---
+title: "Effort A Sequim Bay project final survival assay results"
+author: "Ariana Huffmyer"
+date: "2026-10-07"
+categories: [sequim-bay, hardening, experimental design]
+description: "Final lab survival assay results for Effort A seed project from Sequim Bay outplants"
+image: ""
+---
+
+# Overview 
+
+Over the last few weeks, students lab conducted final sampling and survival assays of outplanted oysters [that were sampled from the field at Sequim Bay](https://ahuffmyer.github.io/posts/2026-09-23-sequim-final-field-assessment.html).  
+
+This post details the results from these assays. 
+
+All data will be stored on [GitHub here for the hardening project](https://github.com/RobertsLab/project-gigas-conditioning/) and the script for today [is located here](https://github.com/RobertsLab/project-gigas-conditioning/blob/main/code/final_lab_survival_effortA.Rmd).  
+
+# Data overview 
+
+Data are recorded for individual oysters with a "status" column indicating mortality. Each oyster is recorded as either a "0" (alive) or a "1" (dead) at each assessed time point. While the exact hours for survival checks vary for each of the 2 rounds of trials for this project, in general oysters were checked twice per day for about 50-60 hours of total heat exposure.  
+
+Trials were conducted in 1 round with n=37-38 per treatment group (n=2 groups) in each round. The treatment groups are from original hardening treatments conducted in 2024 followed by outplanting through summer 2026:  
+
+- Control
+- Daily exposure to 25°C for 2 weeks
+
+For all analyses, we are interested in the effect hardening treatment. 
+
+# Method overview 
+
+In the script linked above, I performed Kaplan-Meier survivorship curves with Cox Proportional Hazards survival models to initially explore the data. This revealed that rounds were significantly different from each other, as expected.  
+
+I therefore proceeded with binomial logistic regressions to allow me to account for round and oyster length as random effects while testing for the main effects of hardening treatment.  
+
+In this analysis that I describe below, I present the statistical results from the logistic regression and post hoc tests for each group I also show model-projected survivorship curves with calculations of LT50 (time to 50% mortality) to quantify the differences between hardening treatments.  
+
+# Results 
+
+## Temperatures from each round
+
+I first plotted temperatures from each round, which were recorded in n=5 cups at each time point.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261007/temperature_rounds.png?raw=true)  
+
+## Survival model 
+
+I used a binomial logistic regression using the following code.  
+
+```
+surv_model<-glmer(status ~ time * group + (1|length.mm), family = binomial(link = "logit"), data=data)
+
+summary(surv_model)
+Anova(surv_model)
+```
+
+The ANOVA results are:  
+
+```
+Analysis of Deviance Table (Type II Wald chisquare tests)
+
+Response: status
+             Chisq Df Pr(>Chisq)    
+time       88.2437  1    < 2e-16 ***
+group       0.3021  1    0.58258    
+time:group  4.9603  1    0.02594 *  
+```
+
+There is a significant effect of treatment (P=0.026).  
+
+Random effects demonstrate no trend of length strongly affecting mortality.
+
+I generated post hoc comparisons shown below.   
+
+## Survival curve plotting 
+
+I then generated model predicted mortality probabilities and plotted them for each treatment group.  
+
+```
+# Generate predicted probabilities
+data$predicted_mortality <- predict(surv_model, type = "response")
+
+# Plot
+plot2<-ggplot(data, aes(x = time, y = predicted_mortality, color = group, fill = group, group=group)) +
+  geom_point(aes(y = status), alpha = 0.6, position = position_jitter(height = 0.03)) +
+  geom_smooth(method = "glm", method.args = list(family = "binomial"), se = FALSE) +
+  #scale_color_manual(values=c("cyan3", "coral"))+
+  labs(
+    title = "",
+    y = "Probability of Mortality",
+  ) +
+  theme_classic();plot2
+```
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261007/survival_group.png?raw=true)  
+
+I performed post hoc tests using emmeans.  
+
+```
+emm<-emmeans(surv_model, ~group)
+pairs(emm)
+
+```
+
+There was higher survival in the treated oysters, but only marginally significant (P=0.042).    
+
+```
+ contrast                            estimate    SE  df z.ratio p.value
+ Effort A Control - Effort A Treated     1.23 0.605 Inf   2.035  0.0419
+```
+
+## LT50 calculations 
+
+I then calculated LT50's for each treatment group. The LT50 is the time to estimated 50% mortality for each group. If this value is higher that indicates a longer time to reach 50% mortality and therefore more tolerance.  
+
+```
+| LT50_treated| LT50_control|
+|------------:|------------:|
+|         56.1|         55.1|
+```
+
+
+# Conclusions 
+
+Overall, this survival test suggests:  
+
+- There is an effect of thermal hardening in Effort A, although the difference is small - the LT50 was slightly higher by about 1 hours in the treated group.
+

@@ -1,7 +1,7 @@
 ---
 title: "October Goals and Daily Entries"
 author: "Ariana Huffmyer"
-date: "2026-10-01"
+date: "2026-10-05"
 categories: [goals, daily-entries]
 description: "October 2026 goals and daily entries"
 image: ""
@@ -38,12 +38,26 @@ Here are my goals and daily entries for October 2026.
 ### Conferences 
 
 1. Submit MCR AIM abstract for metabolomics and lipidomics 
+2. Prepare MCR AIM talk 
 
 ### Future publications to work on
 
 1. E5 metabolomics/lipidomics manuscript  
 
 ## **Daily Log**   
+
+### October 7
+
+- Oyster survival assays 
+- NSF
+- Meet with Steven
+- Lab meeting 
+
+### October 6
+
+- Oyster survival assays 
+- NSF
+- Meeting with Hollie 
 
 ### October 5 
 
