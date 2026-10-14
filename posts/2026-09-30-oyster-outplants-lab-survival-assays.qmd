@@ -1,7 +1,7 @@
 ---
 title: "Oyster outplant projects lab survival assays"
 author: "Ariana Huffmyer"
-date: "2026-10-06"
+date: "2026-10-14"
 categories: [manchester-hardening, experimental design]
 description: "Final lab survival assays of 10K, Effort A, and Effort E oyster outplants"
 image: ""
@@ -59,3 +59,17 @@ Ran in 32 oz cups
 [Data is recorded here](https://docs.google.com/spreadsheets/d/1PS9vVl1s0zHoekY7GVq6e5uXz8-OarHob8HlzlPyxlk/edit?gid=0#gid=0)  
 
 Ran in 32 oz cups 
+
+## Round 4: Oct 12-14 (Effort A Round E of 2)
+
+- Experiment started on Oct 12 at 10:30am
+- Assessed Oct 12 at 3:30pm
+- Assessed Oct 13 at 9:00am
+- Assessed Oct 13 at 3:00pm
+- Assessed Oct 14 at 10:30am 
+- Final assessment Oct 14 at 3:00pm
+
+[Data is recorded here](https://docs.google.com/spreadsheets/d/1PS9vVl1s0zHoekY7GVq6e5uXz8-OarHob8HlzlPyxlk/edit?gid=0#gid=0)  
+
+Ran in 32 oz cups 
+
