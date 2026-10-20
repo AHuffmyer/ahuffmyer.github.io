@@ -1,0 +1,120 @@
+---
+title: "Effort E Goose Point project final survival assay results"
+author: "Ariana Huffmyer"
+date: "2026-10-20"
+categories: [goose-point, hardening, experimental design]
+description: "Final lab survival assay results for Effort E seed project from Goose Point outplants"
+image: ""
+---
+
+# Overview 
+
+Over the last few weeks, students lab conducted final sampling and survival assays of outplanted oysters [that were sampled from the field at Goose Point](https://ahuffmyer.github.io/posts/2026-10-02-goose-point-final-field-assessment.html).  
+
+This post details the results from these assays. 
+
+All data will be stored on [GitHub here for the hardening project](https://github.com/RobertsLab/project-gigas-conditioning/) and the script for today [is located here](https://github.com/RobertsLab/project-gigas-conditioning/blob/main/code/final_lab_survival_effortE.Rmd).  
+
+# Data overview 
+
+Data are recorded for individual oysters with a "status" column indicating mortality. Each oyster is recorded as either a "0" (alive) or a "1" (dead) at each assessed time point. While the exact hours for survival checks vary for each of the 2 rounds of trials for this project, in general oysters were checked twice per day for about 50-60 hours of total heat exposure.  
+
+Trials were conducted in 1 round with n=16-18 per treatment group (n=4 groups) in each round. The treatment groups are from original hardening treatments conducted in 2024 followed by outplanting through summer 2026:  
+
+Fresh water experiment:    
+
+- Control  
+- Weekly exposure to low salinity (fresh water)  
+
+Thermal experiment:  
+
+- Control 
+- Weekly exposure to elevated temperature 25°C
+
+For all analyses, we are interested in the effect hardening treatment. 
+
+# Method overview 
+
+In the script linked above, I performed Kaplan-Meier survivorship curves with Cox Proportional Hazards survival models to initially explore the data. This revealed that rounds were significantly different from each other, as expected.  
+
+I therefore proceeded with binomial logistic regressions to allow me to account for round and oyster length and round (2 rounds conducted) as random effects while testing for the main effects of hardening treatment.  
+
+In this analysis that I describe below, I present the statistical results from the logistic regression and post hoc tests for each group I also show model-projected survivorship curves with calculations of LT50 (time to 50% mortality) to quantify the differences between hardening treatments.  
+
+# Results 
+
+## Temperatures from each round
+
+I first plotted temperatures from each round, which were recorded in n=5 cups at each time point.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261020/temperature_rounds.png?raw=true)  
+
+## Survival model 
+
+I used a binomial logistic regression using the following code.  
+
+```
+surv_model<-glmer(status ~ time * group + (1|length.mm) + (1|round), family = binomial(link = "logit"), data=data)
+
+summary(surv_model)
+Anova(surv_model)
+```
+
+The ANOVA results are:  
+
+```
+Analysis of Deviance Table (Type II Wald chisquare tests)
+
+Response: status
+              Chisq Df Pr(>Chisq)    
+time       134.0240  1     <2e-16 ***
+group        5.0967  3     0.1649    
+time:group   0.2414  3     0.9706    
+```
+
+There is no effect of treatment or interactions between time and treatment.   
+
+Random effects demonstrate no trend of length or round strongly affecting mortality.
+
+## Survival curve plotting 
+
+I then generated model predicted mortality probabilities and plotted them for each treatment group.  
+
+```
+# Generate predicted probabilities
+data$predicted_mortality <- predict(surv_model, type = "response")
+
+# Plot
+plot2<-ggplot(data, aes(x = time, y = predicted_mortality, color = group, fill = group, group=group)) +
+  geom_point(aes(y = status), alpha = 0.6, position = position_jitter(height = 0.03)) +
+  geom_smooth(method = "glm", method.args = list(family = "binomial"), se = FALSE) +
+  #scale_color_manual(values=c("cyan3", "coral"))+
+  labs(
+    title = "",
+    y = "Probability of Mortality",
+  ) +
+  theme_classic();plot2
+```
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261020/survival_group.png?raw=true)  
+
+No difference between treatment groups.   
+
+## LT50 calculations 
+
+I then calculated LT50's for each treatment group. The LT50 is the time to estimated 50% mortality for each group. If this value is higher that indicates a longer time to reach 50% mortality and therefore more tolerance.  
+
+```
+| LT50_FWcontrol| LT50_FWtreated| LT50_Tempcontrol| LT50_Temptreated|
+|--------------:|--------------:|----------------:|----------------:|
+|           40.4|           44.6|             43.4|             40.9|
+```
+
+LT50's were higher in FW treated compared to control and lower in temperature treated compared to control. But these differences were not significant.  
+
+# Conclusions 
+
+Overall, this survival test suggests:  
+
+- No effect of salinity or thermal hardening in Effort E.  
+

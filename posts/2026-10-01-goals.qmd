@@ -1,7 +1,7 @@
 ---
 title: "October Goals and Daily Entries"
 author: "Ariana Huffmyer"
-date: "2026-10-14"
+date: "2026-10-20"
 categories: [goals, daily-entries]
 description: "October 2026 goals and daily entries"
 image: ""
@@ -19,6 +19,7 @@ Here are my goals and daily entries for October 2026.
 2. Write intro and discussion of Hawaii 2023 paper
 3. Start draft of Moorea 2023 paper (abstract, methods)
 4. Start draft of Westcott oyster priming manuscript
+5. Start draft of Manchester oyster manuscript
 
 ### Grants
 
@@ -33,7 +34,7 @@ Here are my goals and daily entries for October 2026.
 
 1. Oyster image analysis for all 2026 summer outplants
 2. El Nino experiment planning 
-3. Survival assays for all outplant experiments (10K DONE, Effort A, Effort E)
+3. ~~Survival assays for all outplant experiments (10K, Effort A, Effort E)~~
 
 ### Conferences 
 
@@ -45,6 +46,22 @@ Here are my goals and daily entries for October 2026.
 1. E5 metabolomics/lipidomics manuscript  
 
 ## **Daily Log**   
+
+### October 20 
+
+- NSF grant
+- Oyster survival analysis
+- Manchester hardening data analysis 
+
+### October 19 
+
+- NSF grant
+- BHHC meeting
+
+### October 15 
+
+- NSF grant
+- Student project meeting
 
 ### October 14 
 
