@@ -33,7 +33,7 @@ Here are my goals and daily entries for October 2026.
 ### Field and lab work 
 
 1. Oyster image analysis for all 2026 summer outplants
-2. El Nino experiment planning 
+2. ~~El Nino experiment planning~~ 
 3. ~~Survival assays for all outplant experiments (10K, Effort A, Effort E)~~
 
 ### Conferences 
@@ -46,6 +46,22 @@ Here are my goals and daily entries for October 2026.
 1. E5 metabolomics/lipidomics manuscript  
 
 ## **Daily Log**   
+
+### October 27 
+
+- NSF grant
+- SR meeting 
+- Hardening data wrangling 
+
+### October 26 
+
+- NSF grant
+- Oyster CAP breeding/priming meeting
+- Meeting with Chris for DESeq2
+
+### October 25 
+
+- NSF grant
 
 ### October 20 
 
