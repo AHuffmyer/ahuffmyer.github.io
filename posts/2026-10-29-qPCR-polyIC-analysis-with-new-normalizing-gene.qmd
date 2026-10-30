@@ -1,0 +1,219 @@
+---
+title: "Re-analysis of PolyIC qPCR data with new normalizing gene"
+author: "Ariana Huffmyer"
+date: "2026-10-29"
+categories: [cgigas, oyster, polyic, analysis]
+description: "Re-analysis of PolyIC qPCR data following reruns and using a new normalizing gene"
+image: ""
+---
+
+<img alt="AI Use Level 1" src="https://img.shields.io/badge/AI%20Use-L0%20None-lightgrey">   
+
+*The original script for analyzing qPCR data used AI for code editing, but the statistical models and figures that I present here for our manuscript were coded and analyzed by me without AI.*  
+
+# Overview 
+
+We are revising our [PolyIC project manuscript](https://www.biorxiv.org/content/10.64898/2025.12.10.693539v1) and the reviewers had some helpful comments for our qPCR data. Specifically, they asked us to evaluate our normalizing gene, which we had previously selected as GAPDH. After looking at the normalizer gene, I found [that it was affected by treatment](https://github.com/RobertsLab/resources/issues/2510), which biased results from other genes to show effects of treatment due to the normalizer gene. We also had low sample size in some groups. To address these issues, [Sam ran another round of qPCR](https://robertslab.github.io/sams-notebook/posts/2026/2026-10-08-qPCR---M.gigas-Valentina-PolyIC-GAPDH-DNMT1-cGAS-HSP90-VIPERIN-PolyIC-Control-Samples/) to bring samples sizes back up to n=18-20 per group and we re evaluated the normalizer genes, which I describe below and provide an update of the statistical analysis.   
+
+In this project, we exposed broodstock to PolyIC (or not for a control) and then reared their offspring to track growth, thermal tolerance, and metabolism. When the analyses below refer to PolyIC treatment, that is indicating the original broodstock treatment that the offspring came from (about 4 months prior to the qPCR samples).  
+
+# Data and code 
+
+All data can be found in our [PolyIC repo here](https://github.com/RobertsLab/polyIC-larvae/tree/main) and the code used to generate the following results is [here directly](https://github.com/RobertsLab/polyIC-larvae/blob/main/scripts/qPCR/01.01-polyIC-qPCR-analysis.Rmd).  
+# tl;dr 
+
+# Process 
+
+Sam wrote the code to calculate and prepare the data. The qPCR data were first quality controlled by removing no-template controls (NTCs), excluding technical replicates with high variability (Cq standard deviation > 0.5), and removing outlier technical replicates that differed by more than 0.5 Cq from the median replicate value. Remaining technical replicates were averaged for each sample and gene, and gene expression was normalized to the reference gene that we selected (described below) by calculating delta Cq values (target gene Cq − GAPDH Cq). Samples lacking valid normalizing gene measurements were excluded because they could not be normalized. Samples were then assigned to treatment groups based on PolyIC exposure and stress treatment (control, temperature, or mechanical). We only kept control and temperature conditions for this analysis since mechanical was not relevant to this project. ΔΔCq values and corresponding fold changes (2^−ΔΔCq) were calculated for each treatment comparison. Here, I am examining delta Cq values. 
+
+I then proceeded with  ANOVA analysis for each gene testing for the main effects of stress treatment (control or temperature) and polyIC treatment (polyIC or no polyIC). 
+
+The genes examined were Citrate Synthase, ATP Synthase, DMNT1, HSP70, HSP90, Viperin, and cGAS.  
+
+# Normalizer gene evaluation 
+
+We used ANOVA tests to evaluate the raw Cq values for all genes to select a normalizer gene that was not different between groups. Here are the results of the ANOVA tests.  
+
+```
+Table: One-way ANOVA (Cq.Mean ~ treatment_group) per gene. A significant result (p <= 0.05) indicates raw Cq differs across treatment groups -- i.e., the gene is NOT stable across conditions and is a poor normalizing-gene candidate.
+
+|Target           | df_treatment| F_value| p_value|significant |
+|:----------------|------------:|-------:|-------:|:-----------|
+|HSP70            |            3|      84|   0.000|TRUE        |
+|Citrate.Synthase |            3|      27|   0.000|TRUE        |
+|ATP.Synthase     |            3|      23|   0.000|TRUE        |
+|DNMT1            |            3|       7|   0.000|TRUE        |
+|HSP90            |            3|       4|   0.015|TRUE        |
+|GAPDH            |            3|       3|   0.032|TRUE        |
+|VIPERIN          |            3|       3|   0.048|TRUE        |
+|cGAS             |            3|       1|   0.644|FALSE       |
+```
+
+cGAS was the only gene that was not affected by group and therefore was selected as the normalizer gene. It appears to be the most stable in the plot below.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261029/plot1.png?raw=true)   
+
+**cGAS was selected as our normalizer gene** and all subsequent analyses use delta Cq values that were normalized to cGAS.   
+
+# Results from ANOVA models of delta Cq values
+
+- All models were run using the same format of `delta Cq ~ stress_treatment * polyIC_treatment, data=.`.  
+- I evaluated residual normality using `qqPlot(model$residuals)` and evaluated homogeneity of variance using `plot(model, 1)`, `plot(model, 3)`, and `plot(model, 4)`.  
+
+Below, I provide a summary of the output and the full code can be run at the link above.  
+
+## A note on sample sizes 
+
+Sample sizes are now all at n=17-20 for all groups. This was increased froms ome groups (primarily the PolyIC Control group) having n=8 samples. 
+
+```
+|treatment_group       | ATP.Synthase| Citrate.Synthase| DNMT1| GAPDH| HSP70| HSP90| VIPERIN| cGAS|
+|:---------------------|------------:|----------------:|-----:|-----:|-----:|-----:|-------:|----:|
+|No_PolyIC_Control     |           20|               20|    20|    20|    20|    20|      20|   20|
+|No_PolyIC_Temperature |           20|               20|    20|    20|    20|    20|      20|   20|
+|PolyIC_Control        |           17|               18|    18|    18|    18|    18|      18|   18|
+|PolyIC_Temperature    |           20|               20|    20|    20|    20|    20|      20|   20|
+```
+
+## Primary results figure 
+
+Here is a figure of the results that I detail in the next below.  
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261029/genes.png?raw=true) 
+
+- Significant effect of parental Poly(I:C) treatment on HSP90 expression with higher expression in treated offspring at 44°C
+- Significant interaction between stress and parental Poly(I:C) treatment on DNMT1 expression with higher expression in treated offspring at 44°C  
+
+### 1. Citrate Synthase 
+
+The ANOVA results show a significant interactive effect of PolyIC and stress treatment on citrate synthase expression. BUT the data have batch effect issues because there was not enough material to re run these samples in Sam's latest batch. The homogeneity of variance assumption is violated and *I am not including this gene in analysis*.    
+
+```
+                   Df Sum Sq Mean Sq F value   Pr(>F)    
+polyIC              1   82.4   82.38   19.05 4.07e-05 ***
+stress_type         1   62.3   62.29   14.40    3e-04 ***
+polyIC:stress_type  1   86.9   86.87   20.09 2.65e-05 ***
+Residuals          74  320.0    4.32 
+```
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261029/citrate.png?raw=true)
+
+Due to the large variability seen in this group, residual normality and variance assumptions were violated and this gene will not be included in the analysis. 
+
+### 2. ATP Synthase 
+
+The ANOVA results show a significant interactive effect of PolyIC and stress treatment on ATP synthase expression. BUT the data have batch effect issues because there was not enough material to re run these samples in Sam's latest batch. The homogeneity of variance assumption is violated and *I am not including this gene in analysis*.    
+
+```
+                   Df Sum Sq Mean Sq F value   Pr(>F)    
+polyIC              1   97.3   97.28   21.62 1.44e-05 ***
+stress_type         1   50.7   50.66   11.26  0.00126 ** 
+polyIC:stress_type  1   78.2   78.15   17.37 8.34e-05 ***
+Residuals          73  328.4    4.50   
+```
+
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261029/atpsynthase.png?raw=true)
+
+Due to the large variability seen in this group, residual normality and variance assumptions were violated and this gene will not be included in the analysis.  
+
+### 3. DNMT1
+
+The ANOVA results show an interactive effect of PolyIC and acute stress treatment. These data pass assumption tests.  
+
+```
+                   Df Sum Sq Mean Sq F value Pr(>F)  
+polyIC              1   2.40   2.397   0.979 0.3257  
+stress_type         1  14.86  14.857   6.065 0.0161 *
+polyIC:stress_type  1  13.79  13.789   5.629 0.0203 *
+Residuals          74 181.26   2.449 
+```
+
+Post hoc results show a difference in expression between PolyIC treated and controls at 10°C.  
+
+```
+stress_type = Control:
+ contrast           estimate    SE df t.ratio p.value
+ No_PolyIC - PolyIC   -1.238 0.508 74  -2.435  0.0173
+
+stress_type = Temperature:
+ contrast           estimate    SE df t.ratio p.value
+ No_PolyIC - PolyIC    0.445 0.495 74   0.900  0.3712
+```
+
+### 4. HSP70
+
+The ANOVA results show a significant effect of stress treatment on HSP70 but no PolyIC effect.   
+
+```
+                   Df Sum Sq Mean Sq F value Pr(>F)    
+polyIC              1   10.0    10.0   2.876 0.0941 .  
+stress_type         1  573.9   573.9 164.629 <2e-16 ***
+polyIC:stress_type  1    6.9     6.9   1.976 0.1640    
+Residuals          74  258.0     3.5     
+```
+Assumptions of this test were met.  
+
+There is higher expression (lower delta Cq) under heat stress conditions as we would expect.  
+
+### 5. HSP90
+
+The ANOVA results show a significant effect of PolyIC, but not stress treatment, on HSP90.    
+
+```
+                   Df Sum Sq Mean Sq F value Pr(>F)  
+polyIC              1   5.27   5.274   4.380 0.0398 *
+stress_type         1   0.38   0.377   0.313 0.5774  
+polyIC:stress_type  1   1.55   1.551   1.288 0.2601  
+Residuals          74  89.09   1.204  
+```
+Assumptions of this test were met.  
+
+Post hoc results show that this difference shows up most clearly in the high temperature condition. 
+
+```
+stress_type = Control:
+ contrast           estimate    SE df t.ratio p.value
+ No_PolyIC - PolyIC    0.227 0.356 74   0.636  0.5269
+
+stress_type = Temperature:
+ contrast           estimate    SE df t.ratio p.value
+ No_PolyIC - PolyIC    0.791 0.347 74   2.280  0.0255
+ ```
+
+There is higher expression in the PolyIC treated groups at 44°C. This is an interesting result because it may relate to observed variation in thermal tolerance! 
+
+### 6. Viperin
+
+The ANOVA results show no significant effects of treatment. 
+
+```
+                   Df Sum Sq Mean Sq F value Pr(>F)
+polyIC              1   0.37   0.372   0.206  0.651
+stress_type         1   3.97   3.970   2.199  0.142
+polyIC:stress_type  1   4.76   4.762   2.637  0.109
+Residuals          74 133.61   1.806   
+```
+Assumptions of this test were met.  
+
+### 7. GAPDH
+
+The ANOVA results show no significant effects of treatment. 
+
+```
+                   Df Sum Sq Mean Sq F value Pr(>F)
+polyIC              1   0.33  0.3302   0.346  0.558
+stress_type         1   2.20  2.1964   2.304  0.133
+polyIC:stress_type  1   0.59  0.5922   0.621  0.433
+Residuals          74  70.53  0.9531   
+```
+Assumptions of this test were met.  
+
+# Interesting results 
+
+There are effects of parental polyIC immune priming in DNA methyltransferase 1 and HSP90, particularly at 44°C in both genes. This may influence thermal tolerance variation that we observed in the offspring and variation in metabolism. It is interesting that viperin (an immune gene) and GAPDH (central metabolism) were not different by treatment.  
+
+# To do next 
+
+- I will revise the manuscript with these new results and revise the discussion to reflect those changes.  
+- Resubmit manuscript by December 1 2026
+

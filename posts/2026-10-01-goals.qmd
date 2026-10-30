@@ -1,7 +1,7 @@
 ---
 title: "October Goals and Daily Entries"
 author: "Ariana Huffmyer"
-date: "2026-10-20"
+date: "2026-10-28"
 categories: [goals, daily-entries]
 description: "October 2026 goals and daily entries"
 image: ""
@@ -46,6 +46,18 @@ Here are my goals and daily entries for October 2026.
 1. E5 metabolomics/lipidomics manuscript  
 
 ## **Daily Log**   
+
+### October 29 
+
+- Oyster CAP R&D meeting 
+- NSF
+- PolyIC qPCR analysis and revisions 
+
+### October 28 
+
+- SORMI meeting
+- Meeting with Grace
+- NSF grant
 
 ### October 27 
 
