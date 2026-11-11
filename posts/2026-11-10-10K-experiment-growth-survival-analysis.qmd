@@ -70,13 +70,13 @@ I analyzed size over time with treatment as the main effect. Time is shown as da
 
 Here are the growth data summarized by treatment.  
 
-![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261110/treatment_sizes_boxplot.png) 
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261110/treatment_sizes_boxplot.png?raw=true) 
 
-![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261110/treatment_sizes.png) 
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261110/treatment_sizes.png?raw=true) 
 
 Here is growth for each individual bag.  
 
-![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261110/bag_sizes.png)
+![](https://github.com/AHuffmyer/ahuffmyer.github.io/blob/main/images/notebook/20261110/bag_sizes.png?raw=true)
 
 I then analyzed growth using a linear mixed model with date and treatment as main effects and bag as a random effect.  
 
