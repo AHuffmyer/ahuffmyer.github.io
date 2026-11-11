@@ -1,7 +1,7 @@
 ---
 title: "November 2026 Goals and Daily Entries"
 author: "Ariana Huffmyer"
-date: "2026-11-01"
+date: "2026-11-09"
 categories: [goals, daily-entries]
 description: "November 2026 goals and daily entries"
 image: ""
@@ -46,6 +46,17 @@ Here are my goals and daily entries for November 2026.
 1. E5 metabolomics/lipidomics manuscript  
 
 ## **Daily Log**   
+
+### November 10
+
+- Campus day 
+- WDFW site visit 
+- 10K seed growth data 
+
+### November 9
+
+- NSF grant
+- Oyster priming meeting
 
 ### November 3 
 
